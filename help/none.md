@@ -1,11 +1,11 @@
 ---
 title: AUCUN
-description: Page d’aide du code du détecteur de schémas
-translation-type: tm+mt
+description: Page d’aide sur le code de la détection des motifs
+translation-type: ht
 source-git-commit: fcd6e634d31c6f3062393c4538bf86c15bf4492f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '34'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ Aucune
 
 ## Arrière-plan {#background}
 
-La page n&#39;aurait pas dû être atteinte.
+La page n’aurait pas dû être atteinte.
 
 ## Solutions possibles {#solutions}
 
-* Contactez notre [AEM équipe d&#39;assistance](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) pour signaler l&#39;erreur.
+* Contactez notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour signaler l’erreur.
