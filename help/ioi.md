@@ -1,32 +1,32 @@
 ---
 title: IOI
-description: Page d’aide du code du détecteur de schémas
-translation-type: tm+mt
+description: Page d’aide sur le code de la détection des motifs
+translation-type: ht
 source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # IOI {#ioi}
 
-Importation interne de chêne
+Internal Oak Import (importation Oak interne)
 
 ## Arrière-plan {#background}
 
-`IOI` identifie l&#39;utilisation par le client des packages Oak internes, en les important via OSGi. Ils sont généralement exportés sans aucune version particulière et ne sont destinés à la consommation que par d&#39;autres lots de chêne ou des services d&#39;AEM de bas niveau.
+`IOI` identifie l’utilisation par le client de packages Oak internes, en les important via OSGi. Ils sont généralement exportés sans aucune version particulière et sont uniquement destinés à une consommation par d’autres lots Oak ou des services AEM de bas niveau.
 
-Certains d&#39;entre eux sont utilisés par `com.adobe.granite.repository`, qui installe un référentiel pour AEM au démarrage. Un autre exemple est le lot d&#39;Adobes `com.adobe.granite.maintenance.oak`, qui encapsule et fournit des tâches de maintenance Oak.
+Certains d’entre eux sont utilisés par `com.adobe.granite.repository`, qui installe un référentiel pour AEM au démarrage. Un autre exemple est le lot Adobe `com.adobe.granite.maintenance.oak`, qui englobe et fournit des tâches de maintenance Oak.
 
-## Incidences possibles et risques {#implications-and-risks}
+## Enjeux et risques possibles {#implications-and-risks}
 
-* Dans une future version AEM, les exportations internes pourraient être supprimées, ce qui provoquerait des dépendances brisées et des assemblages inactifs dépendant directement du chêne.
+* Dans une future version d’AEM, les exportations internes pourraient être supprimées, ce qui provoquerait des problèmes de dépendances brisées et des lots inactifs dépendant directement d’Oak.
 * L’API dans les exportations internes peut changer.
 
 ## Solutions possibles {#solutions}
 
-* Utilisez l’API Ressource Sling (ou l’API JCR) au lieu d’un accès de bas niveau.
-* Evitez de dépendre de packages internes qui ne font partie d’aucune API ou SPI publique.
-* Veuillez contacter notre [AEM équipe d&#39;assistance](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) pour obtenir des éclaircissements ou pour répondre aux préoccupations.
+* Utilisez l’API Sling Resource (ou l’API JCR) au lieu d’un accès de bas niveau.
+* Évitez de dépendre de packages internes qui ne font partie d’aucune API ou SPI publique.
+* Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
