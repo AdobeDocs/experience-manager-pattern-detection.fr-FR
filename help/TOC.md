@@ -1,21 +1,21 @@
 ---
 hide: true
-user-guide-title: Guide de détection de motif Experience Manager
-breadcrumb-title: Détection des schémas AEM
-user-guide-description: Découvrez la détection des schémas Adobe Experience Manager.
+user-guide-title: Guide de détection des motifs Experience Manager
+breadcrumb-title: Détection des motifs AEM
+user-guide-description: Découvrez la détection des motifs Adobe Experience Manager.
 feature-set: Experience Manager
 feature: Outils de développement
 role: Développeur
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '46'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 
-# Guide de détection des schémas de Experience Manager {#table-of-contents}
+# Guide de détection des motifs Experience Manager {#table-of-contents}
 
 + [ASO](aso.md)
 + [CAV](cav.md)
