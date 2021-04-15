@@ -1,15 +1,15 @@
 ---
 title: SBCE
-description: Page d’aide du code du détecteur de schémas
-translation-type: tm+mt
+description: Page d’aide sur le code de la détection des motifs
+translation-type: ht
 source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '9'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # SBCE {#sbce}
 
-DÉCONSEILLÉ : SBCE
+OBSOLÈTE : SBCE
