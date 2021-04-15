@@ -9,8 +9,8 @@ index: n
 translation-type: tm+mt
 source-git-commit: d51e2bf28c9d403ddee90a22c67fc0d1a3d3a4ec
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '8'
+ht-degree: 100%
 
 ---
 
