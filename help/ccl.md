@@ -1,30 +1,30 @@
 ---
 title: CCL
-description: Page d’aide du code du détecteur de schémas
-translation-type: tm+mt
+description: Page d’aide sur le code de la détection des motifs
+translation-type: ht
 source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '90'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # CCL {#ccl}
 
-Bibliothèque de clients personnalisée
+Custom Client Library (bibliothèque cliente personnalisée)
 
 ## Arrière-plan {#background}
 
-`CCL` identifie les bibliothèques client qui ont été installées sur AEM. Ces renseignements sont fournis aux fins de l&#39;évaluation des meilleures pratiques.
+`CCL` identifie les bibliothèques clientes qui ont été installées sur AEM. Ces renseignements sont fournis afin d’évaluer les bonnes pratiques.
 
-Un sous-type est utilisé avec ce code :
+Un sous-type est utilisé avec ce code :
 * `custom.client.library`
 
-## Incidences possibles et risques {#implications-and-risks}
+## Enjeux et risques possibles {#implications-and-risks}
 
-* Les bibliothèques clientes qui ont été ajoutées à l&#39;AEM doivent être examinées afin de s&#39;assurer qu&#39;il n&#39;y a pas de duplication et que les dernières versions sont utilisées.
+* Les bibliothèques clientes qui ont été ajoutées à AEM doivent être examinées afin de s’assurer qu’elle ne sont pas dupliquées et que les dernières versions sont utilisées.
 
 ## Solutions possibles {#solutions}
 
-* Veuillez contacter notre [AEM équipe d&#39;assistance](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) pour obtenir des éclaircissements ou pour répondre aux préoccupations.
+* Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
