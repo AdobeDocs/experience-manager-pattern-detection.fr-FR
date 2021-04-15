@@ -1,14 +1,14 @@
 ---
 source-git-commit: 6615eef21010d2f9ccbc7ecab32cf21901ca5387
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '73'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
-# Détection de motif Adobe Experience Manager
+# Détection des motifs Adobe Experience Manager
 
-Il s’agit du référentiel pour la détection des schémas Adobe Experience Manager.
+Il s’agit du référentiel relatif à la détection des motifs Adobe Experience Manager.
 
 Vos contributions à la documentation sont les bienvenues. Veuillez consulter les ressources suivantes :
 
