@@ -1,51 +1,48 @@
 ---
 title: LUI
-description: Page d’aide du code du détecteur de schémas
-translation-type: tm+mt
+description: Page d’aide sur le code de la détection des motifs
+translation-type: ht
 source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '347'
+ht-degree: 100%
 
 ---
 
 
 # LUI {#lui}
 
-Interface utilisateur héritée
+Legacy User Interface (interface utilisateur classique)
 
 ## Arrière-plan {#background}
 
-`LUI` identifie l’utilisation d’éléments d’interface utilisateur déconseillés qui ne sont pas recommandés ou ne sont pas pris en charge dans les versions ultérieures d’AEM et dans AEM en tant que Cloud Service.
+`LUI` identifie l’utilisation d’éléments d’interface utilisateur obsolètes qui ne sont pas recommandés ou ne sont pas pris en charge dans les versions ultérieures d’AEM et dans AEM as a Cloud Service.
 
-Les sous-types permettent d’identifier les différents types d’éléments d’interface utilisateur qui doivent ou doivent être mis à niveau :
+Des sous-types permettent d’identifier les différents types d’éléments d’interface utilisateur qui peuvent ou doivent être mis à niveau :
 
-* `legacy.dialog.classic`: Les boîtes de dialogue classiques de l’interface utilisateur basées sur ExtJS doivent être remplacées par Coral.
-   * Ceci est détecté lorsque le nom de la boîte de dialogue est &quot;dialog&quot; ou &quot;design_dialog&quot; et lorsque
-la valeur de propriété `jcr:primaryType` ou la valeur de propriété `xtype` est &quot;cq:Dialog&quot;.
-* `legacy.dialog.coral2`: Les boîtes de dialogue Coral 2 doivent être mises à jour pour utiliser Coral 3.
-   * Ceci est détecté lorsque la boîte de dialogue et ses noms de noeud de contenu enfant sont &quot;cq:dialog/content&quot;,
-&quot;cq:design_dialog/content&quot;, &quot;cq:dialog.coral2/content&quot; ou &quot;cq:design_dialog.coral2/content&quot;
-et la valeur de propriété `sling:resourceType` ne contient pas
-&quot;granit/ui/components/coral/foundation&quot;.
-* `legacy.custom.component`: Les composants qui héritent de  `foundation/components`, doivent être mis à jour pour utiliser les composants principaux.
-   * Ceci est détecté lorsque la valeur de la propriété `jcr:primaryType` est &quot;cq:Component&quot; et que la variable
-      `sling:resourceSuperType` La valeur de propriété contient &quot;foundation/components&quot; ou l’une des valeurs suivantes :
-      `sling:resourceSuperType` les valeurs de propriété de la chaîne de composants supertypes contiennent &quot;fondation/composants&quot;.
-* `legacy.static.template`: Les modèles statiques doivent être mis à niveau vers les modèles modifiables.
-   * Ceci est détecté lorsque la valeur de la propriété `jcr:primaryType` est &quot;cq:Template&quot;.
+* `legacy.dialog.classic` : les boîtes de dialogue classiques de l’interface utilisateur basées sur ExtJS doivent être remplacées par Coral.
+   * Cela est détecté lorsque le nom de la boîte de dialogue est « dialog » ou « design_dialog » et lorsque la valeur de propriété `jcr:primaryType` ou la valeur de propriété `xtype` est « cq:Dialog ».
+* `legacy.dialog.coral2` : les boîtes de dialogue Coral 2 doivent être mises à jour pour utiliser Coral 3.
+   * Cela est détecté lorsque la boîte de dialogue et ses noms de nœud de contenu enfant sont « cq:dialog/content », « cq:design_dialog/content », « cq:dialog.coral2/content » ou « cq:design_dialog.coral2/content » et la valeur de propriété `sling:resourceType` ne contient pas
+« granite/ui/components/coral/foundation ».
+* `legacy.custom.component` : les composants qui héritent de `foundation/components`, doivent être mis à jour pour utiliser les composants principaux.
+   * Cela est détecté lorsque la valeur de la propriété `jcr:primaryType` est « cq:Component » et que la valeur de la propriété
+      `sling:resourceSuperType` contient « foundation/components » ou l’une des valeurs de propriété
+      `sling:resourceSuperType` de la chaîne de composants supertypes contiennent « foundation/components ».
+* `legacy.static.template` : les modèles statiques doivent être mis à niveau vers les modèles modifiables.
+   * Cela est détecté lorsque la valeur de la propriété `jcr:primaryType` est « cq:Template ».
 
-## Incidences possibles et risques {#implications-and-risks}
+## Enjeux et risques possibles {#implications-and-risks}
 
-* L’interface utilisateur classique n’est plus disponible en tant que Cloud Service dans AEM. L’interface utilisateur standard pour la création est tactile.
-* S&#39;appuyer sur des composants personnalisés hérités peut augmenter les coûts de maintenance au fil du temps.
+* L’interface utilisateur classique n’est plus disponible dans AEM as a Cloud Service. L’interface standard pour la création est l’interface utilisateur tactile.
+* S’appuyer sur des composants personnalisés classiques peut augmenter les coûts de maintenance au fil du temps.
 
 ## Solutions possibles {#solutions}
 
-* Utilisez [AEM Modernization Tools suite](https://opensource.adobe.com/aem-modernize-tools/) pour réduire les efforts nécessaires à la modernisation de vos implémentations AEM Sites. Ces outils incluent la conversion de :
-   * Boîtes de dialogue classiques (ExtJS) vers les boîtes de dialogue Coral
-   * Les composants de base en composants principaux
-   * Modèles statiques et contrôle des colonnes en modèles modifiables et grille réactive
-   * Conception et conception de boîtes de dialogue pour modifier des stratégies de modèles
-* Examinez la bibliothèque et la transition de composants personnalisés de votre projet, si possible, en fonction de l&#39;ensemble de [composants de base](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=fr) normalisés afin d&#39;accélérer le temps de développement et de réduire les coûts de maintenance de vos applications.
-* Veuillez contacter notre [AEM équipe d&#39;assistance](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) pour obtenir des éclaircissements ou pour répondre aux préoccupations.
+* Utilisez la [suite des outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/) pour réduire les efforts nécessaires à la modernisation de vos implémentations AEM Sites. Ces outils incluent la conversion :
+   * des boîtes de dialogue classiques (ExtJS) vers les boîtes de dialogue Coral ;
+   * des composants de base en composants principaux ;
+   * des modèles statiques et de contrôle des colonnes en modèles modifiables et en grille réactive ;
+   * des conceptions et boîtes de dialogue de conception en stratégies de modèles modifiables.
+* Si possible, examinez la bibliothèque de composants personnalisés et la transition de votre projet, en fonction de l’ensemble de [composants principaux](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=fr) normalisés afin d’accélérer le temps de développement et de réduire les coûts de maintenance de vos applications.
+* Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
