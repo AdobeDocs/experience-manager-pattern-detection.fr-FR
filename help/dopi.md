@@ -1,14 +1,14 @@
 ---
 title: DOPI
 description: Page d’aide sur le code de la détection des motifs
-translation-type: ht
-source-git-commit: ae3e162da40441fba39e6e9d283c495d15f40ba1
-workflow-type: ht
-source-wordcount: '143'
-ht-degree: 100%
+exl-id: ae4df44d-43ca-438c-8373-11381b916af3
+translation-type: tm+mt
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 55%
 
 ---
-
 
 # DOPI {#dopi}
 
@@ -16,15 +16,35 @@ Deprecated Ordered Property Index (index des propriétés organisées obsolète)
 
 ## Arrière-plan {#background}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dopi_overview"
+>title="Deprecated Ordered Property Index (index des propriétés organisées obsolète)"
+>abstract="Le code DOPI identifie l&#39;utilisation de définitions d&#39;index de propriétés ordonnées (primaryType=oak:QueryIndexDefinition AND type=&quot;ordered&quot;), qui ont été abandonnées depuis la version 6.1 et ont été supprimées dans la version 6.2."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#the-ordered-index" text="Index trié - Obsolète"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=fr" text="Indexation - AEM en tant que Cloud Service"
+
 `DOPI` identifie l’utilisation de définitions d’index de propriété organisées (`primaryType=oak:QueryIndexDefinition` ET `type="ordered"`), obsolètes depuis la version 6.1 et supprimées dans la version 6.2.
 
 ## Enjeux et risques possibles {#implications-and-risks}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dopi_guidance"
+>title="Guide de mise en oeuvre"
+>abstract="La meilleure pratique consiste à examiner tous les index commandés obsolètes et à les déplacer vers des index lucene pris en charge afin d’éviter des problèmes de performances significatifs ou des besoins non fonctionnels des clients."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/practices/best-practices-for-queries-and-indexing.html" text="Bonnes pratiques - Requêtes et indexation"
 
 * Certaines requêtes peuvent ne pas répondre.
 * La fonctionnalité du client peut ne pas fonctionner correctement.
 * Les avertissements transversaux ou même les erreurs et les sanctions de performances importantes comme les index obsolètes n’ont aucun effet.
 
 ## Solutions possibles {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dopi_tools"
+>title="Outils et ressources"
+>abstract="Examinez le projet WKND hérité pour comprendre comment les violations DOPI peuvent être rendues compatibles avec AEM Cloud Service. Consultez également l’exemple de violation DOPI sur Github pour comprendre comment les index triés hérités peuvent être convertis en index Lucene pris en charge en AEM en tant que Cloud Service."
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="Projet WKND-Legacy"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="Exemple de violation DOPI - Github"
 
 * Modifiez la définition d’index ou remplacez l’index par une définition d’index prise en charge. (Voir [Requêtes et indexation Oak](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=fr)).
 * Examinez le projet [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) et découvrez comment [les violations DOPI](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi) peuvent être corrigées et rendues compatibles avec AEM as a Cloud Service.
