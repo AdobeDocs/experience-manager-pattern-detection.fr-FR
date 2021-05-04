@@ -1,20 +1,27 @@
 ---
 title: INST
 description: Page d’aide sur le code de la détection des motifs
-translation-type: ht
-source-git-commit: ae3e162da40441fba39e6e9d283c495d15f40ba1
-workflow-type: ht
-source-wordcount: '315'
-ht-degree: 100%
+exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
+translation-type: tm+mt
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 74%
 
 ---
-
 
 # INST {#inst}
 
 Installed Artifact (artefact installé)
 
 ## Arrière-plan {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_inst_overview"
+>title="Installed Artifact (artefact installé)"
+>abstract="INST identifie les packages et lots personnalisés et tiers qui ont été installés dans AEM par le client. Ces rapports aident à caractériser l’état du système dans la portée générale d’une mise à niveau. Tout pack tiers doit se conformer à l&#39;AEM en tant que guide de développement et d&#39;emballage du Cloud Service."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="Lignes directrices pour le développement - AEM en tant que Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html" text="Consignes relatives aux emballages - AEM en tant que Cloud Service"
 
 `INST` identifie les packages et les lots personnalisés et tiers qui ont été installés dans AEM par le client. Ces rapports aident à caractériser l’état du système dans la portée générale d’une mise à niveau.
 
@@ -29,11 +36,25 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_inst_guidance"
+>title="Guide de mise en oeuvre"
+>abstract="Les clients ne peuvent plus installer de packages tiers à l’aide de CRX Package Manager. Les clients doivent examiner ces artefacts installés et doivent être structurés et optimisés pour travailler avec AEM en tant que Cloud Service. Tout package tiers doit être vérifié auprès de son créateur ou Adobe pour des raisons de compatibilité avec AEM as a Cloud Service."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embeddeds" text="Intégration de sous-modules dans le module conteneur"
+
+
 * L’installation de packages tiers à l’aide du gestionnaire de modules CRX n’est pas possible dans AEM as a Cloud Service.
 * Les applications qui dépendent de packages tiers peuvent ne pas fonctionner comme prévu jusqu’à ce qu’elles soient correctement déployées pour fonctionner avec AEM as a Cloud Service.
 * Les packages de fournisseurs tiers, s’ils ne sont pas optimisés pour AEM as a Cloud Service, peuvent entraîner un comportement indésirable.
 
 ## Solutions possibles {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_inst_tools"
+>title="Outils et ressources"
+>abstract="Examinez le projet WKND-legacy pour comprendre comment les violations INST peuvent être rendues compatibles avec AEM Cloud Service. Consultez également l&#39;exemple de violation INST sur Github pour comprendre comment cela peut être corrigé et déployé en AEM en tant que Cloud Service."
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="Projet WKND-Legacy"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Exemple de violation INST - Github"
 
 * Les packages tiers doivent être déployés sur AEM dans le cadre du projet à l’aide du [processus de déploiement](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=fr#deployment-process) de Cloud Manager.
 * Examinez comment [incorporer des packages tiers](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr#embedding-3rd-party-packages) dans votre projet pour AEM as a Cloud Service.
