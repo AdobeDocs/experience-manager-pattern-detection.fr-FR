@@ -1,14 +1,14 @@
 ---
 title: CAV
 description: Page d’aide sur le code de la détection des motifs
-translation-type: ht
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
+translation-type: tm+mt
+source-git-commit: 1966a3e83ab6b2247d9f1095c8965eac399e3b6e
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 74%
 
 ---
-
 
 # CAV {#cav}
 
@@ -16,9 +16,15 @@ Content Area Violation (violation de zone de contenu)
 
 ## Arrière-plan {#background}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_cav_overview"
+>title="Content Area Violation (violation de zone de contenu)"
+>abstract="Le code CAV identifie le modèle selon lequel différentes zones de contenu sont utilisées de manière à violer les règles de la classification de contenu. Cette violation vous donnerait un aperçu des incrustations, du contenu restreint qui pourrait nécessiter des modifications une fois que nous passerons à AEM en tant que Cloud Service."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Fusionner les ressources Sling"
+
 `CAV` identifie le modèle selon lequel différentes zones de contenu sont utilisées d’une façon qui enfreint les règles de la classification de contenu.
 
-Le traitement des requêtes Sling définit la façon dont le contenu d’une ressource, en particulier sa propriété `sling:resourceType`, est utilisé pour déterminer le script à utiliser pour le rendu du contenu. (Voir [Localisation du script](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html?lang=fr#locating-the-script) pour plus d’informations.) Sling fournit également des techniques permettant d’accéder aux ressources et de les fusionner par le biais des superpositions et des remplacements. Ils sont décrits comme faisant partie de [Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=fr) et des [Superpositions](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=fr).
+Le traitement des requêtes Sling définit la façon dont le contenu d’une ressource, en particulier sa propriété `sling:resourceType`, est utilisé pour déterminer le script à utiliser pour le rendu du contenu. Voir [Localisation du script](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html?lang=fr#locating-the-script) pour plus d’informations. Sling fournit également des techniques permettant d’accéder aux ressources et de les fusionner par le biais des superpositions et des remplacements. Ils sont décrits comme faisant partie de [Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=fr) et des [Superpositions](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=fr).
 
 Pour permettre aux utilisateurs de mieux comprendre les zones de `/libs` qui peuvent être utilisées et superposées en toute sécurité, le contenu de `/libs` a été classé avec les propriétés « Mixin » : Public, Abstract (Résumé), Final et Internal (Interne). Chaque classification implique des règles sur la manière dont le contenu peut être utilisé, hérité ou superposé. Voir [Mise à niveau durable](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=fr) pour une description détaillée.
 
@@ -28,6 +34,13 @@ Pour permettre aux utilisateurs de mieux comprendre les zones de `/libs` qui peu
 * Les mises à jour de sécurité ne sont pas efficaces.
 
 ## Solutions possibles {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_cav_guidance"
+>title="Guide de mise en oeuvre"
+>abstract="Il faudrait examiner les modèles identifiés avec le CAS où il existe différentes violations de la zone de contenu. Les zones de classification de contenu final et interne doivent être évitées. Contactez le Support aux Adobes pour obtenir de l&#39;aide et des éclaircissements."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="Mises à niveau possibles"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Réduisez l’utilisation de la superposition de contenu aux cas où elle est nécessaire.
 * En particulier, évitez de superposer le contenu restreint (classification Finale et Interne).
