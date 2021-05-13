@@ -2,11 +2,11 @@
 title: OAUI
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ OAuth Users Instance (instance d’utilisateurs OAuth)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_overview"
 >title="OAuth Users Instance (instance d’utilisateurs OAuth)"
->abstract="Le code OAUI identifie le modèle dans lequel au moins un utilisateur configuré pour OAuth nécessite une migration correcte. OAuth est configuré pour les utilisateurs lorsqu’il existe un sous-noeud nommé oauth directement sous un noeud rep:AuthorizableId sous la forme /home/user-path/user-node/oauth."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=fr" text="AEM en tant que Cloud Service - Notes de mise à jour"
+>abstract="Le code OAUI identifie le motif pour lequel au moins un utilisateur configuré et lié à OAuth a besoin d’être migré de façon adaptée. OAuth est configuré pour des utilisateurs lorsqu’il existe un sous-nœud appelé « oauth » directement dans un nœud rep:AuthorizableId, sous la forme /home/user-path/user-node/oauth."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=fr" text="AEM as a Cloud Service – Notes de mise à jour"
 
 `OAUI` identifie le modèle dans lequel au moins un utilisateur configuré lié à OAuth a besoin d’une migration correcte.
 
@@ -36,10 +36,10 @@ Exemple : `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
->title="Guide de mise en oeuvre"
->abstract="Les utilisateurs externes configurés avec OAuth ne pourront pas se connecter aux instances d’auteur/publication tant qu’ils ne seront pas reconfigurés pour être compatibles avec AEM en tant que Cloud Service. AEM en tant qu’offres Cloud Service prend uniquement en charge l’authentification IMS pour les utilisateurs Auteur, Admin et Dev et l’intégration SAML pour les environnements de publication. Contactez l&#39;assistance Adobe pour obtenir de l&#39;aide et des éclaircissements"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=fr" text="Support IMS - AEM en tant que Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html?lang=en#integration-with-an-idp" text="Intégration SAML - Publier"
+>title="Guide de mise en œuvre"
+>abstract="Les utilisateurs externes configurés avec OAuth ne pourront pas se connecter aux instances d’auteur ou de publication tant qu’ils n’auront pas été reconfigurés de telle manière à être compatibles avec AEM as a Cloud Service. AEM as a Cloud Service prend en charge l’authentification IMS uniquement pour les utilisateurs Auteur, Admin et Dev, et l’intégration SAML seulement pour les environnements de publication. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=fr" text="Assistance IMS – AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html?lang=fr#integration-with-an-idp" text="Intégration SAML – Publication"
 
 * Veuillez contacter votre représentant Adobe pour discuter des options pour la migration des utilisateurs.
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
