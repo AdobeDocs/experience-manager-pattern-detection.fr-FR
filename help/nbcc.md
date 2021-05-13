@@ -2,11 +2,11 @@
 title: NBCC
 description: Page d’aide sur le code de la détection des motifs
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Non-Backwards Compatible Changes (modifications non rétrocompatibles)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_overview"
 >title="Non-Backwards Compatible Changes (modifications non rétrocompatibles)"
->abstract="La CCNB s&#39;identifie à la situation dans laquelle certains noeuds ou lots de RJC sont modifiés de façon non compatible. Le client n’est peut-être pas au courant de cette modification avant une mise à niveau."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=fr" text="Changements notables - AEM en tant que Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=fr" text="Notes de mise à jour - AEM en tant que Cloud Service"
+>abstract="NBCC identifie la situation dans laquelle certains nœuds ou lots JCR sont modifiés de manière non compatible. Le client n’est peut-être pas au courant de cette modification avant une mise à niveau."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=fr" text="Changements notables – AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=fr" text="Notes de mise à jour d’AEM as a Cloud Service"
 
 `NBCC` identifie la situation dans laquelle certains nœuds ou lots JCR sont modifiés de manière non compatible. Le client n’est peut-être pas au courant de cette modification avant une mise à niveau.
 
@@ -34,10 +34,10 @@ Non-Backwards Compatible Changes (modifications non rétrocompatibles)
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_guidance"
->title="Guide de mise en oeuvre"
->abstract="Il est recommandé de consulter le code personnalisé et de s’assurer que seuls les composants Sling rétrocompatibles sont superposés ou référencés. Contactez l&#39;assistance Adobe pour obtenir de l&#39;aide et des éclaircissements"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Recouvrements"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>title="Guide de mise en œuvre"
+>abstract="Nous vous recommandons de consulter le code personnalisé et de vous assurer que seuls les composants Sling rétrocompatibles sont superposés ou référencés. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=fr#platform" text="Recouvrements"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Superposez ou référencez uniquement les composants Sling rétrocompatibles.
 * Envisagez d’adapter les ressources provenant de `/libs` ou de lots après une mise à niveau d’AEM.
