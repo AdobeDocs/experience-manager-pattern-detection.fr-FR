@@ -2,11 +2,11 @@
 title: LUI
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Legacy User Interface (interface utilisateur classique)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_overview"
 >title="Legacy User Interface (interface utilisateur classique)"
->abstract="LUI identifie l’utilisation d’éléments d’interface utilisateur déconseillés qui ne sont pas recommandés ou ne sont pas pris en charge dans les versions ultérieures d’AEM et dans AEM en tant que Cloud Service."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=fr" text="Changements notables - AEM en tant que Cloud Service"
+>abstract="LUI identifie l’utilisation d’éléments d’interface utilisateur obsolètes qui ne sont pas recommandés ou ne sont pas pris en charge dans les versions ultérieures d’AEM et dans AEM as a Cloud Service."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=fr" text="Changements notables – AEM as a Cloud Service"
 
 `LUI` identifie l’utilisation d’éléments d’interface utilisateur obsolètes qui ne sont pas recommandés ou ne sont pas pris en charge dans les versions ultérieures d’AEM et dans AEM as a Cloud Service.
 
@@ -42,8 +42,8 @@ Des sous-types permettent d’identifier les différents types d’éléments d�
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_guidance"
->title="Guide de mise en oeuvre"
->abstract="L’interface utilisateur classique n’est plus disponible en tant que Cloud Service dans AEM et l’interface standard pour la création est l’interface utilisateur tactile. La bonne pratique consiste à déplacer toutes les interfaces non prises en charge et les personnalisations liées doivent être reconfigurées vers de nouvelles fonctionnalités compatibles avec AEM en tant que Cloud Service. Les clients peuvent tirer parti de la suite de modernisation des AEM existantes pour réduire les efforts nécessaires à la modernisation des implémentations de AEM Sites."
+>title="Guide de mise en œuvre"
+>abstract="L’interface utilisateur classique n’est plus disponible dans AEM as a Cloud Service. L’interface standard de création est l’interface utilisateur tactile. Nous vous recommandons de déplacer toutes les interfaces non prises en charge et les personnalisations liées doivent être reconfigurées vers de nouvelles fonctionnalités compatibles avec AEM as a Cloud Service. Les clients peuvent tirer parti des outils de modernisation AEM existants afin de faciliter la modernisation des implémentations AEM Sites."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Outils de modernisation d’AEM"
 
 * L’interface utilisateur classique n’est plus disponible dans AEM as a Cloud Service. L’interface standard pour la création est l’interface utilisateur tactile.
@@ -54,9 +54,9 @@ Des sous-types permettent d’identifier les différents types d’éléments d�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="Outils et ressources"
->abstract="Grâce à AEM Modernisation Suite, les clients peuvent convertir les boîtes de dialogue Classic(ExtJS) en boîtes de dialogue Coral. L’objectif est d’aider les clients à passer des fonctionnalités non prises en charge ou héritées aux offres d’AEM robustes et modernes. Ces outils sont configurables, adaptés à la configuration et extensibles. En outre, explorez le remplacement de composants personnalisés par l&#39;ensemble de composants principaux normalisés afin d&#39;accélérer le temps de développement et de réduire les coûts de maintenance de vos applications."
+>abstract="Grâce aux outils de modernisation AEM, les clients peuvent convertir les boîtes de dialogue Classic(ExtJS) en boîtes de dialogue Coral. L’objectif est d’aider les clients à abandonner les fonctionnalités non prises en charge ou héritées pour adopter les fonctionnalités AEM, plus efficaces et modernes. Ces outils sont configurables, s’adaptent à leur contexte et offrent de nombreuses possibilités d’extension. Vous pouvez également envisager de remplacer les composants personnalisés par un jeu de composants principaux normalisés afin d’accélérer le temps de développement et de réduire les coûts de maintenance de vos applications."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Convertisseur de composants"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Composants principaux"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=fr" text="Composants principaux"
 
 * Utilisez la [suite des outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/) pour réduire les efforts nécessaires à la modernisation de vos implémentations AEM Sites. Ces outils incluent la conversion :
    * des boîtes de dialogue classiques (ExtJS) vers les boîtes de dialogue Coral ;
