@@ -2,11 +2,11 @@
 title: CCL
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ Un sous-type est utilisé avec ce code :
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
->title="Guide de mise en oeuvre"
->abstract="Les bibliothèques clientes ajoutées à l&#39;AEM identifiée par CCL doivent être examinées afin de s&#39;assurer qu&#39;il n&#39;y a pas de duplication et que les dernières versions sont utilisées. Contactez l&#39;assistance Adobe pour obtenir de l&#39;aide et des éclaircissements"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>title="Guide de mise en œuvre"
+>abstract="Les bibliothèques clientes ajoutées à AEM et identifiées par CCL doivent être examinées afin de garantir qu’elle ne sont pas dupliquées et que les dernières versions sont utilisées. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
