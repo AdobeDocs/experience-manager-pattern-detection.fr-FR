@@ -2,9 +2,8 @@
 title: CTEM
 description: Page d’aide sur le code de la détection des motifs
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-translation-type: ht
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -34,7 +33,7 @@ Les modèles sont identifiés par une valeur principale de type « cq:Template�
 >id="aemcloud_bpa_ctem_guidance"
 >title="Guide de mise en œuvre"
 >abstract="La bonne pratique consiste à changer tous les modèles statiques en modèles modifiables. Les clients peuvent utiliser les outils de modernisation AEM existants pour migrer les modèles statiques vers des modèles modifiables."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=fr" text="Modèles modifiables"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html" text="Modèles modifiables"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Outils de modernisation d’AEM"
 
 * La bonne pratique consiste à changer tous les modèles statiques en modèles modifiables.
@@ -46,7 +45,7 @@ Les modèles sont identifiés par une valeur principale de type « cq:Template�
 >title="Outils et ressources"
 >abstract="Grâce aux outils de modernisation AEM, les clients peuvent modifier la structure d’une page dotée d’une définition statique pour la transformer en modèle modifiable. L’objectif est d’aider les clients à abandonner les capacités limitées des fonctionnalités héritées pour adopter les fonctionnalités AEM, plus efficaces et modernes. Ces outils sont configurables, s’adaptent à leur contexte et offrent de nombreuses possibilités d’extension. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/page-structure.html" text="Convertisseur de structure de page"
->additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Tirez profit des [Outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/) pour migrer des modèles statiques vers des modèles modifiables.
 * Pour plus d’informations sur les modèles modifiables, consultez [Modèles](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=fr).
