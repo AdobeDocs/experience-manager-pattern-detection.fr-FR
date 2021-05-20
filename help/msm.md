@@ -2,9 +2,8 @@
 title: MSM
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-translation-type: ht
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
 
@@ -37,6 +36,6 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >id="aemcloud_bpa_msm_guidance"
 >title="Guide de mise en œuvre"
 >abstract="Nous vous recommandons d’examiner toutes les configurations de déploiement MSM personnalisées et les actions de déploiement personnalisées et de vous assurer qu’elles fonctionnent sur AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
->additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
