@@ -2,9 +2,8 @@
 title: IOI
 description: Page d’aide sur le code de la détection des motifs
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -36,7 +35,7 @@ Certains d’entre eux sont utilisés par `com.adobe.granite.repository`, qui in
 >id="aemcloud_bpa_ioi_guidance"
 >title="Guide de mise en œuvre"
 >abstract="Les clients doivent passer en revue leur code personnalisé pour identifier l’utilisation de ces API et les modifier de telle manière à les rendre compatibles avec AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
->additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Utilisez l’API Sling Resource (ou l’API JCR) au lieu d’un accès de bas niveau.
 * Évitez de dépendre de packages internes qui ne font partie d’aucune API ou SPI publique.
