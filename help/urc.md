@@ -2,9 +2,8 @@
 title: URC
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -20,7 +19,7 @@ Unsupported Runmode Configuration (configuration du mode d’exécution non pris
 >id="aemcloud_bpa_urc_overview"
 >title="Unsupported Runmode Configuration (configuration du mode d’exécution non prise en charge)"
 >abstract="URC identifie l’utilisation de configurations basées sur un nom de mode d’exécution non pris en charge dans AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=fr#custom-runmodes" text="Modes d’exécution pris en charge"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes" text="Modes d’exécution pris en charge"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=fr#runmodes" text="Modes d’exécution"
 
 `URC` identifie l’utilisation de configurations basées sur un nom de mode d’exécution non pris en charge dans AEM as a Cloud Service.
