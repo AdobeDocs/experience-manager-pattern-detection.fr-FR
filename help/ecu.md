@@ -1,14 +1,13 @@
 ---
 title: ECU
 description: Page d’aide sur le code de la détection des motifs
-translation-type: ht
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: ht
+exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
+source-git-commit: cbd43bca20831c19eb30703cc1ec528c75f2a2ef
+workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 
 ---
-
 
 # ECU {#ecu}
 
