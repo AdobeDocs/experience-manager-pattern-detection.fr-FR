@@ -4,12 +4,11 @@ user-guide-title: Guide de détection des motifs Experience Manager
 breadcrumb-title: Détection des motifs AEM
 user-guide-description: Découvrez la détection des motifs Adobe Experience Manager.
 feature-set: Experience Manager
-feature: Developer Tools
+feature: Outils de développement
 role: Developer
-translation-type: ht
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
-workflow-type: ht
-source-wordcount: '46'
+workflow-type: tm+mt
+source-wordcount: '45'
 ht-degree: 100%
 
 ---
