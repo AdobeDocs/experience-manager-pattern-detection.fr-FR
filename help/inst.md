@@ -2,9 +2,8 @@
 title: INST
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 100%
 
@@ -20,8 +19,8 @@ Installed Artifact (artefact installé)
 >id="aemcloud_bpa_inst_overview"
 >title="Installed Artifact (artefact installé)"
 >abstract="INST identifie les packages ainsi que les lots personnalisés et tiers qui ont été installés dans AEM par le client. Ces rapports aident à caractériser l’état du système dans la portée générale d’une mise à niveau. Les packages tiers doivent respecter les instructions de développement et relatives aux packages d’AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=fr" text="Conseils de développement – AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html?lang=fr" text="Instructions relatives aux packages – AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="Conseils de développement – AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html" text="Instructions relatives aux packages – AEM as a Cloud Service"
 
 `INST` identifie les packages et les lots personnalisés et tiers qui ont été installés dans AEM par le client. Ces rapports aident à caractériser l’état du système dans la portée générale d’une mise à niveau.
 
