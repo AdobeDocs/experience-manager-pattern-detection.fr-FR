@@ -2,9 +2,8 @@
 title: LUI
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-translation-type: ht
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 100%
 
@@ -56,7 +55,7 @@ Des sous-types permettent d’identifier les différents types d’éléments d�
 >title="Outils et ressources"
 >abstract="Grâce aux outils de modernisation AEM, les clients peuvent convertir les boîtes de dialogue Classic(ExtJS) en boîtes de dialogue Coral. L’objectif est d’aider les clients à abandonner les fonctionnalités non prises en charge ou héritées pour adopter les fonctionnalités AEM, plus efficaces et modernes. Ces outils sont configurables, s’adaptent à leur contexte et offrent de nombreuses possibilités d’extension. Vous pouvez également envisager de remplacer les composants personnalisés par un jeu de composants principaux normalisés afin d’accélérer le temps de développement et de réduire les coûts de maintenance de vos applications."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Convertisseur de composants"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=fr" text="Composants principaux"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Composants principaux"
 
 * Utilisez la [suite des outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/) pour réduire les efforts nécessaires à la modernisation de vos implémentations AEM Sites. Ces outils incluent la conversion :
    * des boîtes de dialogue classiques (ExtJS) vers les boîtes de dialogue Coral ;
