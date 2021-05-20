@@ -2,9 +2,8 @@
 title: CAV
 description: Page d’aide sur le code de la détection des motifs
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-translation-type: ht
 source-git-commit: 1966a3e83ab6b2247d9f1095c8965eac399e3b6e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
 
@@ -39,8 +38,8 @@ Pour permettre aux utilisateurs de mieux comprendre les zones de `/libs` qui peu
 >id="aemcloud_bpa_cav_guidance"
 >title="Guide de mise en œuvre"
 >abstract="Nous recommandons d’examiner les motifs identifiés avec le CAS contenant différentes violations de la zone de contenu. Les zones de classification de contenu final et interne doivent être évitées. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=fr" text="Mises à niveau possibles"
->additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="Mises à niveau possibles"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Réduisez l’utilisation de la superposition de contenu aux cas où elle est nécessaire.
 * En particulier, évitez de superposer le contenu restreint (classification Finale et Interne).
