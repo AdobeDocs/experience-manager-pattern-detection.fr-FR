@@ -6,16 +6,17 @@ user-guide-description: Découvrez la détection des motifs Adobe Experience Man
 feature-set: Experience Manager
 feature: Outils de développement
 role: Developer
-source-git-commit: aaa66b80725dc92fc3e21c198f820f0cf6255da5
-workflow-type: ht
-source-wordcount: '46'
-ht-degree: 100%
+source-git-commit: 600ae605e2a3ce707fccca389e9474e6e74099d6
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 97%
 
 ---
 
 
 # Guide de détection des motifs Experience Manager {#table-of-contents}
 
++ [ACV](acv.md)
 + [ASO](aso.md)
 + [CAV](cav.md)
 + [CCL](ccl.md)
