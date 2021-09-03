@@ -2,10 +2,10 @@
 title: ASO
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
+source-git-commit: dc9d6c94d5a724cf24890378ba6a8af7396760c6
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,8 +27,8 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 
 * `aem.version` : version d’AEM.
 * `aem.product` : détection de l’utilisation d’un produit AEM (Commerce, Forms, etc.).
-* `node.count` : nombre approximatif de nœuds d’un certain type (Page, Ressource, etc.).
-* `node.store` : type d’implémentation du magasin de nœuds (SegmentNodeStore, DocumentNodeStore).
+* `node.count`: Nombre approximatif de noeuds d’un certain type (Page, Ressource, etc.) et le total général des noeuds.
+* `node.store`: Le type d’implémentation de l’entrepôt de noeuds (SegmentNodeStore, DocumentNodeStore) et sa taille.
 * `data.store` : type d’implémentation de l’entrepôt de données (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task` : tâche de maintenance.
 * `slow.query` : requête lente.
