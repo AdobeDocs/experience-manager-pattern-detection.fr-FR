@@ -2,10 +2,10 @@
 title: URS
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '414'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,7 @@ Des sous-types servent à identifier les types spécifiques de problèmes de ré
 * `node.location` : nœud sous `/etc` qui a été modifié depuis l’installation.
 * `workflow.location` : modèle ou lanceur de workflow sous `/etc/workflow`.
 * `package.structure` : package qui contient à la fois du contenu modifiable et du contenu non modifiable.
+* `node.name.length`: Un nom de noeud avec une longueur non prise en charge.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
