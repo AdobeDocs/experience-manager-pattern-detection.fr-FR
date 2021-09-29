@@ -2,10 +2,10 @@
 title: URS
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
+source-git-commit: 9d92254d2f5e84f833ed6926a0ae69b334730d21
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 98%
+source-wordcount: '431'
+ht-degree: 86%
 
 ---
 
@@ -16,14 +16,16 @@ Structure de référentiel non prise en charge
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Structure de référentiel non prise en charge"
->abstract="L’URS identifie les cas de structure de référentiel non prise en charge. Cette option permet d’uniformiser les informations afin d’éviter les conflits entre le code de produit AEM et le code client, le contenu étant restructuré à partir de /etc vers d’autres dossiers du référentiel et plus en profondeur."
+>abstract="URS identifie les cas de structure de référentiel et de caractéristiques de noeud non prises en charge. Cette option permet d’uniformiser les informations afin d’éviter les conflits entre le code de produit AEM et le code client, le contenu étant restructuré à partir de /etc vers d’autres dossiers du référentiel et plus en profondeur."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="Restructuration des référentiels"
 
 ## Arrière-plan {#background}
 
-`URS` identifie les cas de structure de référentiel non prise en charge. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour le code produit AEM et le code client et en évitant les conflits entre eux, le contenu est restructuré à partir de `/etc` vers d’autres dossiers du référentiel, en respectant les règles de haut niveau suivantes :
+`URS` identifie les cas de structure de référentiel et de caractéristiques de noeud non prises en charge. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour le code produit AEM et le code client et en évitant les conflits entre eux, le contenu est restructuré à partir de `/etc` vers d’autres dossiers du référentiel, en respectant les règles de haut niveau suivantes :
 
-* Le code produit AEM sera toujours placé dans `/libs`, qui ne doit pas être remplacé par le code personnalisé. Le code personnalisé doit être placé dans `/apps`, `/content` et `/conf`.
+* AEM code de produit sera toujours placé dans `/libs`, qui ne doit pas être remplacé par du code personnalisé.
+* Le code personnalisé doit être placé dans `/apps`, `/content` et `/conf`.
+* AEM en tant que Cloud Service ne prend pas en charge les noms de noeuds longs (> 150 octets).
 * Il est fortement recommandé que ces lignes directrices soient suivies pour AEM as a Cloud Service.
 
 Des sous-types servent à identifier les types spécifiques de problèmes de référentiel qui doivent être résolus :
