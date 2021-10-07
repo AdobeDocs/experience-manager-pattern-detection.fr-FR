@@ -5,7 +5,7 @@ exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: 9d92254d2f5e84f833ed6926a0ae69b334730d21
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -25,7 +25,7 @@ Structure de référentiel non prise en charge
 
 * AEM code de produit sera toujours placé dans `/libs`, qui ne doit pas être remplacé par du code personnalisé.
 * Le code personnalisé doit être placé dans `/apps`, `/content` et `/conf`.
-* AEM en tant que Cloud Service ne prend pas en charge les noms de noeuds longs (> 150 octets).
+* AEM as a Cloud Service ne prend pas en charge les noms de noeuds longs (> 150 octets).
 * Il est fortement recommandé que ces lignes directrices soient suivies pour AEM as a Cloud Service.
 
 Des sous-types servent à identifier les types spécifiques de problèmes de référentiel qui doivent être résolus :
@@ -34,7 +34,7 @@ Des sous-types servent à identifier les types spécifiques de problèmes de ré
 * `node.location` : nœud sous `/etc` qui a été modifié depuis l’installation.
 * `workflow.location` : modèle ou lanceur de workflow sous `/etc/workflow`.
 * `package.structure` : package qui contient à la fois du contenu modifiable et du contenu non modifiable.
-* `node.name.length`: Un nom de noeud avec une longueur non prise en charge.
+* `node.name.length` : nom de nœud d’une longueur non prise en charge.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
