@@ -3,9 +3,9 @@ title: ACV
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a5
 source-git-commit: 66489471aef923c6ab7e02acbab5f941b6459000
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -27,21 +27,21 @@ Programme de validation de contenu des ressources
 Des sous-types sont utilisés pour identifier les différents types d’informations, notamment :
 
 * `missing.jcrcontent` : identifier les dossiers comportant des nœuds obligatoires manquants dans le référentiel. L’identification de tout contenu manquant dans le référentiel permet d’éviter les fonctionnalités ou les cas d’utilisation rompus.
-* `missing.original.rendition`: Identifiez les ressources comportant un rendu d’origine obligatoire manquant dans le référentiel.
+* `missing.original.rendition` : identifier les ressources comportant des nœuds obligatoires manquants dans le référentiel.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
 * Cela peut entraîner l’échec de certaines fonctionnalités d’Assets qui dépendent de propriétés héritées sur Experience Manager as a Cloud Service.
-* AEM Assets dépend de l’existence du rendu d’origine. Le traitement des ressources dans Cloud Service est mis en boucle si le rendu d’origine est manquant.
+* AEM Assets dépend de l’existence du rendu original. Le traitement de la ressource dans Cloud Service va rentrer dans une boucle si le rendu original est absent.
 
 ## Solutions possibles {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="Guide de mise en œuvre"
->abstract="Adobe recommande de passer en revue la structure de contenu pour éviter les workflows rompus qui dépendent de propriétés héritées. Contactez l’assistance clientèle pour obtenir de l’aide."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>abstract="Adobe recommande de passer en revue la structure de contenu pour éviter les workflows rompus qui dépendent de propriétés héritées. Contactez l’assistance clientèle pour obtenir de l’aide.&quot;
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Analysez un dossier s’il manque un nœud enfant. Créez les nœuds manuellement si le nombre de dossiers est gérable. Sinon, utilisez un script.
-* Pour les ressources dont le rendu d’origine manque, rechargez les ressources ou supprimez-les avant de procéder à la migration.
+* Pour les ressources auxquelles il manque le rendu original, vous pouvez, au choix, télécharger de nouveau les ressources ou les supprimer avant d’effectuer une migration.
 * Contactez notre [équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou pour répondre à vos préoccupations.
