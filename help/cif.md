@@ -2,7 +2,7 @@
 title: CIF
 description: Page d’aide sur le code de la détection des motifs
 source-git-commit: b611b595267e60df8a15511a8a2b4b30b601df1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
