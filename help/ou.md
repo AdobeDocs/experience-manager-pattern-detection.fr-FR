@@ -1,27 +1,26 @@
 ---
-title: OCU
+title: OU
 description: Page d’aide sur le code de la détection des motifs
-exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 96%
+source-wordcount: '290'
+ht-degree: 88%
 
 ---
 
-# OCU {#ocu}
+# OU {#ou}
 
-OBSOLÈTE : Utilisation du code obsolète (remplacée par OU, Utilisation obsolète)
+Utilisation obsolète
 
 ## Arrière-plan {#background}
 
 >[!CONTEXTUALHELP]
->id="aemcloud_bpa_ocu_overview"
->title="Outdated Code Usage (utilisation de code obsolète)"
->abstract="OCU identifie la situation dans laquelle certains nœuds JCR, tels que Sling ou les composants AEM ou les exportations OSGi de l’API, sont modifiés ou supprimés d’une manière non compatible. Le client n’est peut-être pas au courant de cette modification avant une mise à niveau. Ils peuvent être mis à niveau vers une version non compatible ou ne pas être disponibles du tout."
+>id="aemcloud_bpa_ou_overview"
+>title="Utilisation obsolète"
+>abstract="OU identifie la situation dans laquelle certains noeuds JCR, tels que les composants Sling ou AEM ou les exportations OSGi d’API, sont modifiés ou supprimés d’une manière non compatible. Le client n’est peut-être pas au courant de cette modification avant une mise à niveau. Ils peuvent être mis à niveau vers une version non compatible ou ne pas être disponibles du tout."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=fr" text="Changements notables – AEM as a Cloud Service"
 
-`OCU` identifie la situation dans laquelle certains nœuds JCR, tels que Sling ou les composants AEM ou les exportations OSGi de l’API, sont modifiés ou supprimés d’une manière non compatible. Le client n’est peut-être pas au courant de cette modification avant une mise à niveau. Ils peuvent être mis à niveau vers une version non compatible ou ne pas être disponibles du tout.
+`OU` identifie la situation dans laquelle certains nœuds JCR, tels que Sling ou les composants AEM ou les exportations OSGi de l’API, sont modifiés ou supprimés d’une manière non compatible. Le client n’est peut-être pas au courant de cette modification avant une mise à niveau. Ils peuvent être mis à niveau vers une version non compatible ou ne pas être disponibles du tout.
 
 Comme les anciennes versions ne sont pas installées par défaut, l’application cliente risque de ne pas fonctionner correctement.
 
@@ -33,7 +32,7 @@ Comme les anciennes versions ne sont pas installées par défaut, l’applicatio
 ## Solutions possibles {#solutions}
 
 >[!CONTEXTUALHELP]
->id="aemcloud_bpa_ocu_guidance"
+>id="aemcloud_bpa_ou_guidance"
 >title="Guide de mise en œuvre"
 >abstract="Il est recommandé de revoir et d’adapter le code client pour lui permettre d’utiliser la nouvelle version des composants ou des API AEM. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="API du SDK Adobe Experience Manager"

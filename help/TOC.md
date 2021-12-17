@@ -4,12 +4,12 @@ user-guide-title: Guide de détection des motifs Experience Manager
 breadcrumb-title: Détection des motifs AEM
 user-guide-description: Découvrez la détection des motifs Adobe Experience Manager.
 feature-set: Experience Manager
-feature: Outils de développement
+feature: Developer Tools
 role: Developer
-source-git-commit: 600ae605e2a3ce707fccca389e9474e6e74099d6
-workflow-type: ht
+source-git-commit: cf5f2f8a9bcc4d745f424570875d21001e2f26f6
+workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 + [CAV](cav.md)
 + [CCL](ccl.md)
 + [CCOM](ccom.md)
++ [CIF](cif.md)
 + [CTEM](ctem.md)
 + [DG](dg.md)
 + [DM](dm.md)
@@ -33,13 +34,14 @@ ht-degree: 100%
 + [LUI](lui.md)
 + [MSM](msm.md)
 + [NBCC](nbcc.md)
++ [NCC](ncc.md)
 + [OAUI](oaui.md)
 + [OCU](ocu.md)
 + [OID](oid.md)
++ [OU](ou.md)
 + [PCX](pcx.md)
 + [[!DNL REP]](rep.md)
 + [UMI](umi.md)
 + [URC](urc.md)
 + [URS](urs.md)
 + [WRK](wrk.md)
-+ [CIF](cif.md)
