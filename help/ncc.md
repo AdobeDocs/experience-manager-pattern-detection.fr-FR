@@ -2,9 +2,9 @@
 title: NCC
 description: Page d’aide sur le code de la détection des motifs
 source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Modifications non compatibles
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="Modifications non compatibles"
->abstract="NCC identifie la situation dans laquelle certains noeuds ou lots JCR sont modifiés d’une manière non compatible. Le client n’est peut-être pas au courant de cette modification avant une mise à niveau."
+>abstract="NCC identifie la situation dans laquelle certains nœuds ou lots JCR sont modifiés de manière non compatible. Le client n’est peut-être pas au courant de cette modification avant une mise à niveau."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=fr" text="Changements notables – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=fr" text="Notes de mise à jour d’AEM as a Cloud Service"
 
@@ -25,7 +25,7 @@ Modifications non compatibles
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
-* La fonctionnalité qui dépend de n’importe quel composant qui utilise des modifications non compatibles peut être interrompue et peut ne pas être résolue correctement.
+* Les fonctionnalités qui dépendent de tout composant utilisant des modifications non compatibles peuvent être rompues et ne pas être résolues correctement.
 * Certaines fonctionnalités de l’application cliente ou certaines fonctionnalités AEM peuvent ne pas fonctionner correctement après une mise à niveau.
 
 ## Solutions possibles {#solutions}
@@ -35,8 +35,8 @@ Modifications non compatibles
 >title="Guide de mise en œuvre"
 >abstract="Il est recommandé de consulter le code personnalisé et de s’assurer que seuls les composants Sling compatibles sont superposés ou référencés. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=fr#platform" text="Recouvrements"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
-* Recouvrez ou référencez uniquement les composants Sling compatibles.
+* Superposez ou référencez uniquement les composants Sling compatibles.
 * Envisagez d’adapter les ressources provenant de `/libs` ou de lots après une mise à niveau d’AEM.
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
