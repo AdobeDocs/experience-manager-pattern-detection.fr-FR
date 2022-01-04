@@ -3,15 +3,15 @@ title: NBCC
 description: Page d’aide sur le code de la détection des motifs
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # NBCC {#nbcc}
 
-OBSOLÈTE : Modifications non rétrocompatibles (remplacées par NCC, Modifications non compatibles)
+OBSOLÈTE : Modifications non rétrocompatibles (remplacées par NCC, Modifications non compatibles)
 
 ## Arrière-plan {#background}
 
@@ -36,7 +36,7 @@ OBSOLÈTE : Modifications non rétrocompatibles (remplacées par NCC, Modificati
 >title="Guide de mise en œuvre"
 >abstract="Nous vous recommandons de consulter le code personnalisé et de vous assurer que seuls les composants Sling rétrocompatibles sont superposés ou référencés. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=fr#platform" text="Recouvrements"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Superposez ou référencez uniquement les composants Sling rétrocompatibles.
 * Envisagez d’adapter les ressources provenant de `/libs` ou de lots après une mise à niveau d’AEM.
