@@ -3,15 +3,15 @@ title: OCU
 description: Page d’aide sur le code de la détection des motifs
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # OCU {#ocu}
 
-OBSOLÈTE : Utilisation du code obsolète (remplacée par OU, Utilisation obsolète)
+OBSOLÈTE : Utilisation du code obsolète (remplacé par OU, Utilisation obsolète)
 
 ## Arrière-plan {#background}
 
@@ -37,7 +37,7 @@ Comme les anciennes versions ne sont pas installées par défaut, l’applicatio
 >title="Guide de mise en œuvre"
 >abstract="Il est recommandé de revoir et d’adapter le code client pour lui permettre d’utiliser la nouvelle version des composants ou des API AEM. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="API du SDK Adobe Experience Manager"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * À court terme : l’installation du package de compatibilité peut vous aider.
 * À long terme : adaptez le code client pour utiliser la dernière version des composants ou API AEM.
