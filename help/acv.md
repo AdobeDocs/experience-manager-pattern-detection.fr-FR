@@ -3,9 +3,9 @@ title: ACV
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '274'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >id="aemcloud_bpa_acv_guidance"
 >title="Guide de mise en œuvre"
 >abstract="Adobe recommande de passer en revue la structure de contenu pour éviter les workflows rompus qui dépendent de propriétés héritées. Contactez l’assistance clientèle pour obtenir de l’aide."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Analysez un dossier s’il manque un nœud enfant. Créez les nœuds manuellement si le nombre de dossiers est gérable. Sinon, utilisez un script.
 * Pour les ressources auxquelles il manque le rendu original, vous pouvez, au choix, télécharger de nouveau les ressources ou les supprimer avant d’effectuer une migration.
