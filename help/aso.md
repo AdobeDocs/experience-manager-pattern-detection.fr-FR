@@ -5,7 +5,7 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: ff4f798d540d52d7875e514a2edb959e64e068fb
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -27,21 +27,21 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 
 * `aem.version` : version d’AEM.
 * `aem.product` : détection de l’utilisation d’un produit AEM (Commerce, Forms, etc.).
-* `node.count` : nombre approximatif de nœuds d’un certain type (Page, Ressource, etc.). et le total général des nœuds.
+* `node.count` : nombre approximatif de nœuds d’un certain type (Page, Ressource, etc.) et le total général des nœuds.
 * `node.store` : type d’implémentation de l’entrepôt de nœuds (SegmentNodeStore, DocumentNodeStore) et sa taille.
 * `data.store` : type d’implémentation de l’entrepôt de données (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task` : tâche de maintenance.
 * `slow.query` : requête lente.
 * `group.membership` : nombre d’utilisateurs et de sous-groupes (membres directs/déclarés uniquement) dans un groupe.
-* `cqtag.count`: Le nombre de ressources balisées CQ.
-* `smarttag.count`: Nombre de ressources balisées intelligentes.
-* `ccom.version`: Version du package des composants principaux.
-* `instance.type`: Type d’instance AEM (author|publish).
+* `cqtag.count` : nombre de ressources avec balisage CQ.
+* `smarttag.count` : nombre de ressources avec balisage intelligent.
+* `ccom.version` : version du package de composants principaux.
+* `instance.type` : type d’instance AEM (auteur, publication).
 * `unprocessed.asset.count`: Nombre de ressources non traitées.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
-* La version AEM, le nombre de noeuds, l’appartenance au groupe, le magasin de noeuds, les types d’implémentation de l’entrepôt de données, le nombre de balises CQ, le nombre de balises intelligentes, la version des composants principaux et le type d’instance AEM sont fournis à titre d’information.
+* La version AEM, le nombre de nœuds, l’appartenance à un groupe, le magasin de nœuds, les types d’implémentation du magasin de données, le nombre de balises CQ et de balises intelligentes, la version des composants principaux et le type d’instance AEM sont fournis à titre d’information.
 * L’application personnalisée peut s’appuyer sur des produits ou des fonctionnalités qui ne sont pas disponibles dans AEM as a Cloud Service.
 * La mise à niveau avec des fonctionnalités non prises en charge peut entraîner l’échec de la mise à niveau et une application non fonctionnelle.
 
