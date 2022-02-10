@@ -2,10 +2,10 @@
 title: ASO
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: d45c6b561a9665cbac39bfd8d9ce6eb2658c24e8
+source-git-commit: ff4f798d540d52d7875e514a2edb959e64e068fb
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 84%
+source-wordcount: '364'
+ht-degree: 83%
 
 ---
 
@@ -36,7 +36,8 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `cqtag.count`: Le nombre de ressources balisées CQ.
 * `smarttag.count`: Nombre de ressources balisées intelligentes.
 * `ccom.version`: Version du package des composants principaux.
-* `instance.type`: The AEM instance type (author|publish).
+* `instance.type`: Type d’instance AEM (author|publish).
+* `unprocessed.asset.count`: Nombre de ressources non traitées.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
