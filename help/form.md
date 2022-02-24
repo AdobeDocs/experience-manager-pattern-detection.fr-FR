@@ -2,7 +2,7 @@
 title: FORM
 description: Page d’aide sur le code de la détection des motifs
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 6b4d13ba49aba72be60f01eb040b0cb7e7741694
+source-git-commit: 127f6ee2268d27d78067f030ef343da50a625004
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 97%
@@ -58,9 +58,9 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * Le composant CAPTCHA utilise maintenant le service Google reCAPTCHA pour valider le CAPTCHA, par défaut. L’option permettant d’utiliser Adobe Experience Manager pour valider le CAPTCHA est obsolète. (FORMS_CAPTCHA)
 
-* Les étapes de [services de documents](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=fr#deployment-topology) ne sont pas disponibles dans les workflows AEM. (WORKFLOW_DOCSERVICES)
-
 * L’application [!DNL AEM Forms] n’est pas disponible pour [!DNL Cloud Services]. (AEM_FORMS_APP)
+
+* Les étapes de [services de documents](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=fr#deployment-topology) ne sont pas disponibles dans les workflows AEM. (WORKFLOW_DOCSERVICES)
 
 ## Solutions possibles {#solutions}
 
@@ -94,8 +94,8 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * Ne migrez pas un modèle de workflow AEM utilisant une étape de workflow Document Services. En outre, ne migrez pas et ne mettez pas à jour des formulaires adaptatifs qui envoient des données utilisateur à un modèle de workflow qui utilise des étapes de workflow Document Services, et ne modifiez pas l’action d’envoi en action [prise en charge](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr) avant de migrer le formulaire. (WORKFLOW_DOCSERVICES)
 
-* La prise en charge des formulaires adaptatifs basés sur XFA n’est pas disponible sans configuration supplémentaire. Si vous envisagez d’utiliser des formulaires adaptatifs basés sur XFA, contactez l’assistance Adobe pour connaître votre cas d’utilisation et ses exigences spécifiques.(XFA_BASED_FORM, XDP_BASED_FORM)
-
 * Les formulaires adaptatifs offrent un design réactif. Ces formulaires changent d’aspect, de conception et d’interactivité en fonction de l’appareil concerné. Vous pouvez continuer à utiliser les formulaires adaptatifs sur un appareil mobile. Consultez les notes de mise à jour mensuelles pour en savoir plus sur la disponibilité de l’application [!DNL AEM Forms]. (AEM_FORMS_APP)
+
+* La prise en charge des formulaires adaptatifs basés sur XFA n’est pas disponible sans configuration supplémentaire. Si vous envisagez d’utiliser des formulaires adaptatifs basés sur XFA, contactez l’assistance Adobe pour connaître votre cas d’utilisation et ses exigences spécifiques.(XFA_BASED_FORM, XDP_BASED_FORM)
 
 Contactez l’[assistance Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
