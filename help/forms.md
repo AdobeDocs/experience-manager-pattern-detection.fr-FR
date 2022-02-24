@@ -2,10 +2,10 @@
 title: FORM
 description: Page d’aide sur le code de la détection des motifs
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+source-git-commit: 5ba6a9a4b6da17bd78acdd82c955e296d8bbc994
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 97%
 
 ---
 
@@ -50,13 +50,9 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * L’étape de vérification n’est pas disponible. (VERIFY_STEP)
 
-* La fonctionnalité Portail Formulaires et l’**[!UICONTROL action d’envoi Portail Formulaires]** ne sont pas disponibles. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL, DRAFT_AUTO_SAVE, DRAFT_SAVE)
-
-* L’action d’envoi **[!UICONTROL Envoyer vers Forms Workflow]** n’est pas disponible. Dans la version [!DNL AEM 6.5 Forms] et dans les versions précédentes, l’action d’envoi était utilisée pour envoyer des données de formulaires adaptatifs aux workflows LiveCycle et [!DNL AEM Forms on JEE] hérités. (LC_WORKFLOW_SUBMISSION)
+* L’action d’envoi **[!UICONTROL Envoyer vers Forms Workflow]** n’est pas disponible. Dans AEM version 6.5 de Forms et les versions précédentes, l’action Envoyer a été utilisée pour envoyer des données de formulaire adaptatif aux processus et LiveCycles Workflow AEM Forms on JEE hérités. (LC_WORKFLOW_SUBMISSION)
 
 * La fonctionnalité Communications interactives n’est pas disponible.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
-
-* Les fonctionnalités d’**[!UICONTROL enregistrement en tant que brouillon]** et d’**[!UICONTROL enregistrement automatique]** des formulaires adaptatifs ne sont pas prises en charge pour le moment. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
 * L’accordéon de métadonnées n’est pas disponible. (METADATA_ACCORDION_FORM_CONTAINER)
 
@@ -86,22 +82,20 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * Supprimez l’étape de vérification de vos formulaires adaptatifs existants avant de les déplacer vers un environnement [!DNL Cloud Service]. (VERIFY_STEP)
 
-* Modifiez vos formulaires adaptatifs existants afin d’utiliser les actions [Envoyer au point d’entrée REST](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#submit-to-rest-endpoint), [Envoyer un e-mail](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#send-email), [Envoyer à l’aide du modèle de données de formulaire](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#submit-using-form-data-model) et [Appeler un processus AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#invoke-an-aem-workflow). La fonctionnalité Portail Formulaires et l’action d’envoi Portail Formulaires ne sont pas encore disponibles. Consultez les notes de mise à jour mensuelles pour en savoir plus sur la disponibilité des fonctionnalités. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
+* Modifiez vos formulaires adaptatifs existants afin d’utiliser les actions [Envoyer au point d’entrée REST](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#submit-to-rest-endpoint), [Envoyer un e-mail](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#send-email), [Envoyer à l’aide du modèle de données de formulaire](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#submit-using-form-data-model) et [Appeler un processus AEM.](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#invoke-an-aem-workflow)
 
 * Vous pouvez développer un workflow AEM et modifier vos formulaires adaptatifs existants afin d’utiliser l’action d’envoi de [workflow AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) pour envoyer des données à un workflow AEM au lieu d’utiliser l’action **[!UICONTROL Envoyer au Forms Workflow]**. Vous pouvez développer une action d’envoi personnalisée pour envoyer des données, des pièces jointes ou un document d’enregistrement (DoR) à un processus LiveCycle au lieu d’utiliser [!UICONTROL Envoyer au Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
 * Consultez les notes de mise à jour mensuelles pour en savoir plus sur la disponibilité de la fonction Communications interactives. N’effectuez pas la migration de vos communications interactives, lettres et dictionnaires associés vers un environnement Cloud Service tant que la fonction n’est pas disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Désactivez les options **[!UICONTROL Enregistrer en tant que brouillon]** et **[!UICONTROL Activer l’enregistrement automatique]** dans vos formulaires adaptatifs avant de les migrer vers Cloud Service. Vous pouvez activer ces options une fois que la fonctionnalité Portail Formulaires est disponible pour Cloud Service. Consultez les notes de mise à jour mensuelles pour en savoir plus sur la disponibilité des fonctionnalités. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
-
 * Il n’existe aucun remplacement pour l’accordéon de métadonnées. Supprimez-le de vos formulaires avant de les migrer vers Cloud Service. (METADATA_ACCORDION_FORM_CONTAINER)
 
 * Utilisez Google reCaptcha au lieu du service CAPTCHA fourni par Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Les formulaires adaptatifs vous offrent un design réactif. Ces formulaires changent d’aspect, de conception et d’interactivité en fonction de l’appareil concerné. Vous pouvez continuer à utiliser les formulaires adaptatifs sur un appareil mobile. Consultez les notes de mise à jour mensuelles pour en savoir plus sur la disponibilité de l’application [!DNL AEM Forms]. (AEM_FORMS_APP)
-
 * Ne migrez pas un modèle de workflow AEM utilisant une étape de workflow Document Services. En outre, ne migrez pas et ne mettez pas à jour des formulaires adaptatifs qui envoient des données utilisateur à un modèle de workflow qui utilise des étapes de workflow Document Services, et ne modifiez pas l’action d’envoi en action [prise en charge](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr) avant de migrer le formulaire. (WORKFLOW_DOCSERVICES)
 
-* La prise en charge des formulaires adaptatifs basés sur XFA n’est pas disponible sans configuration supplémentaire. Si vous envisagez d’utiliser des formulaires adaptatifs basés sur XFA, contactez l’assistance Adobe pour connaître votre cas d’utilisation et ses exigences spécifiques. (XFA_BASED_FORM, XDP_BASED_FORM)
+* Les formulaires adaptatifs offrent un design réactif. Ces formulaires changent d’aspect, de conception et d’interactivité en fonction de l’appareil concerné. Vous pouvez continuer à utiliser les formulaires adaptatifs sur un appareil mobile. Consultez les notes de mise à jour mensuelles pour en savoir plus sur la disponibilité de l’application [!DNL AEM Forms]. (AEM_FORMS_APP)
+
+* La prise en charge des formulaires adaptatifs basés sur XFA n’est pas disponible sans configuration supplémentaire. Si vous envisagez d’utiliser des formulaires adaptatifs basés sur XFA, contactez l’assistance Adobe pour connaître votre cas d’utilisation et ses exigences spécifiques.(XFA_BASED_FORM, XDP_BASED_FORM)
 
 Contactez l’[assistance Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
