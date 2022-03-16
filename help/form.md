@@ -3,7 +3,7 @@ title: FORM
 description: Page d’aide sur le code de la détection des motifs
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 127f6ee2268d27d78067f030ef343da50a625004
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1110'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 >id="aemcloud_bpa_forms_guidance"
 >title="Guide de mise en œuvre"
 >abstract="Les informations exposées dans le code de FORMS peuvent fournir des conseils sur les remplacements et les autres actions nécessaires pour rendre certaines fonctionnalités et API compatibles avec le Cloud Service. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Utilisez l’utilitaire de migration pour convertir tous les scripts de règle de votre environnement en fonctions réutilisables. Vous pouvez utiliser les fonctions réutilisables avec l’éditeur de règles visuelles pour continuer à accéder aux résultats obtenus avec les scripts de règles. (CODE_EDITOR)
 
@@ -84,7 +84,7 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * Modifiez vos formulaires adaptatifs existants afin d’utiliser les actions [Envoyer au point d’entrée REST](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#submit-to-rest-endpoint), [Envoyer un e-mail](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#send-email), [Envoyer à l’aide du modèle de données de formulaire](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#submit-using-form-data-model) et [Appeler un processus AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#invoke-an-aem-workflow).
 
-* Vous pouvez développer un workflow AEM et modifier vos formulaires adaptatifs existants afin d’utiliser l’action d’envoi de [workflow AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) pour envoyer des données à un workflow AEM au lieu d’utiliser l’action **[!UICONTROL Envoyer au Forms Workflow]**. Vous pouvez développer une action d’envoi personnalisée pour envoyer des données, des pièces jointes ou un document d’enregistrement (DoR) à un processus LiveCycle au lieu d’utiliser [!UICONTROL Envoyer au Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
+* Vous pouvez développer un workflow AEM et modifier vos formulaires adaptatifs existants afin d’utiliser l’action d’envoi de [workflow AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#invoke-an-aem-workflow) pour envoyer des données à un workflow AEM au lieu d’utiliser l’action **[!UICONTROL Envoyer au Forms Workflow]**. Vous pouvez développer une action d’envoi personnalisée pour envoyer des données, des pièces jointes ou un document d’enregistrement (DoR) à un processus LiveCycle au lieu d’utiliser [!UICONTROL Envoyer au Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
 * Consultez les notes de mise à jour mensuelles pour en savoir plus sur la disponibilité de la fonction Communications interactives. N’effectuez pas la migration de vos communications interactives, lettres et dictionnaires associés vers un environnement Cloud Service tant que la fonction n’est pas disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
