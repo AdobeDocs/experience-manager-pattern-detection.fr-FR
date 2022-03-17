@@ -2,7 +2,7 @@
 title: OID
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 71fd8c278f5fa2c44e489316be36d7d0376fe695
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Oak Index Definition (définition d’index Oak)
 
 Des sous-types sont utilisés pour identifier les différents types d’informations :
 
-* `custom.index.violation` : incompatibilité d’index Oak personnalisé avec AEM as a Cloud Service.
+* `index.rule.violation` : incompatibilité d’index Oak personnalisé avec AEM as a Cloud Service.
 * `standard.index.modification` : modification d’un index Oak standard.
 
 ## Enjeux et risques possibles {#implications-and-risks}
