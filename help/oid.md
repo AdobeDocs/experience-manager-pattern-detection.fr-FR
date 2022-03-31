@@ -3,7 +3,7 @@ title: OID
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
 source-git-commit: 71fd8c278f5fa2c44e489316be36d7d0376fe695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # OID {#oid}
 
-Oak Index Definition (définition d’index Oak)
+Oak Index Definition
 
 ## Arrière-plan {#background}
 
@@ -35,7 +35,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >title="Guide de mise en œuvre"
 >abstract="Nous vous recommandons d’examiner tous les index personnalisés et à les restructurer conformément aux directives d’indexation de contenu. Tirez profit d’Index Converter pour migrer les définitions d’index Oak personnalisées existantes vers une définition d’index Oak personnalisée compatible avec AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr#oak-indexes" text="Instructions relatives aux packages"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools" text="Index Converter"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html?lang=fr#refactoring-tools" text="Index Converter"
 
 * Les modifications apportées aux définitions d’index Oak standard peuvent être perdues lors d’une mise à niveau d’AEM.
 * Les définitions Oak ne sont pas modifiables, elles doivent être incluses dans un package avec le code du projet client et doivent uniquement être déployées à l’aide de Cloud Manager.
