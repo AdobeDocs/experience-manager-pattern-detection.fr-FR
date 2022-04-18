@@ -2,10 +2,10 @@
 title: LUI
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
+source-git-commit: 1dbb239f23986f11c0dd6bfa883d8ab9124c0b52
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 100%
+source-wordcount: '703'
+ht-degree: 73%
 
 ---
 
@@ -25,17 +25,21 @@ Legacy User Interface (interface utilisateur classique)
 
 Des sous-types permettent d’identifier les différents types d’éléments d’interface utilisateur qui peuvent ou doivent être mis à niveau :
 
-* `legacy.dialog.classic` : les boîtes de dialogue classiques de l’interface utilisateur basées sur ExtJS doivent être remplacées par Coral.
+* `legacy.dialog.classic`: Les boîtes de dialogue de l’interface utilisateur classique basées sur ExtJS doivent être remplacées par Coral.
    * Cela est détecté lorsque le nom de la boîte de dialogue est « dialog » ou « design_dialog » et lorsque la valeur de propriété `jcr:primaryType` ou la valeur de propriété `xtype` est « cq:Dialog ».
-* `legacy.dialog.coral2` : les boîtes de dialogue Coral 2 doivent être mises à jour pour utiliser Coral 3.
+* `legacy.dialog.coral2`: Les boîtes de dialogue Coral 2 doivent être mises à jour pour utiliser Coral 3.
    * Cela est détecté lorsque la boîte de dialogue et ses noms de nœud de contenu enfant sont « cq:dialog/content », « cq:design_dialog/content », « cq:dialog.coral2/content » ou « cq:design_dialog.coral2/content » et la valeur de propriété `sling:resourceType` ne contient pas
 « granite/ui/components/coral/foundation ».
-* `legacy.custom.component` : les composants qui héritent de `foundation/components`, doivent être mis à jour pour utiliser les composants principaux.
+* `legacy.custom.component`: Composants qui héritent de `foundation/components` doit être mis à jour pour utiliser les composants principaux.
    * Cela est détecté lorsque la valeur de la propriété `jcr:primaryType` est « cq:Component » et que la valeur de la propriété
       `sling:resourceSuperType` contient « foundation/components » ou l’une des valeurs de propriété
       `sling:resourceSuperType` de la chaîne de composants supertypes contiennent « foundation/components ».
-* `legacy.static.template` : les modèles statiques doivent être mis à niveau vers les modèles modifiables.
+* `legacy.static.template`: Les modèles statiques doivent être mis à niveau vers les modèles modifiables.
    * Cela est détecté lorsque la valeur de la propriété `jcr:primaryType` est « cq:Template ».
+* `content.fragment.template`: Les modèles de fragment de contenu doivent créer des modèles de fragment pour remplacer les modèles de fragment.
+   * Les modèles de fragment de contenu se trouvent aux emplacements suivants :
+      * Les modèles de fragment de contenu prêts à l’emploi sont stockés dans `/libs/settings/dam/cfm/templates`
+      * Ils peuvent être superposés dans  `/apps/settings/dam/cfm/templates`  ou  `/conf/.../settings/dam/cfm/templates`(... = global ou &quot;client&quot;)
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -47,6 +51,7 @@ Des sous-types permettent d’identifier les différents types d’éléments d�
 
 * L’interface utilisateur classique n’est plus disponible dans AEM as a Cloud Service. L’interface standard pour la création est l’interface utilisateur tactile.
 * S’appuyer sur des composants personnalisés classiques peut augmenter les coûts de maintenance au fil du temps.
+* Les modèles de fragment de contenu ont été remplacés par des modèles de fragment de contenu dans AEM 6.3. La migration de fragments de contenu basés sur des modèles hérités vers AEM as a Cloud Service conservera ces fragments comme étant fonctionnels, mais il ne sera pas possible de créer de nouveaux fragments basés sur le modèle hérité. Il ne sera pas non plus possible de diffuser ces fragments à l’aide d’AEM GraphQL, qui nécessite des modèles de fragments de contenu en tant que schémas.
 
 ## Solutions possibles {#solutions}
 
@@ -63,4 +68,5 @@ Des sous-types permettent d’identifier les différents types d’éléments d�
    * des modèles statiques et de contrôle des colonnes en modèles modifiables et en grille réactive ;
    * des conceptions et boîtes de dialogue de conception en stratégies de modèles modifiables.
 * Si possible, examinez la bibliothèque de composants personnalisés et la transition de votre projet, en fonction de l’ensemble de [composants principaux](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=fr) normalisés afin d’accélérer le temps de développement et de réduire les coûts de maintenance de vos applications.
+* Il est recommandé de créer des modèles de fragment de contenu avec des fonctionnalités équivalentes aux modèles hérités et d’utiliser ces modèles pour la création de fragments de contenu à partir de maintenant. Voir [Modèles de fragment de contenu](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) pour plus d’informations.
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
