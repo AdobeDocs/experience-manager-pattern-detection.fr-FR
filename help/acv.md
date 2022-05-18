@@ -2,9 +2,9 @@
 title: ACV
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
+source-git-commit: 09e6149b971dc975dff517d98f8b2faaa8138b51
 workflow-type: ht
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -22,17 +22,19 @@ Programme de validation de contenu des ressources
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=fr" text="Modifications notables – Experience Manager en tant que Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=fr" text="Experience Manager en tant que Cloud Service – Notes de mise à jour"
 
-`ACV`  Le programme de validation de contenu des ressources identifie les nœuds obligatoires manquants dans le contenu des ressources. Cela peut entraîner l’échec de certaines fonctionnalités d’Assets sur Experience Manager as a Cloud Service.
+Le programme de validation de contenu des ressources `ACV` identifie les nœuds obligatoires manquants et les infractions dans le contenu des ressources. Cela peut entraîner l’échec de certaines fonctionnalités d’Assets sur Experience Manager as a Cloud Service.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations, notamment :
 
 * `missing.jcrcontent` : identifier les dossiers comportant des nœuds obligatoires manquants dans le référentiel. L’identification de tout contenu manquant dans le référentiel permet d’éviter les fonctionnalités ou les cas d’utilisation rompus.
 * `missing.original.rendition` : identifier les ressources comportant des nœuds obligatoires manquants dans le référentiel.
+* `metadata.descendants.violation` : identifier les ressources avec plus de 100 descendants sous le nœud de métadonnées de la ressource dans le référentiel.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
 * Cela peut entraîner l’échec de certaines fonctionnalités d’Assets qui dépendent de propriétés héritées sur Experience Manager as a Cloud Service.
 * AEM Assets dépend de l’existence du rendu original. Le traitement de la ressource dans Cloud Service va rentrer dans une boucle si le rendu original est absent.
+* Un grand nombre de descendants sous le nœud de métadonnées peut ralentir le chargement de dossiers composés de ressources qui enfreignent cette règle.
 
 ## Solutions possibles {#solutions}
 
