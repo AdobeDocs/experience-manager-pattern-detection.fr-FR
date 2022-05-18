@@ -5,7 +5,7 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
-* La version AEM, le nombre de noeuds, l’appartenance au groupe, le magasin de noeuds, les types d’implémentation de l’entrepôt de données, le nombre de balises CQ, le nombre de balises intelligentes, la version du composant principal, le type d’instance AEM et le nombre de ressources non traitées sont fournis à titre d’information.
-* Le nombre plus élevé d’URL de redirection vers un microsite (> 1 000) peut charger Dispatcher et les serveurs de publication avec des requêtes coûteuses.
+* La version d’AEM, le nombre de nœuds, l’appartenance à un groupe, le magasin de nœuds, les types d’implémentation du magasin de données, le nombre de balises CQ et de balises intelligentes, la version des composants principaux, le type d’instance AEM et le nombre de ressources non traitées sont fournis à titre d’information.
+* Un nombre élevé d’URL de redirection vers un microsite (> 1 000) peut surcharger le Dispatcher et les serveurs de publication de requêtes lourdes.
 * L’application personnalisée peut s’appuyer sur des produits ou des fonctionnalités qui ne sont pas disponibles dans AEM as a Cloud Service.
 * La mise à niveau avec des fonctionnalités non prises en charge peut entraîner l’échec de la mise à niveau et une application non fonctionnelle.
 
@@ -56,7 +56,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Les mises à niveau d’AEM avec des produits ou des fonctionnalités non pris en charge ne sont pas recommandées et peuvent ne pas être prises en charge.
-* Les ressources non traitées doivent être traitées et la propriété dam:assetState du noeud jcr:content de la ressource doit être définie sur &quot;traitée&quot; ou supprimer ces ressources du jeu de migration avant de migrer vers AEMaaCS.
-* Les URL Vanity peuvent être remplacées par Apache Rewrites.
+* Les ressources non traitées doivent être traitées et la propriété dam:assetState du nœud jcr:content de la ressource doit être définie sur « processed » ou vous devez supprimer ces ressources du jeu de migration avant de migrer vers AEMaaCS.
+* Les URL de redirection vers un microsite peuvent être remplacées à l’aide d’Apache Rewrites.
 * Consultez les [notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=fr) pour en savoir plus sur les dernières modifications apportées à AEM as a Cloud Service.
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
