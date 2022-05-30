@@ -3,9 +3,9 @@ title: DG
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,14 +13,14 @@ ht-degree: 93%
 
 Developer Guideline (conseil pour les développeurs)
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_overview"
 >title="Conseils pour les développeurs"
 >abstract="Le code DG identifie les écarts par rapport à certaines lignes directrices de développement pour AEM 6.5 et AEM as a Cloud Service. Le respect des bonnes pratiques peut améliorer la maintenabilité et les performances de votre système. Bien que certains de ces écarts ne constituent pas un problème dans d’autres contextes d’application, y compris avec les versions précédentes d’AEM, ils peuvent causer des problèmes lorsqu’ils sont utilisés avec AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="Développement AEM – Conseils et bonnes pratiques"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="Conseils de développement pour AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=fr" text="Développement AEM – Conseils et bonnes pratiques"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=fr" text="Conseils de développement pour AEM as a Cloud Service"
 
 
 `DG` identifie les écarts par rapport à certaines lignes directrices de développement pour [AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=fr) et [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=fr). Le respect des bonnes pratiques peut améliorer la maintenabilité et les performances de votre système. Bien que certains de ces écarts ne constituent pas un problème dans d’autres contextes d’application, y compris avec les versions précédentes d’AEM, ils peuvent causer des problèmes lorsqu’ils sont utilisés avec AEM as a Cloud Service.
@@ -30,7 +30,7 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 * `java.io.inputstream` : utilisation de `java.io.InputStream` dans le code d’application.
 * `maintenance.task.configuration` : configuration d’une certaine activité de maintenance périodique.
 * `sling.commons.scheduler` : utilisation de l’API de planificateur Sling Commons pour une tâche planifiée.
-* `unsupported.asset.api`: Utilisation d’API Asset Manager non prises en charge dans le code de l’application.
+* `unsupported.asset.api` : utilisation d’API Asset Manager non prises en charge dans le code de l’application.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -46,7 +46,7 @@ Des sous-types sont utilisés pour identifier les différents types de violation
    * Les lignes directrices de développement d’AEM as a Cloud Service pour les [tâches d’arrière-plan et les travaux à long terme](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=fr#background-tasks-and-long-running-jobs) suggèrent que le code exécuté en tant que tâche planifiée doit supposer que l’instance sur laquelle il est exécuté peut être supprimée à tout moment. Par conséquent, le code doit être résilient et doit pouvoir être repris.
 
 * `unsupported.asset.api`
-   * Les API suivantes d’AssetManager sont marquées comme non prises en charge sur AEM as a Cloud Service.
+   * Les API Asset Manager suivantes sont marquées comme non prises en charge dans AEM as a Cloud Service.
       * createAssetForBinary
       * getAssetForBinary
       * removeAssetForBinary
@@ -59,7 +59,7 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 >title="Guide de mise en œuvre"
 >abstract="Conformément aux lignes directrices et aux bonnes pratiques de développement AEM, les clients doivent revoir leurs mises en œuvre en fonction de l’utilisation du planificateur Sling Commons et les transformer en tâches Sling, restructurer leurs tâches de maintenance système, passer en revue la diffusion en continu de toutes les données binaires et adapter leur code pour qu’il soit conforme à AEM as a Cloud Service."
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Tâches Sling"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="Tâches de maintenance dans AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=fr" text="Tâches de maintenance dans AEM as a Cloud Service"
 
 * `java.io.inputstream`
    * Utilisez une approche de chargement avec accès direct au binaire dans laquelle le binaire est ajouté directement au magasin de données.
@@ -74,5 +74,5 @@ Des sous-types sont utilisés pour identifier les différents types de violation
    * Si possible, les tâches de longue durée devraient être évitées.
 
 * `unsupported.asset.api`
-   * Au lieu d’utiliser les API non prises en charge d’Asset Manager, utilisez [aem-upload](https://github.com/adobe/aem-upload).
+   * Au lieu d’utiliser les API Asset Manager non prises en charge, employez [aem-upload](https://github.com/adobe/aem-upload).
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
