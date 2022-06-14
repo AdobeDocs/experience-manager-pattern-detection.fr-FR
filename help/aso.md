@@ -2,10 +2,10 @@
 title: ASO
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
+source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `instance.type` : type d’instance AEM (auteur, publication).
 * `unprocessed.asset.count` : nombre de ressources non traitées.
 * `vanity.url.count` : nombre d’URL de redirection vers un microsite.
+* `index.size`: Taille totale de l’index Lucene sélectionnable.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
