@@ -2,10 +2,10 @@
 title: CTEM
 description: Page d’aide sur le code de la détection des motifs
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+source-git-commit: 9a993a5cf078e5bc61cb5d314d2a15abcbd33f2a
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Modèle personnalisé
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
@@ -43,8 +43,8 @@ Les modèles sont identifiés par une valeur principale de type « cq:Template�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="Outils et ressources"
->abstract="Grâce aux outils de modernisation AEM, les clients peuvent modifier la structure d’une page dotée d’une définition statique pour la transformer en modèle modifiable. L’objectif est d’aider les clients à abandonner les capacités limitées des fonctionnalités héritées pour adopter les fonctionnalités AEM, plus efficaces et modernes. Ces outils sont configurables, s’adaptent à leur contexte et offrent de nombreuses possibilités d’extension. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/page-structure.html" text="Convertisseur de structure de page"
+>abstract="Grâce aux outils de modernisation AEM, les clients peuvent modifier la structure d’une page dotée d’une définition statique pour la transformer en modèle modifiable. L’objectif est d’aider les clients à abandonner les capacités limitées des fonctionnalités héritées pour adopter les fonctionnalités AEM, plus efficaces et modernes. Ces outils sont configurables, configurables et extensibles. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Convertisseur de structure de page"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Tirez profit des [Outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/) pour migrer des modèles statiques vers des modèles modifiables.
