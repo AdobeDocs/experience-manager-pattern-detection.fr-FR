@@ -3,9 +3,9 @@ title: LUI
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 1553f13b8d6b92363a80298b4d05bd885c6f3a6a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '783'
+ht-degree: 100%
 
 ---
 
@@ -40,8 +40,8 @@ Des sous-types permettent d’identifier les différents types d’éléments d�
    * Les schémas de fragment de contenu se trouvent aux emplacements suivants :
       * Les schémas de fragment de contenu prêts à l’emploi sont stockés dans `/libs/settings/dam/cfm/templates`.
       * Ils peuvent être superposés dans `/apps/settings/dam/cfm/templates` ou `/conf/.../settings/dam/cfm/templates`(... = global ou « tenant »).
-* `translation.dictionary`: Dictionnaire I18n présent sous /apps.
-   * /apps est inaltérable au moment de l’exécution et translation.html ne sera plus disponible dans AEM as a cloud service.
+* `translation.dictionary` : dictionnaire I18n disponible sous /apps.
+   * /apps est non modifiable au moment de l’exécution et translator.html ne serait plus disponible dans AEM as a Cloud Service.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -54,7 +54,7 @@ Des sous-types permettent d’identifier les différents types d’éléments d�
 * L’interface utilisateur classique n’est plus disponible dans AEM as a Cloud Service. L’interface standard pour la création est l’interface utilisateur tactile.
 * S’appuyer sur des composants personnalisés classiques peut augmenter les coûts de maintenance au fil du temps.
 * Les schémas de fragment de contenu ont été remplacés par les modèles de fragment de contenu dans AEM 6.3. La migration des fragments de contenu basés sur des schémas hérités vers AEM as a Cloud Service conservera la fonctionnalité de ces fragments, mais il ne sera pas possible de créer des fragments basés sur le modèle hérité. Il ne sera pas non plus possible de diffuser ces fragments à l’aide d’AEM GraphQL, qui nécessite des modèles de fragments de contenu en tant que schémas.
-* /apps est inaltérable au moment de l’exécution et translation.html ne sera plus disponible dans AEM as a cloud service. Les dictionnaires I18n doivent donc provenir de Git via le pipeline CI/CD.
+* /apps est non modifiable au moment de l’exécution et translator.html ne serait plus disponible dans AEM as a Cloud Service. Par conséquent, les dictionnaires I18n doivent provenir de Git en passant par le pipeline CI/CD.
 
 ## Solutions possibles {#solutions}
 
@@ -63,7 +63,7 @@ Des sous-types permettent d’identifier les différents types d’éléments d�
 >title="Outils et ressources"
 >abstract="Grâce aux outils de modernisation AEM, les clients peuvent convertir les boîtes de dialogue Classic(ExtJS) en boîtes de dialogue Coral. L’objectif est d’aider les clients à abandonner les fonctionnalités non prises en charge ou héritées pour adopter les fonctionnalités AEM, plus efficaces et modernes. Ces outils sont configurables, s’adaptent à leur configuration et offrent de nombreuses possibilités d’extension. Vous pouvez également envisager de remplacer les composants personnalisés par un jeu de composants principaux normalisés afin d’accélérer le temps de développement et de réduire les coûts de maintenance de vos applications."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Convertisseur de composants"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Composants principaux"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=fr" text="Composants principaux"
 
 * Utilisez la [suite des outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/) pour réduire les efforts nécessaires à la modernisation de vos implémentations AEM Sites. Ces outils incluent la conversion :
    * des boîtes de dialogue classiques (ExtJS) vers les boîtes de dialogue Coral ;
@@ -72,5 +72,5 @@ Des sous-types permettent d’identifier les différents types d’éléments d�
    * des conceptions et boîtes de dialogue de conception en stratégies de modèles modifiables.
 * Si possible, examinez la bibliothèque de composants personnalisés et la transition de votre projet, en fonction de l’ensemble de [composants principaux](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=fr) normalisés afin d’accélérer le temps de développement et de réduire les coûts de maintenance de vos applications.
 * Il est dorénavant recommandé de créer des modèles de fragment de contenu avec des fonctionnalités équivalentes aux schémas hérités et d’utiliser ces modèles pour la création de fragments de contenu. Consultez les [Modèles de fragment de contenu](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=fr) pour plus d’informations.
-* Les dictionnaires I18n doivent provenir de Git via le pipeline CI/CD. [Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes.html?lang=en#apps-libs-immutable)
+* Les dictionnaires I18n doivent provenir de Git via le pipeline CI/CD. [Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes.html?lang=fr#apps-libs-immutable).
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
