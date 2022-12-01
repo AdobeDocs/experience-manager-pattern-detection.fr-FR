@@ -3,9 +3,9 @@ title: ACV
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: e7096efc1d9da7f5aad5a5b353ba622c879cc4a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Le programme de validation de contenu des ressources `ACV` identifie les nœuds 
 Des sous-types sont utilisés pour identifier les différents types d’informations, notamment :
 
 * `missing.jcrcontent` : identifier les dossiers comportant des nœuds obligatoires manquants dans le référentiel. L’identification de tout contenu manquant dans le référentiel permet d’éviter les fonctionnalités ou les cas d’utilisation rompus.
-* `missing.original.rendition` : identifier les ressources comportant des nœuds obligatoires manquants dans le référentiel. Notez que la prévisualisation des pages du PDF ne nécessite pas de génération de sous-ressources dans AEMaaCS. Par conséquent, pour les ressources de PDF, le rendu d’origine manquant dans les sous-ressources de création de rapports est supprimé.
+* `missing.original.rendition` : identifier les ressources comportant des rendus obligatoires manquants dans le référentiel. Notez que la prévisualisation des pages du PDF ne nécessite pas de génération de sous-ressources dans AEMaaCS. Par conséquent, pour les ressources de PDF, le signalement des rendus originaux manquants dans les sous-ressources est supprimé.
 * `metadata.descendants.violation` : identifier les ressources avec plus de 100 descendants sous le nœud de métadonnées de la ressource dans le référentiel.
 
 ## Enjeux et risques possibles {#implications-and-risks}
@@ -42,9 +42,9 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >id="aemcloud_bpa_acv_guidance"
 >title="Guide de mise en œuvre"
 >abstract="Adobe recommande de passer en revue la structure de contenu pour éviter les workflows rompus qui dépendent de propriétés héritées. Contactez l’assistance clientèle pour obtenir de l’aide."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Analysez un dossier s’il manque un nœud enfant. Créez les nœuds manuellement si le nombre de dossiers est gérable. Sinon, utilisez un script.
 * Pour les ressources auxquelles il manque le rendu original, vous pouvez, au choix, télécharger de nouveau les ressources ou les supprimer avant d’effectuer une migration.
-* Aucune action n’est requise pour le rendu d’origine des sous-ressources manquantes.
+* Aucune action n’est requise pour le rendu original des sous-ressources manquantes.
 * Contactez notre [équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou pour répondre à vos préoccupations.
