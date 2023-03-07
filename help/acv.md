@@ -3,7 +3,7 @@ title: ACV
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 0a6b0f8f2b64bf1c966b8f282a2205f2772afe3f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
