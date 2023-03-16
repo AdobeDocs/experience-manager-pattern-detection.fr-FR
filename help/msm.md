@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Multi Site Manager
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_overview"
@@ -36,6 +36,6 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >id="aemcloud_bpa_msm_guidance"
 >title="Guide de mise en œuvre"
 >abstract="Nous vous recommandons d’examiner toutes les configurations de déploiement MSM personnalisées et les actions de déploiement personnalisées et de vous assurer qu’elles fonctionnent sur AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.

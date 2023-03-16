@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Content Area Violation (violation de zone de contenu)
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
@@ -38,8 +38,8 @@ Pour permettre aux utilisateurs de mieux comprendre les zones de `/libs` qui peu
 >id="aemcloud_bpa_cav_guidance"
 >title="Guide de mise en œuvre"
 >abstract="Nous recommandons d’examiner les motifs identifiés avec le CAS contenant différentes violations de la zone de contenu. Les zones de classification de contenu final et interne doivent être évitées. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="Mises à niveau possibles"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=fr" text="Mises à niveau possibles"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Réduisez l’utilisation de la superposition de contenu aux cas où elle est nécessaire.
 * En particulier, évitez de superposer le contenu restreint (classification Finale et Interne).

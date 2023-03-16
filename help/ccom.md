@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Custom Component (composant personnalisé)
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_overview"
@@ -39,8 +39,8 @@ Un sous-type est utilisé avec ce code pour identifier la catégorie du composan
 >id="aemcloud_bpa_ccom_guidance"
 >title="Guide de mise en œuvre"
 >abstract="La bonne pratique consiste à réduire au minimum le nombre de composants personnalisés, à tirer profit des composants principaux et à les utiliser avec le système de style pour réduire la dette technique."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Composants principaux"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring" text="Système de style"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=fr" text="Composants principaux"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=fr#page-authoring" text="Système de style"
 
 * Pour plus d’informations sur les composants principaux, consultez [Présentation des composants principaux](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=fr).
 * Pour plus d’informations sur le système de style, consultez [Utilisation du système de style](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=fr#page-authoring).

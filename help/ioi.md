@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Internal Oak Import (importation Oak interne)
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
@@ -35,7 +35,7 @@ Certains d’entre eux sont utilisés par `com.adobe.granite.repository`, qui in
 >id="aemcloud_bpa_ioi_guidance"
 >title="Guide de mise en œuvre"
 >abstract="Les clients doivent passer en revue leur code personnalisé pour identifier l’utilisation de ces API et les modifier de telle manière à les rendre compatibles avec AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Utilisez l’API Sling Resource (ou l’API JCR) au lieu d’un accès de bas niveau.
 * Évitez de dépendre de packages internes qui ne font partie d’aucune API ou SPI publique.

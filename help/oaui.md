@@ -13,7 +13,7 @@ ht-degree: 100%
 
 OAuth Users Instance (instance d’utilisateurs OAuth)
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_overview"

@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Deprecated Ordered Property Index (index des propriétés organisées obsolète)
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"

@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Dynamic Media
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
@@ -41,8 +41,8 @@ Un sous-type est utilisé avec ce code :
 >id="aemcloud_bpa_dm_guidance"
 >title="Guide de mise en œuvre"
 >abstract="AEM as a Cloud Service ne prend en charge que le mode d’exécution dynamicmedia_scene7. Passez en revue les paramètres actuels et contactez l’équipe d’assistance Adobe pour obtenir de l’aide et plus d’informations."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Configuration de Dynamic Media"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=fr" text="Configuration de Dynamic Media"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 
 * `dynamic.media.runmode`
