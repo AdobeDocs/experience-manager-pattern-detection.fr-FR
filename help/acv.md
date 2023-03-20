@@ -4,8 +4,8 @@ description: Page d’aide sur le code de la détection des motifs
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `missing.original.rendition` : identifier les ressources comportant des rendus obligatoires manquants dans le référentiel. Notez que la prévisualisation des pages du PDF ne nécessite pas de génération de sous-ressources dans AEMaaCS. Par conséquent, pour les ressources de PDF, le signalement des rendus originaux manquants dans les sous-ressources est supprimé.
 * `metadata.descendants.violation` : identifier les ressources avec plus de 100 descendants sous le nœud de métadonnées de la ressource dans le référentiel.
 * `conflict.node` : identifier la présence de nœuds de conflit dans le référentiel sous /content/dam/.
-* `psb.file.large`: Identification des fichiers PSB volumineux (dc:format) : application/vnd.3gpp.pic-bw-small) d’une taille supérieure à 2 gigaoctets.
+* `psb.file.large` : identification des fichiers PSB volumineux (dc:format : application/vnd.3gpp.pic-bw-small) d’une taille supérieure à 2 gigaoctets.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -38,7 +38,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * AEM Assets dépend de l’existence du rendu original. Le traitement de la ressource dans Cloud Service va rentrer dans une boucle si le rendu original est absent. La génération de sous-ressources n’est pas prise en charge dans AEMaaCS.
 * Un grand nombre de descendants sous le nœud de métadonnées peut ralentir le chargement de dossiers composés de ressources qui enfreignent cette règle.
 * La présence de nœuds de conflit peut entraîner un échec de l’ingestion sur AEM as a Cloud Service.
-* Experience Manager peut ne pas traiter de fichiers PSB à très haute résolution. Les clients qui utilisent ImageMagick pour traiter des fichiers volumineux peuvent avoir un impact sur les performances si l’évaluation comparative correcte du serveur de Experience Manager n’est pas effectuée.
+* Experience Manager ne peut pas traiter de fichiers PSB à très haute résolution. Les clients et les clientes qui utilisent ImageMagick pour traiter des fichiers volumineux peuvent subir un impact sur les performances si l’évaluation comparative correcte du serveur de Experience Manager n’est pas effectuée.
 
 ## Solutions possibles {#solutions}
 
@@ -52,5 +52,5 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Pour les ressources auxquelles il manque le rendu original, vous pouvez, au choix, télécharger de nouveau les ressources ou les supprimer avant d’effectuer une migration.
 * Aucune action n’est requise pour le rendu original des sous-ressources manquantes.
 * En cas de conflit, les nœuds doivent être résolus ou supprimés avant la migration vers AEM as a Cloud Service.
-* Contactez le service clientèle si vous prévoyez de traiter un grand nombre de fichiers PSD ou PSB volumineux. Experience Manager peut ne pas traiter de fichiers PSB à très haute résolution de plus de 3 000 x 2 3000 pixels. Veuillez consulter [documentation](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html).
+* Contactez le service clientèle Adobe si vous prévoyez de traiter un grand nombre de fichiers PSD ou PSB volumineux. Experience Manager ne peut pas traiter de fichiers PSB à très haute résolution, de plus de 30 000 x 23 000 pixels. Veuillez consulter la [documentation](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html?lang=fr).
 * Contactez notre [équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des explications ou pour répondre à vos préoccupations.
