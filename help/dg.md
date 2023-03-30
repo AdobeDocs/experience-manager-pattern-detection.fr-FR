@@ -3,9 +3,9 @@ title: DG
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 * `maintenance.task.configuration` : configuration d’une certaine activité de maintenance périodique.
 * `sling.commons.scheduler` : utilisation de l’API de planificateur Sling Commons pour une tâche planifiée.
 * `unsupported.asset.api` : utilisation d’API Asset Manager non prises en charge dans le code de l’application.
-* `javax.jcr.observation.EventListener`: Utilisation de l’écouteur d’événements dans le code de l’application.
+* `javax.jcr.observation.EventListener` : utilisation de l’écouteur d’événement dans le code d’application.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -82,5 +82,5 @@ Des sous-types sont utilisés pour identifier les différents types de violation
    * Au lieu d’utiliser les API Asset Manager non prises en charge, employez [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
-   * Au lieu d’utiliser l’écouteur d’événements, il est conseillé de refactoriser le mécanisme de gestion des événements en [Tâches Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) car il garantit le traitement.
+   * Au lieu d’utiliser l’écouteur d’événement, il est conseillé de refactoriser le mécanisme de gestion des événements en [Tâches Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) car il garantit le traitement.
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
