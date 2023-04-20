@@ -3,9 +3,9 @@ title: ASO
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 725a04c2d0c7f14673ac8cef9b62239ae3a5166c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `unprocessed.asset.count` : nombre de ressources non traitées.
 * `vanity.url.count` : nombre d’URL de redirection vers un microsite.
 * `index.size` : taille totale de l’index Lucene pouvant être migré.
-* `workflow.count`: Nombre de workflows de création en cours d’exécution et obsolètes.
+* `workflow.count` : nombre de workflows de création en cours d’exécution et périmés.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -48,7 +48,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Un nombre élevé d’URL de redirection vers un microsite (> 1 000) peut surcharger le Dispatcher et les serveurs de publication de requêtes lourdes.
 * L’application personnalisée peut s’appuyer sur des produits ou des fonctionnalités qui ne sont pas disponibles dans AEM as a Cloud Service.
 * La mise à niveau avec des fonctionnalités non prises en charge peut entraîner l’échec de la mise à niveau et une application non fonctionnelle.
-* Un nombre élevé de workflows de création en cours d’exécution ou dans un état obsolète peut dégrader les performances.
+* Un nombre élevé de workflows de création en cours d’exécution ou périmés peut dégrader les performances.
 
 ## Solutions possibles {#solutions}
 
