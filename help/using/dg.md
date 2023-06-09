@@ -3,8 +3,8 @@ title: DG
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '667'
 ht-degree: 100%
 
 ---
