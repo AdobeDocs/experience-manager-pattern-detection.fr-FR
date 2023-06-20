@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # DOPI {#dopi}
 
-Deprecated Ordered Property Index (index des propriétés organisées obsolète)
+Deprecated Ordered Property Index (index des propriétés organisées obsolètes)
 
 ## Contexte {#background}
 

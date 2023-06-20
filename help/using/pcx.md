@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # PCX {#pcx}
 
-Page Complexity (complexité de la page)
+Complexité de la page
 
 ## Contexte {#background}
 

@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # IOI {#ioi}
 
-Internal Oak Import (importation Oak interne)
+Internal Oak Import (import Oak interne)
 
 ## Contexte {#background}
 

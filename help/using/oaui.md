@@ -29,7 +29,7 @@ Exemple : `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
-* Les utilisateurs externes configurés avec OAuth ne pourront pas se connecter aux instances d’auteur/de publication tant qu’ils n’auront pas été reconfigurés avec la procédure ci-dessous.
+* Les utilisateurs et utilisatrices externes configurés avec OAuth ne pourront pas se connecter aux instances de création/de publication tant qu’ils n’auront pas été reconfigurés avec la procédure ci-dessous.
 
 ## Solutions possibles {#solutions}
 
