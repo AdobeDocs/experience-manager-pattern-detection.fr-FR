@@ -2,10 +2,10 @@
 title: ASO
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
+source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 95%
+source-wordcount: '498'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `vanity.url.count` : nombre d’URL de redirection vers un microsite.
 * `index.size` : taille totale de l’index Lucene pouvant être migré.
 * `workflow.count` : nombre de workflows de création en cours d’exécution et périmés.
+* `jvm.arguments`: Arguments JVM ajoutés à la ligne de commande lors du démarrage de l’AEM.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
