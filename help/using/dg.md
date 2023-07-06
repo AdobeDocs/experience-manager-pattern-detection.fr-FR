@@ -2,10 +2,10 @@
 title: DG
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,7 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 * `sling.commons.scheduler` : utilisation de l’API de planificateur Sling Commons pour une tâche planifiée.
 * `unsupported.asset.api` : utilisation d’API Asset Manager non prises en charge dans le code de l’application.
 * `javax.jcr.observation.EventListener` : utilisation de l’écouteur d’événement dans le code d’application.
+* `custom.guava.cache`: Utilisation du cache de goyave dans le code de l’application.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -55,6 +56,9 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 
 * `javax.jcr.observation.EventListener`
    * Les applications qui dépendent d’un écouteur d’événement peuvent ne pas fonctionner comme prévu, car l’exécution ne peut pas être garantie.
+
+* `custom.guava.cache`
+   * L’utilisation du cache de goyave peut entraîner des problèmes de performances sur AEM.
 
 
 ## Solutions possibles {#solutions}
@@ -83,4 +87,7 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 
 * `javax.jcr.observation.EventListener`
    * Au lieu d’utiliser l’écouteur d’événement, il est conseillé de refactoriser le mécanisme de gestion des événements en [Tâches Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) car il garantit le traitement.
+
+* `custom.guava.cache`
+   * Si nécessaire, les caches doivent être créés en dehors d’AEM. La solution de mise en cache externe peut être envisagée.
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
