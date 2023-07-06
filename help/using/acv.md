@@ -2,10 +2,10 @@
 title: ACV
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `metadata.descendants.violation` : identifier les ressources avec plus de 100 descendants sous le nœud de métadonnées de la ressource dans le référentiel.
 * `conflict.node` : identifier la présence de nœuds de conflit dans le référentiel sous /content/dam/.
 * `psb.file.large` : identification des fichiers PSB volumineux (dc:format : application/vnd.3gpp.pic-bw-small) d’une taille supérieure à 2 gigaoctets.
+* `invalid.asset.name`: Identification des ressources contenant des caractères non valides[* /: [\] | # % { } ? &amp;] dans le nom.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -39,6 +40,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Un grand nombre de descendants sous le nœud de métadonnées peut ralentir le chargement de dossiers composés de ressources qui enfreignent cette règle.
 * La présence de nœuds de conflit peut entraîner un échec de l’ingestion sur AEM as a Cloud Service.
 * Experience Manager ne peut pas traiter de fichiers PSB à très haute résolution. Les clients et les clientes qui utilisent ImageMagick pour traiter des fichiers volumineux peuvent subir un impact sur les performances si l’évaluation comparative correcte du serveur de Experience Manager n’est pas effectuée.
+* Les caractères non valides dans le nom de la ressource peuvent entraîner des échecs lors de la migration vers AEM as a Cloud Service.
 
 ## Solutions possibles {#solutions}
 
