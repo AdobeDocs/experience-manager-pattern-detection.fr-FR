@@ -2,9 +2,9 @@
 title: URS
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
-workflow-type: ht
-source-wordcount: '430'
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ Structure de référentiel non prise en charge
 
 * Le code de produit AEM sera toujours placé dans `/libs`, qui ne peut pas être écrasé par du code personnalisé.
 * Le code personnalisé doit être placé dans `/apps`, `/content` et `/conf`.
-* AEM as a Cloud Service ne prend pas en charge les noms de nœuds longs (> 150 octets).
 * Il est fortement recommandé que ces lignes directrices soient suivies pour AEM as a Cloud Service.
 
 Des sous-types servent à identifier les types spécifiques de problèmes de référentiel qui doivent être résolus :
