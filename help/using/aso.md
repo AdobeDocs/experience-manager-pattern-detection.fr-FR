@@ -3,9 +3,9 @@ title: ASO
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `vanity.url.count` : nombre d’URL de redirection vers un microsite.
 * `index.size` : taille totale de l’index Lucene pouvant être migré.
 * `workflow.count` : nombre de workflows de création en cours d’exécution et périmés.
-* `jvm.arguments`: Arguments JVM ajoutés à la ligne de commande lors du démarrage de l’AEM.
+* `jvm.arguments` : arguments JVM ajoutés à la ligne de commande lors du démarrage d’AEM.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -50,7 +50,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * L’application personnalisée peut s’appuyer sur des produits ou des fonctionnalités qui ne sont pas disponibles dans AEM as a Cloud Service.
 * La mise à niveau avec des fonctionnalités non prises en charge peut entraîner l’échec de la mise à niveau et une application non fonctionnelle.
 * Un nombre élevé de workflows de création en cours d’exécution ou périmés peut dégrader les performances.
-* Des requêtes lentes peuvent dégrader les performances du système.
+* Des requêtes lentes peuvent réduire les performances du système.
 
 ## Solutions possibles {#solutions}
 
@@ -63,6 +63,6 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Les mises à niveau d’AEM avec des produits ou des fonctionnalités non pris en charge ne sont pas recommandées et peuvent ne pas être prises en charge.
 * Les ressources non traitées doivent être traitées et la propriété dam:assetState du nœud jcr:content de la ressource doit être définie sur « processed » ou vous devez supprimer ces ressources du jeu de migration avant de migrer vers AEMaaCS.
 * Les URL de redirection vers un microsite peuvent être remplacées à l’aide d’Apache Rewrites.
-* Reportez-vous à la section [documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) pour résoudre les problèmes liés aux requêtes lentes.
+* Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=fr) pour résoudre les problèmes liés aux requêtes lentes.
 * Consultez les [notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=fr) pour en savoir plus sur les dernières modifications apportées à AEM as a Cloud Service.
 * Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
