@@ -4,7 +4,7 @@ description: Page d’aide sur le code de la détection des motifs
 source-git-commit: aa05ebcb54c6945a903c76add4f31e3279cd05b5
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 32%
+ht-degree: 36%
 
 ---
 
@@ -17,7 +17,7 @@ Problème de mauvaise configuration
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
 >title="Problème de mauvaise configuration"
->abstract="Le MI identifie les problèmes de configuration sur l&#39;instance AEM"
+>abstract="MI identifie les problèmes de configuration sur l’instance AEM"
 
 `MI`  Problème de configuration : identifie les problèmes de configuration sur l’instance AEM.
 
