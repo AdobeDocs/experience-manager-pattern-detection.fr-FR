@@ -3,9 +3,9 @@ title: DG
 description: Page d’aide sur le code de la détection des motifs
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 * `sling.commons.scheduler` : utilisation de l’API de planificateur Sling Commons pour une tâche planifiée.
 * `unsupported.asset.api` : utilisation d’API Asset Manager non prises en charge dans le code de l’application.
 * `javax.jcr.observation.EventListener` : utilisation de l’écouteur d’événement dans le code d’application.
-* `custom.guava.cache`: Utilisation du cache de goyave dans le code de l’application.
+* `custom.guava.cache` : utilisation du cache Guava dans le code d’application.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -58,7 +58,7 @@ Des sous-types sont utilisés pour identifier les différents types de violation
    * Les applications qui dépendent d’un écouteur d’événement peuvent ne pas fonctionner comme prévu, car l’exécution ne peut pas être garantie.
 
 * `custom.guava.cache`
-   * L’utilisation du cache de goyave peut entraîner des problèmes de performances sur AEM.
+   * L’utilisation du cache Guava peut entraîner des problèmes de performances sur AEM.
 
 
 ## Solutions possibles {#solutions}
