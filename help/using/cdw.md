@@ -3,9 +3,9 @@ title: CDW
 description: Page d’aide sur le code de la détection des motifs
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Widget personnalisé de boîte de dialogue
 >title="Widget personnalisé de boîte de dialogue"
 >abstract="Le CDW identifie les widgets personnalisés de boîte de dialogue qui doivent être mis à jour pour qu’ils soient compatibles avec AEM as a Cloud Service."
 
-`CDW`  Les widgets de boîte de dialogue personnalisés identifient les widgets de boîte de dialogue personnalisés Classic. Ils doivent être mis à jour pour être compatibles avec AEM as a Cloud Service.
+`CDW` Les widgets personnalisés de boîte de dialogue identifient les widgets personnalisés de boîte de dialogue classique. Ils doivent être mis à jour pour être compatibles avec AEM as a Cloud Service.
 
-Les sous-types sont utilisés pour identifier les informations, par exemple :
+Des sous-types sont utilisés pour identifier les informations, notamment :
 
 * `custom.classic.widget` : Identifiez les widgets personnalisés de boîte de dialogue en fonction d’ExtJs.
 
