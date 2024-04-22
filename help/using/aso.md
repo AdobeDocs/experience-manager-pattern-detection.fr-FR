@@ -1,11 +1,11 @@
 ---
 title: ASO
-description: Page d’aide sur le code de la détection des motifs
+description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -63,6 +63,6 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Les mises à niveau d’AEM avec des produits ou des fonctionnalités non pris en charge ne sont pas recommandées et peuvent ne pas être prises en charge.
 * Les ressources non traitées doivent être traitées et la propriété dam:assetState du nœud jcr:content de la ressource doit être définie sur « processed » ou vous devez supprimer ces ressources du jeu de migration avant de migrer vers AEMaaCS.
 * Les URL de redirection vers un microsite peuvent être remplacées à l’aide d’Apache Rewrites.
-* Reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=fr) pour résoudre les problèmes liés aux requêtes lentes.
+* Voir [documentation](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=fr) pour résoudre les problèmes liés aux requêtes lentes.
 * Consultez les [notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=fr) pour en savoir plus sur les dernières modifications apportées à AEM as a Cloud Service.
-* Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
+* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.

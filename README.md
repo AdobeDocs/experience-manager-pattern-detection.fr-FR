@@ -1,8 +1,7 @@
 ---
-source-git-commit: 6615eef21010d2f9ccbc7ecab32cf21901ca5387
-workflow-type: ht
-translation-type: ht
-source-wordcount: '73'
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '72'
 ht-degree: 100%
 
 ---
@@ -10,7 +9,7 @@ ht-degree: 100%
 
 Il s’agit du référentiel relatif à la détection des motifs Adobe Experience Manager.
 
-Vos contributions à la documentation sont les bienvenues. Veuillez consulter les ressources suivantes :
+Vos contributions à la documentation sont les bienvenues. Reportez-vous aux ressources suivantes :
 
 * [contributing.md](contributing.md) Pour obtenir un aperçu de la contribution à la documentation.
 * [guidelines.md](guidelines.md) Pour obtenir une vue d’ensemble de ce qui est attendu dans les contributions et comment composer vos contributions à la documentation.

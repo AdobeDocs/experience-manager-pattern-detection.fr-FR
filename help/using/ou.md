@@ -1,11 +1,11 @@
 ---
 title: OU
-description: Page d’aide sur le code de la détection des motifs
+description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 93%
 
 ---
 
@@ -41,4 +41,4 @@ Comme les anciennes versions ne sont pas installées par défaut, l’applicatio
 
 * À court terme : l’installation du package de compatibilité peut vous aider.
 * À long terme : adaptez le code client pour utiliser la dernière version des composants ou API AEM.
-* Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
+* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.

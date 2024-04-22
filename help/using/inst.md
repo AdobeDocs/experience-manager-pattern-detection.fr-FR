@@ -1,11 +1,11 @@
 ---
 title: INST
-description: Page d’aide sur le code de la détection des motifs
+description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 96%
 
 ---
 
@@ -59,4 +59,4 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Examinez comment [incorporer des packages tiers](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr#embedding-3rd-party-packages) dans votre projet pour AEM as a Cloud Service.
 * Les packages tiers doivent respecter les lignes directrices de [développement](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=fr) et de [packaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html?lang=fr) d’AEM as a Cloud Service.
 * Examinez le projet [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) et découvrez comment [les violations INST](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) peuvent être corrigées et rendues compatibles avec AEM as a Cloud Service.
-* Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
+* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.

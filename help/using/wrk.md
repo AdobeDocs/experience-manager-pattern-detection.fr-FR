@@ -1,11 +1,11 @@
 ---
 title: WRK
-description: Page d’aide sur le code de la détection des motifs
+description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 92%
 
 ---
 
@@ -35,7 +35,7 @@ Un sous-type est utilisé pour identifier le type de problème de workflow actue
 >abstract="Comme les workflows de ressources standard sont automatiquement pris en charge par les microservices de ressources, nous vous recommandons de passer en revue tous les modèles ou les lanceurs de workflow de ressources personnalisés afin de déterminer s’ils sont nécessaires une fois la migration vers AEM as a Cloud Service terminée. Les personnalisations des workflows de ressources nécessitent une migration pour fonctionner avec AEM as a Cloud Service à l’aide de l’outil de migration de workflow de ressources."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html?lang=fr" text="Prise en main des microservices de ressources"
 
-* Le traitement des ressources a traditionnellement été effectué avec des workflows de ressources exécutés sur l’instance d’auteur AEM. Avec AEM as a Cloud Service, le traitement des ressources est désormais effectué par les microservices de ressources. (Pour plus d’informations consultez la [Présentation des microservices de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=fr).
+* Le traitement des ressources a traditionnellement été effectué avec des workflows de ressources exécutés sur l’instance d’auteur AEM. Avec AEM as a Cloud Service, le traitement des ressources est désormais effectué par les microservices de ressources. Voir [microservices de ressources - Aperçu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=fr) pour plus d’informations.
 * Les workflows de ressources standard sont automatiquement pris en charge par les microservices de ressources.
 * Les personnalisations des workflows de ressources nécessitent une migration pour fonctionner avec AEM as a Cloud Service.
 
@@ -50,4 +50,4 @@ Un sous-type est utilisé pour identifier le type de problème de workflow actue
 
 * Si un modèle ou un lanceur de workflow de ressources personnalisé est identifié, prévoyez d’exécuter l’[Outil de migration des workflows de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/asset-workflow-migration-tool.html?lang=fr).
 * Pour plus d’informations, consultez [Prise en main de l’utilisation des microservices de ressources](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html?lang=fr).
-* Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
+* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.

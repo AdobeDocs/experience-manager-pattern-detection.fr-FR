@@ -1,11 +1,11 @@
 ---
 title: CDW
-description: Page d’aide sur le code de la détection des motifs
+description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 87%
 
 ---
 
@@ -39,4 +39,4 @@ Des sous-types sont utilisés pour identifier les informations, notamment :
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Les widgets personnalisés de boîte de dialogue classique doivent être convertis d’ExtJS en [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
-* Contactez notre [équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des explications ou pour répondre à vos préoccupations.
+* Contactez le [Équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre aux préoccupations.

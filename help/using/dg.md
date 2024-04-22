@@ -1,11 +1,11 @@
 ---
 title: DG
-description: Page d’aide sur le code de la détection des motifs
+description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 94%
 
 ---
 
@@ -72,7 +72,7 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 
 * `java.io.inputstream`
    * Utilisez une approche de chargement avec accès direct au binaire dans laquelle le binaire est ajouté directement au magasin de données.
-   * Pour les cas d’utilisation des ressources, utilisez [aem-upload](https://github.com/adobe/aem-upload). Pour les autres types de binaires, la logique de chargement personnalisée peut être modélisée selon ce même motif.
+   * Pour connaître les cas d’utilisation des ressources, voir [aem-upload](https://github.com/adobe/aem-upload). Pour les autres types de binaires, la logique de chargement personnalisée peut être modélisée selon ce même motif.
 
 * `maintenance.task.configuration`
    * Examinez la documentation de la [Tâche de maintenance](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=fr) AEM as a Cloud Service.
@@ -83,11 +83,11 @@ Des sous-types sont utilisés pour identifier les différents types de violation
    * Si possible, les tâches de longue durée devraient être évitées.
 
 * `unsupported.asset.api`
-   * Au lieu d’utiliser les API Asset Manager non prises en charge, employez [aem-upload](https://github.com/adobe/aem-upload).
+   * Au lieu d’utiliser les API non prises en charge par Asset Manager, reportez-vous à la section [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * Au lieu d’utiliser l’écouteur d’événement, il est conseillé de refactoriser le mécanisme de gestion des événements en [Tâches Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) car il garantit le traitement.
 
 * `custom.guava.cache`
    * Si nécessaire, les caches doivent être créés en dehors d’AEM. La solution de mise en cache externe peut être envisagée.
-* Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
+* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.

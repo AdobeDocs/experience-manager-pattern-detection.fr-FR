@@ -1,11 +1,11 @@
 ---
 title: ECU
-description: Page d’aide sur le code de la détection des motifs
+description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 49%
 
 ---
 
@@ -15,11 +15,11 @@ OBSOLÈTE : utilisation de contenu externe (remplacé par CAV, violation de zon
 
 ## Contexte {#background}
 
-`ECU` identifie le modèle selon lequel différentes zones de contenu sont utilisées d’une façon qui enfreint les règles de la classification de contenu.
+L’UC identifie le modèle dans lequel différentes zones de contenu sont utilisées d’une manière qui viole les règles de la classification de contenu.
 
-Le traitement des requêtes Sling définit la façon dont le contenu d’une ressource, en particulier sa propriété `sling:resourceType`, est utilisé pour déterminer le script à utiliser pour le rendu du contenu. (Voir [Localisation du script](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html?lang=fr#locating-the-script) pour plus d’informations.) Sling fournit également des techniques permettant d’accéder aux ressources et de les fusionner par le biais des superpositions et des remplacements. Ils sont décrits comme faisant partie de [Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=fr) et des [Superpositions](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=fr).
+Le traitement des requêtes Sling définit la manière dont le contenu d’une ressource, sa `sling:resourceType` en particulier, est utilisée pour déterminer le script utilisé pour effectuer le rendu du contenu. (Voir [Localisation du script](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) pour plus d’informations.) Sling fournit également des techniques permettant d’accéder aux ressources et de les fusionner par le biais des superpositions et des remplacements. Ils sont décrits comme faisant partie de [Sling Resource Merger](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) et des [Superpositions](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 
-Pour permettre aux utilisateurs de mieux comprendre les zones de `/libs` qui peuvent être utilisées et superposées en toute sécurité, le contenu de `/libs` a été classé avec les propriétés « Mixin » : Public, Abstract (Résumé), Final et Internal (Interne). Chaque classification implique des règles sur la manière dont le contenu peut être utilisé, hérité ou superposé. Voir [Mise à niveau durable](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=fr) pour une description détaillée.
+Pour que les clients puissent comprendre plus facilement et plus en toute sécurité les zones d’ `/libs` peuvent utiliser et superposer le contenu en toute sécurité dans `/libs` a été classé avec des propriétés &quot;mixin&quot; : Public, Abstract, Final et Interne. Chaque classification implique des règles sur la manière dont le contenu peut être utilisé, hérité ou superposé. Voir [Mise à niveau durable](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades) pour une description détaillée.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -30,5 +30,5 @@ Pour permettre aux utilisateurs de mieux comprendre les zones de `/libs` qui peu
 
 * Réduisez l’utilisation de la superposition de contenu aux cas où elle est nécessaire.
 * En particulier, évitez de superposer le contenu restreint (classification Finale et Interne).
-* Envisagez d’adapter les modifications provenant de `/libs` après les mises à niveau d’AEM, ou les installations des Service Packs ou packs de correctifs cumulés.
-* Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
+* Envisagez d’adapter les changements issus de `/libs` après AEM mises à niveau, installations Service Pack ou Cumulative Fix Pack.
+* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.

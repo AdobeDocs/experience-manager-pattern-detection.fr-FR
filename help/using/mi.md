@@ -1,11 +1,11 @@
 ---
 title: MI
-description: Page d’aide sur le code de la détection des motifs
+description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: efb06dc7e00f91d4c080553df3153deb90b093f2
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,7 @@ Problème de configuration
 >title="Problème de configuration"
 >abstract="Le MI identifie les problèmes de configuration sur l’instance AEM"
 
-`MI` Le MI (problème de configuration) identifie les problèmes de configuration sur l’instance AEM.
+Le problème de configuration du MI identifie les problèmes de configuration sur l&#39;instance AEM.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations, notamment :
 
@@ -43,11 +43,11 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * `sling.job.max.parallel`
-   * Il est conseillé de définir la valeur sur 0,5 afin de bénéficier de la moitié des processeurs disponibles.
+   * Adobe recommande de définir la valeur sur 0,5 pour tirer parti de la moitié des processeurs disponibles.
 * `missing.maintenance.configuration`
-   * Nettoyage des révisions : reportez-vous à la section [Nettoyage des révisions](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr). La partie importante concernant la configuration est la suivante : [Nettoyage des révisions - Configuration de la compression complète et partielle](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=fr#how-to-configure-full-and-tail-compaction).
-   * Nettoyage des fichiers binaires Lucene : reportez-vous à la section [Tableau de bord des opérations - Nettoyage des fichiers binaires Lucene](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html?lang=fr#lucene-binaries-cleanup).
-   * Récupération de la mémoire du magasin de données : reportez-vous à la section [Récupération de la mémoire du magasin de données](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html?lang=fr).
-   * Purge du workflow : reportez-vous à la section [Purge régulière des instances de workflow](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html?lang=fr#regular-purging-of-workflow-instances).
-   * Tâche de maintenance du journal d’audit : reportez-vous à la section [Maintenance du journal d’audit](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html?lang=fr).
-* Contactez notre [équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des explications ou pour répondre à vos préoccupations.
+   * Nettoyage des révisions : voir [Nettoyage des révisions](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). La partie importante concernant la configuration est la suivante : [Nettoyage des révisions - Configuration de la compression complète et partielle](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
+   * Nettoyage des binaires Lucene : voir [Tableau de bord des opérations : nettoyage des binaires Lucene](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+   * Nettoyage de la mémoire d’entrepôt de données : voir [Nettoyage de la mémoire d’entrepôt de données](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
+   * Purge du workflow : voir [Purge régulière des instances de workflow](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+   * Tâche de maintenance du journal d’audit : voir [Maintenance du journal d’audit](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+* Contactez le [Équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre aux préoccupations.

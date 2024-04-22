@@ -1,11 +1,11 @@
 ---
 title: ACV
-description: Page d’aide sur le code de la détection des motifs
+description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '492'
+ht-degree: 96%
 
 ---
 
@@ -54,5 +54,5 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Pour les ressources auxquelles il manque le rendu original, vous pouvez, au choix, télécharger de nouveau les ressources ou les supprimer avant d’effectuer une migration.
 * Aucune action n’est requise pour le rendu original des sous-ressources manquantes.
 * En cas de conflit, les nœuds doivent être résolus ou supprimés avant la migration vers AEM as a Cloud Service.
-* Contactez le service clientèle Adobe si vous prévoyez de traiter un grand nombre de fichiers PSD ou PSB volumineux. Experience Manager ne peut pas traiter de fichiers PSB à très haute résolution, de plus de 30 000 x 23 000 pixels. Veuillez consulter la [documentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html?lang=fr).
-* Contactez notre [équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des explications ou pour répondre à vos préoccupations.
+* Contactez le service clientèle Adobe si vous prévoyez de traiter un grand nombre de fichiers PSD ou PSB volumineux. Experience Manager ne peut pas traiter de fichiers PSB à très haute résolution, de plus de 30 000 x 23 000 pixels. Consultez la [documentation](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html?lang=fr).
+* Contactez le [Équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre aux préoccupations.

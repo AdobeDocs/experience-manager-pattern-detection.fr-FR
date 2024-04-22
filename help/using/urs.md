@@ -1,11 +1,11 @@
 ---
 title: URS
-description: Page d’aide sur le code de la détection des motifs
+description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '376'
+ht-degree: 87%
 
 ---
 
@@ -49,7 +49,7 @@ Des sous-types servent à identifier les types spécifiques de problèmes de ré
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr" text="Instructions relatives à la structure de projet AEM"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
-* Consultez [Restructuration du référentiel](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=fr) pour obtenir des instructions sur la préparation pour AEM as a Cloud Service.
-* Consultez également [Structure du projet AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr) pour en savoir plus sur les zones modifiables et non modifiables du référentiel.
-* Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
+* Voir [Restructuration des référentiels](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=fr) pour obtenir des conseils sur la préparation d’AEM as a Cloud Service.
+* Voir aussi [AEM structure de projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr) pour en savoir plus sur les zones modifiables et non modifiables du référentiel.
+* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.
 * Tirez profit de [Repository Modernizer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html?lang=fr#refactoring-tools) pour restructurer des packages de projets existants en séparant le contenu et le code en packages distincts compatibles avec la structure de projet définie pour Adobe Experience Manager as a Cloud Service.
