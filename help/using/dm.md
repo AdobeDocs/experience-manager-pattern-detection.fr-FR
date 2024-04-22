@@ -1,11 +1,11 @@
 ---
 title: DM
-description: Page d’aide sur le code de la détection des motifs
+description: Découvrez comment le code du détecteur de motifs identifie l’utilisation d’AEM Assets - Dynamic Media.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 52%
 
 ---
 
@@ -19,16 +19,16 @@ Dynamic Media
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
 >abstract="Le code DM identifie l’utilisation d’AEM Assets Dynamic Media dans votre implémentation actuelle. Le mode Dynamic Media est détecté par le mode d’exécution."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=fr" text="Développement AEM – Conseils et bonnes pratiques"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=fr" text="Conseils de développement pour AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Développement AEM – Conseils et bonnes pratiques"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Conseils de développement sur AEM as a Cloud Service"
 
-`DM` identifie l’utilisation de Dynamic Media avec AEM Assets. Le mode Dynamic Media est détecté par le mode d’exécution.
+`DM` (Dynamic Media) identifie l’utilisation d’AEM Assets Dynamic Media. Le mode Dynamic Media est détecté par le mode d’exécution.
 
 Un sous-type est utilisé avec ce code :
 
 * `dynamic.media.runmode` : la valeur associée à ce sous-type, si elle est fournie, est :
    * `dynamicmedia` : Dynamic Media - Mode hybride
-   * `dynamicmedia_scene7` : Dynamic Media - Mode Scene7
+   * `dynamicmedia_scene7`: Dynamic Media - mode Scene7
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -40,12 +40,12 @@ Un sous-type est utilisé avec ce code :
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="Guide de mise en œuvre"
->abstract="AEM as a Cloud Service ne prend en charge que le mode d’exécution dynamicmedia_scene7. Passez en revue les paramètres actuels et contactez l’équipe d’assistance Adobe pour obtenir de l’aide et plus d’informations."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=fr" text="Configuration de Dynamic Media"
+>abstract="AEM as a Cloud Service ne prend en charge que le mode d’exécution dynamicmedia_scene7. Passez en revue les paramètres actuels et contactez l’équipe d’assistance Adobe pour obtenir de l’aide et des clarifications."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media" text="Configuration de Dynamic Media"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 
 * `dynamic.media.runmode`
-   * Pour plus d’informations, consultez [Configuration de Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=fr).
+   * Pour plus d’informations, voir [Configuration de Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
 
-* Veuillez contacter notre [équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
+* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si des clarifications ou des préoccupations s’imposent.
