@@ -1,10 +1,10 @@
 ---
 title: MODÈLE
 description: Modèle pour la page d’aide du code de l’outil de détection des motifs.
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 83%
+source-wordcount: '119'
+ht-degree: 38%
 
 ---
 
@@ -15,12 +15,12 @@ Modèle
 
 ## Contexte {#background}
 
-Fournissez une description du problème que représente ce code.
+Fournissez une description d’un ou de plusieurs problèmes que ce code représente.
 Répondez à la question : « Qu’est-ce que c’est ? »
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
-Fournissez une description des implications potentielles et des risques qui surviendront si rien n’est fait à ce sujet.
+Fournissez une description des implications et des risques potentiels qui peuvent survenir si rien n’est fait à ce sujet.
 Répondez à la question : « Pourquoi devrais-je m’en soucier ? »
 
 * implication ou risque n° 1
@@ -28,7 +28,7 @@ Répondez à la question : « Pourquoi devrais-je m’en soucier ? »
 
 ## Solutions possibles {#solutions}
 
-Fournissez une description des étapes possibles pour atténuer ou résoudre le problème. Évitez de dupliquer des informations disponibles ailleurs; faites référence à la documentation Adobe publique dans la mesure du possible.
+Fournissez une description des étapes possibles pour atténuer ou résoudre le problème. Évitez de dupliquer des informations qui peuvent être trouvées ailleurs ; référencez la documentation de l’Adobe public chaque fois que cela est possible.
 Répondez à la question : « Que puis-je y faire ? »
 
 * solution possible n° 1

@@ -2,10 +2,10 @@
 title: URS
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 87%
+source-wordcount: '378'
+ht-degree: 55%
 
 ---
 
@@ -17,17 +17,18 @@ Structure de référentiel non prise en charge
 >id="aemcloud_bpa_urs_overview"
 >title="Structure de référentiel non prise en charge"
 >abstract="La structure de référentiel non prise en charge (URS) identifie les cas de structures de référentiel et de caractéristiques de nœuds non pris en charge. Cette option permet d’uniformiser les informations afin d’éviter les conflits entre le code de produit AEM et le code client, le contenu étant restructuré à partir de /etc vers d’autres dossiers du référentiel et plus en profondeur."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=fr" text="Restructuration des référentiels"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="Restructuration des référentiels"
 
 ## Arrière-plan {#background}
 
-`URS` identifie les cas de structures de référentiel et de caractéristiques de nœuds non pris en charge. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour le code produit AEM et le code client et en évitant les conflits entre eux, le contenu est restructuré à partir de `/etc` vers d’autres dossiers du référentiel, en respectant les règles de haut niveau suivantes :
+La structure de référentiel non prise en charge (URS) identifie les cas de structures de référentiel et de caractéristiques de nœuds non pris en charge. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour le code produit AEM et le code client et en évitant les conflits entre eux, le contenu est restructuré à partir de `/etc` vers d’autres dossiers du référentiel, en respectant les règles de haut niveau suivantes :
 
-* Le code de produit AEM sera toujours placé dans `/libs`, qui ne peut pas être écrasé par du code personnalisé.
-* Le code personnalisé doit être placé dans `/apps`, `/content` et `/conf`.
+* AEM code de produit est toujours placé dans `/libs`, qui ne doit pas être remplacé par du code personnalisé.
+* Le code personnalisé doit être placé dans `/apps`, `/content`, et `/conf`.
 * Il est fortement recommandé que ces lignes directrices soient suivies pour AEM as a Cloud Service.
 
 Des sous-types servent à identifier les types spécifiques de problèmes de référentiel qui doivent être résolus :
+
 * `clientlibs.location` : bibliothèque cliente référençant `/etc` par chemin d’accès.
 * `file.location` : fichier sous `/etc` qui a été modifié depuis l’installation.
 * `node.location` : nœud sous `/etc` qui a été modifié depuis l’installation.
@@ -38,18 +39,18 @@ Des sous-types servent à identifier les types spécifiques de problèmes de ré
 ## Enjeux et risques possibles {#implications-and-risks}
 
 * Le code personnalisé reposant sur des chemins d’accès plus anciens peut provoquer un comportement indésirable et affecter les fonctionnalités du produit.
-* Les packages qui contiennent à la fois du contenu modifiable et du contenu non modifiable risquent de poser problème lors du déploiement.
+* Les modules contenant à la fois du contenu modifiable et non modifiable peuvent entraîner des problèmes lors du déploiement.
 
 ## Solutions possibles {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="Guide de mise en œuvre"
->abstract="Nous vous recommandons de passer en revue votre projet de code, de vous assurer qu’il respecte les directives relatives à la structure de projet AEM et d’éviter tout code reposant sur des chemins d’accès de référentiel anciens ou non pris en charge, ce qui pourrait provoquer un comportement indésirable dans AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr" text="Instructions relatives à la structure de projet AEM"
+>abstract="La bonne pratique consiste à passer en revue votre projet de code. Assurez-vous qu’il respecte les directives de structure de projet AEM et évitez le code s’appuyant sur des chemins de référentiel anciens/non pris en charge qui peuvent entraîner un comportement indésirable dans AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="Instructions relatives à la structure de projet AEM"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
-* Voir [Restructuration des référentiels](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=fr) pour obtenir des conseils sur la préparation d’AEM as a Cloud Service.
-* Voir aussi [AEM structure de projet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=fr) pour en savoir plus sur les zones modifiables et non modifiables du référentiel.
+* Voir [Restructuration des référentiels](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) pour obtenir des conseils sur la préparation d’AEM as a Cloud Service.
+* Voir aussi [AEM structure de projet](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) si vous souhaitez en savoir plus sur les zones modifiables et non modifiables du référentiel.
 * Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.
-* Tirez profit de [Repository Modernizer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html?lang=fr#refactoring-tools) pour restructurer des packages de projets existants en séparant le contenu et le code en packages distincts compatibles avec la structure de projet définie pour Adobe Experience Manager as a Cloud Service.
+* Utilisez la variable [Repository Modernizer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) pour restructurer les modules de projet existants en séparant le contenu et le code en modules distincts compatibles avec la structure de projet définie pour Adobe Experience Manager as a Cloud Service.

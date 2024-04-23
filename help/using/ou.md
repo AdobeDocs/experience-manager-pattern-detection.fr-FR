@@ -2,10 +2,10 @@
 title: OU
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 93%
+source-wordcount: '267'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ Comme les anciennes versions ne sont pas installées par défaut, l’applicatio
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ou_guidance"
 >title="Guide de mise en œuvre"
->abstract="Il est recommandé de revoir et d’adapter le code client pour lui permettre d’utiliser la nouvelle version des composants ou des API AEM. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations."
+>abstract="Il est recommandé de revoir et d’adapter le code client pour lui permettre d’utiliser la nouvelle version des composants ou des API AEM. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="API du SDK Adobe Experience Manager"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 

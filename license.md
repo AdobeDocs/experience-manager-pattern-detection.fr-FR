@@ -1,28 +1,19 @@
 ---
-source-git-commit: 9b7a2e726786ad4a1caad1c541f0c1aeed0477f1
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 34%
 
 ---
 # Licence MIT
 
 © Copyright 2021 Adobe. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &quot;Software&quot;), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+L&#39;autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le &quot;Logiciel&quot;), pour traiter dans le Logiciel sans restriction. Cela inclut sans s’y limiter les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du Logiciel. Et, pour permettre aux personnes à qui le Logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’AUCUNE DEMANDE, DE DOMMAGES OU D’AUTRE RESPONSABILITÉ. QUE CE SOIT DANS LE CADRE D&#39;UN CONTRAT, D&#39;UN TRI OU D&#39;UNE AUTRE FAÇON, EN PROVENANCE, EN DEHORS OU EN CONNEXION AVEC LE LOGICIEL. OU L’UTILISATION OU D’AUTRES OPÉRATIONS DU LOGICIEL.

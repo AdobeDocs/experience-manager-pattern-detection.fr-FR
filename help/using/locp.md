@@ -2,10 +2,10 @@
 title: LOCP
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 61%
+source-wordcount: '170'
+ht-degree: 57%
 
 ---
 
@@ -34,7 +34,7 @@ LOCP identifie la détection d’un module personnalisé qui diffuse du contenu 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="Guide de mise en œuvre"
->abstract="Les clients doivent consulter leur code et leurs packages personnalisés afin de déterminer si le contenu est distribué à /libs et le refactoriser pour qu’il repose sur le recouvrement du contenu dans /apps et le rendre compatible avec AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir plus d’aide et d’informations"
+>abstract="Les clients doivent consulter leur code et leurs packages personnalisés afin de déterminer si le contenu est distribué à /libs et le refactoriser pour qu’il repose sur le recouvrement du contenu dans /apps et le rendre compatible avec AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Recouvrements"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
