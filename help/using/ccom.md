@@ -2,10 +2,10 @@
 title: CCOM
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 70%
+source-wordcount: '239'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ Custom Component (composant personnalisé)
 >title="Custom Component (composant personnalisé)"
 >abstract="CCOM identifie les composants personnalisés qui ont été installés sur AEM. Ces renseignements sont fournis afin d’évaluer les bonnes pratiques"
 
-CCOM identifie les composants personnalisés qui ont été installés sur AEM. Ces renseignements sont fournis afin d’évaluer les bonnes pratiques.
+`CCOM` Identifie les composants personnalisés qui ont été installés sur AEM. Ces renseignements sont fournis afin d’évaluer les bonnes pratiques.
 
 Un sous-type est utilisé avec ce code pour identifier la catégorie du composant :
 

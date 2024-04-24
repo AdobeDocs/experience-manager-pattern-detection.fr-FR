@@ -2,9 +2,9 @@
 title: UMI
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 41%
 
 ---
@@ -22,7 +22,7 @@ Upgrade Misconfiguration Issue (problème de configuration de la mise à niveau)
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service – Notes de mise à jour"
 
-UMI identifie les modifications apportées à certaines configurations OSGi qui provoquent des problèmes lors de la mise à niveau, y compris une mise à niveau ou une fonctionnalité réduite ayant échoué.
+`UMI`  Identifie les modifications apportées à certaines configurations OSGi qui provoquent des problèmes lors de la mise à niveau, y compris une mise à niveau ayant échoué ou une fonctionnalité réduite.
 
 Les configurations suivantes sont vérifiées pour modification :
 

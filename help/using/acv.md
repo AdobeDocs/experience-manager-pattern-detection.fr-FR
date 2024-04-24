@@ -2,10 +2,10 @@
 title: ACV
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 71%
+source-wordcount: '478'
+ht-degree: 68%
 
 ---
 
@@ -22,7 +22,7 @@ Programme de validation de contenu des ressources
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Modifications notables – Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service – Notes de mise à jour"
 
-La validation de contenu d’ACV Assets identifie les noeuds et violations obligatoires manquants dans le contenu de la ressource. Cela peut entraîner l’échec de certaines fonctionnalités d’Assets sur Experience Manager as a Cloud Service.
+`ACV` (Validateur de contenu des ressources) Identifie les noeuds et les violations obligatoires manquants dans le contenu des ressources. Cela peut entraîner l’échec de certaines fonctionnalités d’Assets sur Experience Manager as a Cloud Service.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations, notamment :
 
@@ -54,5 +54,5 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Pour les ressources auxquelles il manque le rendu original, vous pouvez, au choix, télécharger de nouveau les ressources ou les supprimer avant d’effectuer une migration.
 * Aucune action n’est requise pour le rendu original des sous-ressources manquantes.
 * Dans certains noeuds de conflit, ils doivent être résolus ou supprimés avant la migration vers AEM as a Cloud Service.
-* Contactez le service clientèle Adobe si vous prévoyez de traiter un grand nombre de fichiers PSD ou PSB volumineux. Experience Manager peut ne pas traiter les fichiers PSB haute résolution de plus de 3 000 x 2 3 000 pixels. Consultez la [documentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
+* Contactez le service clientèle d’Adobe si vous prévoyez de traiter un grand nombre de fichiers PSD ou PSB volumineux. Experience Manager peut ne pas traiter les fichiers PSB haute résolution de plus de 3 000 x 2 3 000 pixels. Consultez la [documentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
 * Contactez le [Équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre aux préoccupations.

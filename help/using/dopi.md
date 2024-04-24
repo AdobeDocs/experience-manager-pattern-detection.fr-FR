@@ -2,9 +2,9 @@
 title: DOPI
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 44%
 
 ---
@@ -22,7 +22,7 @@ Deprecated Ordered Property Index (index des propriétés organisées obsolètes
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="Index organisé – Obsolète"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/indexing" text="Indexation – AEM as a Cloud Service"
 
-DOPI identifie l’utilisation de définitions d’index de propriété classées (`primaryType=oak:QueryIndexDefinition` ET `type="ordered"`), qui ont été abandonnés depuis la version 6.1 et ont été supprimés dans la version 6.2.
+`DOPI`  Identifie l’utilisation de définitions d’index de propriété classées (`primaryType=oak:QueryIndexDefinition` ET `type="ordered"`), qui ont été abandonnés depuis AEM 6.1 et ont été supprimés dans AEM 6.2.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 

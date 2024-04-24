@@ -2,10 +2,10 @@
 title: URS
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 55%
+source-wordcount: '377'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ Structure de référentiel non prise en charge
 
 ## Arrière-plan {#background}
 
-La structure de référentiel non prise en charge (URS) identifie les cas de structures de référentiel et de caractéristiques de nœuds non pris en charge. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour le code produit AEM et le code client et en évitant les conflits entre eux, le contenu est restructuré à partir de `/etc` vers d’autres dossiers du référentiel, en respectant les règles de haut niveau suivantes :
+`URS`  Identifie les cas de structure de référentiel et de caractéristiques de noeud non prises en charge. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour le code produit AEM et le code client et en évitant les conflits entre eux, le contenu est restructuré à partir de `/etc` vers d’autres dossiers du référentiel, en respectant les règles de haut niveau suivantes :
 
 * AEM code de produit est toujours placé dans `/libs`, qui ne doit pas être remplacé par du code personnalisé.
 * Le code personnalisé doit être placé dans `/apps`, `/content`, et `/conf`.

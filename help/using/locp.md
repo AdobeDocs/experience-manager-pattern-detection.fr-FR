@@ -2,9 +2,9 @@
 title: LOCP
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 57%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 57%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Mises à niveau possibles"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Fusion des ressources Sling"
 
-LOCP identifie la détection d’un module personnalisé qui diffuse du contenu à `/libs`, qui est un anti-modèle (sauf dans le cas des listes de contrôle d’accès).
+`LOCP`  Identifie la détection d’un module personnalisé qui diffuse du contenu vers `/libs`, qui est un anti-modèle (sauf dans le cas des listes de contrôle d’accès).
 
 ## Enjeux et risques possibles {#implications-and-risks}
 

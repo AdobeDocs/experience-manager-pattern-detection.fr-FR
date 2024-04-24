@@ -2,9 +2,9 @@
 title: DM
 description: Découvrez comment le code du détecteur de motifs identifie l’utilisation d’AEM Assets - Dynamic Media.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 52%
 
 ---
@@ -22,7 +22,7 @@ Dynamic Media
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Développement AEM – Conseils et bonnes pratiques"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Conseils de développement sur AEM as a Cloud Service"
 
-`DM` (Dynamic Media) identifie l’utilisation d’AEM Assets Dynamic Media. Le mode Dynamic Media est détecté par le mode d’exécution.
+`DM` (Dynamic Media) Identifie l’utilisation d’AEM Assets Dynamic Media. Le mode Dynamic Media est détecté par le mode d’exécution.
 
 Un sous-type est utilisé avec ce code :
 

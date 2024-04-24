@@ -2,10 +2,10 @@
 title: ASO
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 52%
+source-wordcount: '473'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ AEM System Overview (vue d’ensemble du système AEM)
 >abstract="Le code ASO identifie des informations d’ordre générale concernant l’instance AEM. Chaque recherche fournit une valeur d’un type particulier d’information système qui peut vous aider dans la restructuration et planification de votre migration."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service – Notes de mise à jour"
 
-ASO identifie les informations générales sur l’instance AEM. Chaque recherche fournit une valeur d’un type particulier d’informations système.
+`ASO` Identifie les informations générales sur l’instance AEM. Chaque recherche fournit une valeur d’un type particulier d’informations système.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations :
 

@@ -2,10 +2,10 @@
 title: OID
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 50%
+source-wordcount: '413'
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ Oak Index Definition
 >abstract="OID identifie les problèmes liés aux définitions d’index Oak. Il identifie les modifications apportées aux définitions standard de l’index Oak. Il identifie également les définitions d’index Oak personnalisés qui sont incompatibles avec AEM as a Cloud Service. Le message de chaque résultat OID identifie l’index et fournit des informations supplémentaires."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="Instructions d’indexation de contenu"
 
-OID identifie les problèmes liés aux définitions d’index Oak. Il identifie les modifications apportées aux définitions standard de l’index Oak. Il identifie également les définitions d’index Oak personnalisés qui sont incompatibles avec AEM as a Cloud Service. Le message de chaque `OID` find identifie l’index et fournit des informations supplémentaires.
+`OID`  Identifie les problèmes liés aux définitions d’index Oak. Il identifie les modifications apportées aux définitions standard de l’index Oak. Il identifie également les définitions d’index Oak personnalisés qui sont incompatibles avec AEM as a Cloud Service. Le message de chaque `OID` find identifie l’index et fournit des informations supplémentaires.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations :
 

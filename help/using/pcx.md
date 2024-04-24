@@ -2,9 +2,9 @@
 title: PCX
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '198'
 ht-degree: 54%
 
 ---
@@ -22,7 +22,7 @@ Complexité de la page
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service – Notes de mise à jour"
 
-PCX identifie les pages qui contiennent de nombreux noeuds dans leur structure.
+`PCX`  Identifie les pages qui contiennent de nombreux noeuds dans leur structure.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations :
 

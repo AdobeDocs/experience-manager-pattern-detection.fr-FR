@@ -2,10 +2,10 @@
 title: NBCC
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 63%
+source-wordcount: '203'
+ht-degree: 54%
 
 ---
 
@@ -22,7 +22,7 @@ OBSOLÈTE : Modifications non rétrocompatibles (remplacées par NCC, Modificat
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notes de mise à jour d’AEM as a Cloud Service"
 
-NBCC identifie la situation dans laquelle certains nœuds ou lots JCR sont modifiés de manière non compatible. Le client n’a peut-être pas connaissance de cette modification avant une mise à niveau.
+`NBCC`  Identifie la situation dans laquelle certains noeuds ou lots JCR sont modifiés d’une manière non compatible. Le client n’a peut-être pas connaissance de cette modification avant une mise à niveau.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 

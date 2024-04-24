@@ -2,10 +2,10 @@
 title: INST
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 77%
+source-wordcount: '446'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ Installed Artifact (artefact installé)
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Conseils de développement – AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Instructions relatives aux packages – AEM as a Cloud Service"
 
-INST identifie les packages ainsi que les lots personnalisés et tiers qui ont été installés dans AEM par le client. Ces rapports aident à caractériser l’état du système dans la portée générale d’une mise à niveau.
+`INST`  Identifie les packages et lots personnalisés et tiers qui ont été installés dans AEM par le client. Ces rapports aident à caractériser l’état du système dans la portée générale d’une mise à niveau.
 
 Lorsque plusieurs versions d’un package ont été installées, seule la dernière version est indiquée.
 

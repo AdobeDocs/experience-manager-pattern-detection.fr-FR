@@ -2,10 +2,10 @@
 title: INS
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 83%
+source-wordcount: '107'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ Espace de noms non valide
 >title="Espace de noms non valide"
 >abstract="L’INS identifie les problèmes d’espace de noms sur l’instance AEM"
 
-`INS` L’espace de noms non valide identifie les problèmes d’espace de noms sur l’instance AEM.
+`INS`  (Espace de noms non valide) Identifie les problèmes d’espace de noms sur l’instance AEM.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations, notamment :
 
@@ -28,7 +28,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
-* Impossible de répliquer le contenu (sur plusieurs niveaux) ou de copier le contenu (sur plusieurs environnements, via `/crx/packMgr` ou Copie de contenu).
+* Impossible de répliquer le contenu (sur plusieurs niveaux) ou de copier le contenu (sur plusieurs niveaux) `env`, par `/crx/packMgr`ou Copie de contenu).
 
 ## Solutions possibles {#solutions}
 
