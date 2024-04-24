@@ -2,10 +2,10 @@
 title: FORM
 description: Page d’aide du code de l’outil de détection des motifs.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 98%
+ht-degree: 72%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
->abstract="FORMS identifie les problèmes potentiels liés à la migration d’Adobe Experience Manager Forms vers Adobe Experience Manager Forms as a Cloud Service. Examinez les implications et les risques potentiels associés et traitez ces questions avant de migrer vers Cloud Service."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html?lang=fr#implications-and-risks" text="Enjeux et risques possibles"
+>abstract="FORMS identifie les problèmes potentiels liés à la migration d’Adobe Experience Manager Forms vers Adobe Experience Manager Forms as a Cloud Service. Examinez les implications et les risques possibles associés et apportez une réponse à ces problèmes avant de migrer vers Cloud Service."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Enjeux et risques possibles"
 
-`FORMS` identifie les problèmes potentiels liés à la migration d’[!DNL Adobe Experience Manager Forms] vers [!DNL Adobe Experience Manager Form] as a [!DNL Cloud Service]. Résolvez ces problèmes avant de migrer vers [!DNL Cloud Service].
+`FORMS`  Identifie les problèmes potentiels liés à la migration depuis [!DNL Adobe Experience Manager Forms] to [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. Résolvez ces problèmes avant de migrer vers [!DNL Cloud Service].
 
 Les sous-types suivants vous aident à identifier les différents types de problèmes :
 
@@ -38,9 +38,9 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * La fonctionnalité d’éditeur de code de la fonctionnalité d’éditeur de règles n’est pas disponible. (CODE_EDITOR)
 
-* Par défaut, la prise en charge des emails (port SMTP) est désactivée. (EMAIL_SERVICE_CONFIGURATION)
+* La prise en charge des emails (port SMTP) est désactivée par défaut. (EMAIL_SERVICE_CONFIGURATION)
 
-* L’action d’envoi de **[!UICONTROL PDF par e-mail]** n’est pas disponible. (EMAIL_PDF_SUBMIT_ACTION)
+* La variable **[!UICONTROL PDF de messagerie]** L’action Envoyer n’est pas disponible.  (EMAIL_PDF_SUBMIT_ACTION)
 
 * Les formulaires adaptatifs basés sur XFA ne sont pas encore pris en charge. (XFA_BASED_FORM, XDP_BASED_FORM)
 
@@ -52,7 +52,7 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * L’action d’envoi **[!UICONTROL Envoyer vers Forms Workflow]** n’est pas disponible. Dans AEM Forms version 6.5 et les versions précédentes, l’action d’envoi était utilisée pour envoyer des données de formulaires adaptatifs aux workflows LiveCycle et JEE AEM Forms hérités. (LC_WORKFLOW_SUBMISSION)
 
-* La fonctionnalité Communications interactives n’est pas disponible.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
+* La fonctionnalité de communications interactives n’est pas disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
 * L’accordéon de métadonnées n’est pas disponible. (METADATA_ACCORDION_FORM_CONTAINER)
 
@@ -60,7 +60,7 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * L’application [!DNL AEM Forms] n’est pas disponible pour [!DNL Cloud Services]. (AEM_FORMS_APP)
 
-* Les étapes de [services de documents](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=fr#deployment-topology) ne sont pas disponibles dans les workflows AEM. (WORKFLOW_DOCSERVICES)
+* [Services de document](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/install-aem-forms/osgi-installation/install-configure-document-services#deployment-topology) Les étapes ne sont pas disponibles dans AEM Workflows. (WORKFLOW_DOCSERVICES)
 
 ## Solutions possibles {#solutions}
 
@@ -72,30 +72,30 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * Utilisez l’utilitaire de migration pour convertir tous les scripts de règle de votre environnement en fonctions réutilisables. Vous pouvez utiliser les fonctions réutilisables avec l’éditeur de règles visuelles pour continuer à accéder aux résultats obtenus avec les scripts de règles. (CODE_EDITOR)
 
-* Contactez l’équipe d’assistance pour activer la fonctionnalité Email (port SMTP ouvert) pour votre environnement. Par défaut, seules les connexions HTTP et HTTPS sortantes sont activées. (EMAIL_SERVICE_CONFIGURATION, étape de l’e-mail)
+* Contactez l’équipe d’assistance afin que la fonctionnalité de messagerie soit activée (ouvrez le port SMTP) pour votre environnement. Seules les connexions HTTP et HTTPS sortantes sont activées par défaut. (EMAIL_SERVICE_CONFIGURATION, étape de l’e-mail)
 
 * Utilisez l’action d’envoi **[!UICONTROL Envoyer par courrier électronique]** au lieu de **[!UICONTROL Envoyer le PDF par courrier électronique]**. L’action d’envoi **[!UICONTROL Envoyer par courrier électronique]** fournit des options permettant d’envoyer des pièces jointes et de joindre un document d’enregistrement (DoR) à l’e-mail. (EMAIL_PDF_SUBMIT_ACTION)
 
-* Les données envoyées contiennent l’ID d’accord Adobe Sign. Si nécessaire, vous pouvez utiliser l’ID d’accord de signature pour récupérer un PDF d’accord de signature.  (FORM_SIGN_INTEGRATION)
+* Les données envoyées contiennent l’ID d’accord Adobe Sign. Si nécessaire, vous pouvez utiliser l’identifiant de signature d’accord pour récupérer un PDF de signature d’accord. (FORM_SIGN_INTEGRATION)
 
-* Supprimez l’étape Signature d’un formulaire adaptatif existant. Configurez votre formulaire adaptatif pour utiliser [l’expérience de signature dans le navigateur](https://medium.com/adobetech/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Il affichera ainsi l’accord Adobe Sign permettant de signer l’accord dans le navigateur lors de l’envoi d’un formulaire adaptatif. L’expérience de signature dans le navigateur permet d’accélérer le processus et de faire gagner du temps au signataire. (SIGNATURE_STEP)
+* Supprimez l’étape Signature d’un formulaire adaptatif existant. Configurez votre formulaire adaptatif pour utiliser [l’expérience de signature dans le navigateur](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Il affichera ainsi l’accord Adobe Sign permettant de signer l’accord dans le navigateur lors de l’envoi d’un formulaire adaptatif. L’expérience de signature dans le navigateur permet d’accélérer le processus et de faire gagner du temps au signataire. (SIGNATURE_STEP)
 
-* Supprimez l’étape de vérification de vos formulaires adaptatifs existants avant de les déplacer vers un environnement [!DNL Cloud Service]. (VERIFY_STEP)
+* Supprimez l’étape de vérification de votre Forms adaptatif existant avant de déplacer ces formulaires vers une [!DNL Cloud Service] environnement. (VERIFY_STEP)
 
-* Modifiez vos formulaires adaptatifs existants afin d’utiliser les actions [Envoyer au point d’entrée REST](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#submit-to-rest-endpoint), [Envoyer un e-mail](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#send-email), [Envoyer à l’aide du modèle de données de formulaire](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#submit-using-form-data-model) et [Appeler un processus AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#invoke-an-aem-workflow).
+* Modifier vos formulaires adaptatifs existants pour pouvoir utiliser [Envoyer vers le point de fin REST](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint), [Envoyer un email](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email), [Envoyer à l’aide du modèle de données de formulaire](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model), et [Appeler un workflow d’AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) Actions Envoyer.
 
-* Vous pouvez développer un workflow AEM et modifier vos formulaires adaptatifs existants afin d’utiliser l’action d’envoi de [workflow AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr#invoke-an-aem-workflow) pour envoyer des données à un workflow AEM au lieu d’utiliser l’action **[!UICONTROL Envoyer au Forms Workflow]**. Vous pouvez développer une action d’envoi personnalisée pour envoyer des données, des pièces jointes ou un document d’enregistrement (DoR) à un processus LiveCycle au lieu d’utiliser [!UICONTROL Envoyer au Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
+* Vous pouvez développer un processus d’AEM et modifier vos formulaires adaptatifs existants pour utiliser [Processus AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) Action Envoyer pour envoyer des données à un workflow AEM au lieu d’utiliser la variable **[!UICONTROL Envoyer au Forms Workflow]** Action Envoyer. Vous pouvez développer une action d’envoi personnalisée pour envoyer des données, des pièces jointes ou un document d’enregistrement (DoR) à un processus LiveCycle au lieu d’utiliser [!UICONTROL Envoyer au Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
 * Consultez les notes de mise à jour mensuelles pour en savoir plus sur la disponibilité de la fonction Communications interactives. N’effectuez pas la migration de vos communications interactives, lettres et dictionnaires associés vers un environnement Cloud Service tant que la fonction n’est pas disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
 * Il n’existe aucun remplacement pour l’accordéon de métadonnées. Supprimez-le de vos formulaires avant de les migrer vers Cloud Service. (METADATA_ACCORDION_FORM_CONTAINER)
 
-* Utilisez Google reCaptcha au lieu du service CAPTCHA fourni par Adobe Experience Manager. (FORMS_CAPTCHA)
+* Utilisez Google reCAPTCHA au lieu du service CAPTCHA fourni par Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Ne migrez pas un modèle de workflow AEM utilisant une étape de workflow Document Services. En outre, ne migrez pas et ne mettez pas à jour des formulaires adaptatifs qui envoient des données utilisateur à un modèle de workflow qui utilise des étapes de workflow Document Services, et ne modifiez pas l’action d’envoi en action [prise en charge](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=fr) avant de migrer le formulaire. (WORKFLOW_DOCSERVICES)
+* Ne migrez pas un modèle de processus d’AEM qui utilise une étape de processus de services de document. De plus, ne migrez pas ou ne mettez pas à jour les Forms adaptatives qui envoient des données utilisateur à un modèle de processus qui utilise les étapes de processus des services de document ou ne modifiez pas la variable **`Submit Action`** à [compatible](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) avant de migrer le formulaire. (WORKFLOW_DOCSERVICES)
 
 * Les formulaires adaptatifs offrent un design réactif. Ces formulaires changent d’aspect, de conception et d’interactivité en fonction de l’appareil concerné. Vous pouvez continuer à utiliser les formulaires adaptatifs sur un appareil mobile. Consultez les notes de mise à jour mensuelles pour en savoir plus sur la disponibilité de l’application [!DNL AEM Forms]. (AEM_FORMS_APP)
 
 * La prise en charge des formulaires adaptatifs basés sur XFA n’est pas disponible sans configuration supplémentaire. Si vous envisagez d’utiliser des formulaires adaptatifs basés sur XFA, contactez l’assistance Adobe pour connaître votre cas d’utilisation et ses exigences spécifiques.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-Contactez l’[assistance Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour obtenir des clarifications ou des réponses à vos questions.
+Contact [Prise en charge des Adobes](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si des clarifications ou des préoccupations s’imposent.
