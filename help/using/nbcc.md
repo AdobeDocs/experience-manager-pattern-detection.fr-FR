@@ -1,11 +1,11 @@
 ---
 title: NBCC
-description: Page d’aide du code de l’outil de détection des motifs.
+description: Page d’aide sur le code de la détection des motifs.
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 54%
+ht-degree: 88%
 
 ---
 
@@ -13,16 +13,16 @@ ht-degree: 54%
 
 OBSOLÈTE : Modifications non rétrocompatibles (remplacées par NCC, Modifications non compatibles)
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_overview"
 >title="Non-Backwards Compatible Changes (modifications non rétrocompatibles)"
->abstract="NBCC identifie la situation dans laquelle certains nœuds ou lots JCR sont modifiés de manière non compatible. Le client n’a peut-être pas connaissance de cette modification avant une mise à niveau."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables – AEM as a Cloud Service"
+>abstract="NBCC identifie la situation dans laquelle certains nœuds ou lots JCR sont modifiés de manière non compatible. Lest clientes et clients ne sont peut-être pas au courant de cette modification avant une mise à niveau."
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notes de mise à jour d’AEM as a Cloud Service"
 
-`NBCC`  Identifie la situation dans laquelle certains noeuds ou lots JCR sont modifiés d’une manière non compatible. Le client n’a peut-être pas connaissance de cette modification avant une mise à niveau.
+`NBCC`  Identifie la situation dans laquelle certains noeuds ou lots JCR sont modifiés d’une manière non compatible. Lest clientes et clients ne sont peut-être pas au courant de cette modification avant une mise à niveau.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -34,10 +34,10 @@ OBSOLÈTE : Modifications non rétrocompatibles (remplacées par NCC, Modificat
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_guidance"
 >title="Guide de mise en œuvre"
->abstract="Il est recommandé de consulter le code personnalisé et de s’assurer que seuls les composants Sling rétrocompatibles sont superposés ou référencés. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Recouvrements"
+>abstract="Nous vous recommandons de consulter le code personnalisé et de vous assurer que seuls les composants Sling rétrocompatibles sont superposés ou référencés. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Recouvrements"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Recouvrez ou référencez uniquement les composants Sling rétrocompatibles.
 * Envisagez d’adapter les ressources provenant de `/libs` ou de lots après une mise à niveau d’AEM.
-* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.
+* Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.

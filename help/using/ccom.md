@@ -1,11 +1,11 @@
 ---
 title: CCOM
-description: Page d’aide du code de l’outil de détection des motifs.
+description: Page d’aide sur le code de la détection des motifs.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 66%
+ht-degree: 84%
 
 ---
 
@@ -38,10 +38,10 @@ Un sous-type est utilisé avec ce code pour identifier la catégorie du composan
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_guidance"
 >title="Guide de mise en œuvre"
->abstract="La bonne pratique consiste à réduire le nombre de composants personnalisés, à utiliser les composants principaux et à utiliser les composants principaux avec le système de style pour réduire la dette technique."
+>abstract="La bonne pratique consiste à réduire au minimum le nombre de composants personnalisés, à utiliser des composants principaux et à les utiliser avec le système de style pour réduire la dette technique."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/introduction" text="Composants principaux"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="Système de style"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="Système de style"
 
 * Pour plus d’informations sur les composants principaux, consultez [Présentation des composants principaux](https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/introduction).
-* Pour plus d’informations sur le système de style, consultez [Utilisation du système de style](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring).
-* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.
+* Pour plus d’informations sur le système de style, consultez [Utilisation du système de style](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring).
+* Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.

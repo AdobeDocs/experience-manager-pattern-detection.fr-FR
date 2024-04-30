@@ -1,11 +1,11 @@
 ---
 title: ASO
-description: Page d’aide du code de l’outil de détection des motifs.
+description: Page d’aide sur le code de la détection des motifs.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 53%
+ht-degree: 67%
 
 ---
 
@@ -13,13 +13,13 @@ ht-degree: 53%
 
 AEM System Overview (vue d’ensemble du système AEM)
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_overview"
 >title="AEM System Overview (vue d’ensemble du système AEM)"
 >abstract="Le code ASO identifie des informations d’ordre générale concernant l’instance AEM. Chaque recherche fournit une valeur d’un type particulier d’information système qui peut vous aider dans la restructuration et planification de votre migration."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service – Notes de mise à jour"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Notes de mise à jour"
 
 `ASO` Identifie les informations générales sur l’instance AEM. Chaque recherche fournit une valeur d’un type particulier d’informations système.
 
@@ -57,12 +57,12 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="Guide de mise en œuvre"
->abstract="Les informations exposées par le biais du code ASO fournissent des informations générales pour votre environnement AEM, notamment la version, les modules complémentaires de produit et les informations au niveau du système. Recherchez des produits ou des fonctionnalités non pris en charge dans AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
+>abstract="Les informations exposées par le biais du code ASO fournissent des informations générales pour votre environnement AEM, notamment la version, les modules complémentaires de produit et les informations au niveau du système. Examinez-les pour rechercher des fonctionnalités ou des produits non pris en charge dans AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Les mises à niveau AEM avec des produits ou des fonctionnalités non pris en charge ne sont pas recommandées et peuvent ne pas être prises en charge.
 * Les ressources non traitées doivent être traitées et la variable `dam:assetState` sur la propriété `jcr:content` du noeud de la ressource doit être défini sur &quot;traité&quot;. Vous pouvez également supprimer ces ressources du jeu de migration avant de migrer vers AEMaaCS.
 * Les URL de redirection vers un microsite peuvent être remplacées à l’aide d’Apache Rewrites.
-* Voir [documentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) pour résoudre les problèmes liés aux requêtes lentes.
+* Consultez la [documentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) pour résoudre les problèmes liés aux requêtes lentes.
 * Voir [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) si vous souhaitez en savoir plus sur les dernières modifications apportées à AEM as a Cloud Service.
-* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.
+* Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.

@@ -1,11 +1,11 @@
 ---
 title: ACV
-description: Page d’aide du code de l’outil de détection des motifs.
+description: Page d’aide sur le code de la détection des motifs.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 68%
+ht-degree: 75%
 
 ---
 
@@ -13,13 +13,13 @@ ht-degree: 68%
 
 Programme de validation de contenu des ressources
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_overview"
 >title="Programme de validation de contenu des ressources"
 >abstract="ACV identifie les nœuds obligatoires manquants dans le contenu des ressources."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Modifications notables – Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview" text="Modifications notables – Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service – Notes de mise à jour"
 
 `ACV` (Validateur de contenu des ressources) Identifie les noeuds et les violations obligatoires manquants dans le contenu des ressources. Cela peut entraîner l’échec de certaines fonctionnalités d’Assets sur Experience Manager as a Cloud Service.
@@ -47,7 +47,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="Guide de mise en œuvre"
->abstract="Adobe recommande de revoir la structure du contenu pour éviter les workflows rompus qui dépendent des propriétés héritées. Contactez l’assistance clientèle pour obtenir de l’aide."
+>abstract="Adobe recommande de passer en revue la structure de contenu afin d’éviter la rupture des workflows qui dépendent de propriétés héritées. Contactez l’assistance clientèle pour obtenir de l’aide."
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Analysez un dossier s’il manque un nœud enfant. Créez les nœuds manuellement si le nombre de dossiers est gérable. Sinon, utilisez un script.
@@ -55,4 +55,4 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Aucune action n’est requise pour le rendu original des sous-ressources manquantes.
 * Dans certains noeuds de conflit, ils doivent être résolus ou supprimés avant la migration vers AEM as a Cloud Service.
 * Contactez le service clientèle d’Adobe si vous prévoyez de traiter un grand nombre de fichiers PSD ou PSB volumineux. Experience Manager peut ne pas traiter les fichiers PSB haute résolution de plus de 3 000 x 2 3 000 pixels. Consultez la [documentation](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
-* Contactez le [Équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre aux préoccupations.
+* Contactez l’[équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.
