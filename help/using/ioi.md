@@ -1,11 +1,11 @@
 ---
 title: IOI
-description: Page d’aide du code de l’outil de détection des motifs.
+description: Page d’aide sur le code de la détection des motifs.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 64%
+ht-degree: 75%
 
 ---
 
@@ -39,4 +39,4 @@ Certains d’entre eux sont utilisés par `com.adobe.granite.repository`, qui in
 
 * Utilisez l’API Sling Resource (ou l’API JCR) au lieu d’un accès de bas niveau.
 * Évitez de dépendre de packages internes qui ne font partie d’aucune API ou SPI publique.
-* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.
+* Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.

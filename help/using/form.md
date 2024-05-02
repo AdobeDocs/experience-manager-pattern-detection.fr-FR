@@ -1,11 +1,11 @@
 ---
 title: FORM
-description: Page d’aide du code de l’outil de détection des motifs.
+description: Page d’aide sur le code de la détection des motifs.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 73%
 
 [!DNL Adobe Experience Manager Forms]
 
-## Arrière-plan {#background}
+## Contexte {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"

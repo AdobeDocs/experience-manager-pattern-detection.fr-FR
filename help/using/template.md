@@ -1,10 +1,10 @@
 ---
 title: MODÈLE
-description: Modèle pour la page d’aide du code de l’outil de détection des motifs.
+description: Modèle pour la page d’aide sur le code de la détection des motifs.
 source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 38%
+ht-degree: 54%
 
 ---
 
@@ -33,4 +33,4 @@ Répondez à la question : « Que puis-je y faire ? »
 
 * solution possible n° 1
 * solution possible n° 2
-* Contactez le [Équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour des clarifications ou pour répondre à des préoccupations.
+* Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.
