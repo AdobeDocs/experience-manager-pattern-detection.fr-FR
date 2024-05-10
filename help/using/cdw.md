@@ -1,6 +1,6 @@
 ---
 title: CDW
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: d1c652a8a45a081661ffe4443f85fcc932947541
 workflow-type: tm+mt
