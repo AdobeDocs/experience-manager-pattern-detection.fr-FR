@@ -1,11 +1,11 @@
 ---
 title: URS
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ Structure de référentiel non prise en charge
 
 ## Contexte {#background}
 
-`URS`  Identifie les cas de structure de référentiel et de caractéristiques de noeud non prises en charge. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour le code produit AEM et le code client et en évitant les conflits entre eux, le contenu est restructuré à partir de `/etc` vers d’autres dossiers du référentiel, en respectant les règles de haut niveau suivantes :
+`URS` identifie les cas de structures de référentiel et de caractéristiques de nœuds non prises en charge. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour le code produit AEM et le code client et en évitant les conflits entre eux, le contenu est restructuré à partir de `/etc` vers d’autres dossiers du référentiel, en respectant les règles de haut niveau suivantes :
 
-* AEM code de produit est toujours placé dans `/libs`, qui ne doit pas être remplacé par du code personnalisé.
-* Le code personnalisé doit être placé dans `/apps`, `/content`, et `/conf`.
+* Le code de produit AEM sera toujours placé dans `/libs` et ne doit pas être écrasé par du code personnalisé.
+* Le code personnalisé doit être placé dans `/apps`, `/content` et `/conf`.
 * Il est fortement recommandé que ces lignes directrices soient suivies pour AEM as a Cloud Service.
 
 Des sous-types servent à identifier les types spécifiques de problèmes de référentiel qui doivent être résolus :
@@ -39,7 +39,7 @@ Des sous-types servent à identifier les types spécifiques de problèmes de ré
 ## Enjeux et risques possibles {#implications-and-risks}
 
 * Le code personnalisé reposant sur des chemins d’accès plus anciens peut provoquer un comportement indésirable et affecter les fonctionnalités du produit.
-* Les modules contenant à la fois du contenu modifiable et non modifiable peuvent entraîner des problèmes lors du déploiement.
+* Les packages qui contiennent à la fois du contenu modifiable et du contenu non modifiable risquent d’entraîner des problèmes lors du déploiement.
 
 ## Solutions possibles {#solutions}
 
@@ -51,6 +51,6 @@ Des sous-types servent à identifier les types spécifiques de problèmes de ré
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Consultez [Restructuration du référentiel](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) pour obtenir des instructions sur la préparation pour AEM as a Cloud Service.
-* Voir aussi [AEM structure de projet](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) si vous souhaitez en savoir plus sur les zones modifiables et non modifiables du référentiel.
+* Consultez également [Structure des projets AEM](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) pour en savoir plus sur les zones modifiables et non modifiables du référentiel.
 * Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.
-* Utilisez la variable [Repository Modernizer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) pour restructurer les modules de projet existants en séparant le contenu et le code en modules distincts compatibles avec la structure de projet définie pour Adobe Experience Manager as a Cloud Service.
+* Utilisez [Repository Modernizer](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) pour restructurer les packages de projets existants en séparant le contenu et le code en packages discrets compatibles avec la structure de projet définie par Adobe Experience Manager as a Cloud Service.

@@ -1,11 +1,11 @@
 ---
 title: NCC
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Modifications non compatibles
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="Modifications non compatibles"
->abstract="NCC identifie la situation dans laquelle certains nœuds ou lots JCR sont modifiés de manière non compatible. Lest clientes et clients ne sont peut-être pas au courant de cette modification avant une mise à niveau."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notes de mise à jour d’AEM as a Cloud Service"
+>abstract="NCC identifie la situation dans laquelle certains nœuds ou lots JCR sont modifiés de manière non compatible. Il est possible que les clientes et clients ne se rendent pas compte de cette modification avant une mise à niveau."
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notes de mise à jour - AEM as a Cloud Service"
 
-`NCC`  Identifie la situation dans laquelle certains noeuds ou lots JCR sont modifiés d’une manière non compatible. Lest clientes et clients ne sont peut-être pas au courant de cette modification avant une mise à niveau.
+`NCC` identifie la situation dans laquelle certains nœuds ou lots JCR sont modifiés de manière non compatible. Il est possible que les clientes et clients ne se rendent pas compte de cette modification avant une mise à niveau.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 

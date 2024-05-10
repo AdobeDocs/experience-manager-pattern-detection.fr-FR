@@ -1,11 +1,11 @@
 ---
 title: WRK
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Workflow
 >abstract="Le code WRK identifie une recherche liée à un modèle ou à un lanceur de workflow. Ces rapports sont générés, car les modèles de workflow des ressources personnalisés doivent être migrés lors de la mise à niveau vers AEM as a Cloud Service. Avec AEM as a Cloud Service, le traitement des ressources est désormais effectué par les microservices de ressources."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Microservices de ressources"
 
-`WRK`  Identifie un résultat associé à un modèle de workflow ou à un lanceur. Ces rapports sont générés, car les modèles de workflow des ressources personnalisés doivent être migrés lors de la mise à niveau vers AEM as a Cloud Service.
+`WRK` identifie un résultat lié à un modèle ou à un lanceur de workflow. Ces rapports sont générés, car les modèles de workflow des ressources personnalisés doivent être migrés lors de la mise à niveau vers AEM as a Cloud Service.
 
 Un sous-type est utilisé pour identifier le type de problème de workflow actuellement détecté.
 
@@ -37,7 +37,7 @@ Un sous-type est utilisé pour identifier le type de problème de workflow actue
 
 * Le traitement des ressources a traditionnellement été effectué avec des workflows de ressources exécutés sur l’instance d’auteur AEM. Avec AEM as a Cloud Service, le traitement des ressources est désormais effectué par les microservices de ressources. Pour plus d’informations, consultez la [vue d’ensemble sur les microservices de ressources](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview).
 * Les workflows de ressources standard sont automatiquement pris en charge par les microservices de ressources.
-* Pour que les personnalisations des workflows de ressources fonctionnent avec AEM as a Cloud Service, la migration doit être effectuée.
+* Les personnalisations des workflows de ressources nécessitent une migration pour fonctionner avec AEM as a Cloud Service.
 
 ## Solutions possibles {#solutions}
 

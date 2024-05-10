@@ -1,11 +1,11 @@
 ---
 title: MSM
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Multi-site Manager
 >id="aemcloud_bpa_msm_overview"
 >title="Multi-site Manager"
 >abstract="MSM identifie des informations d’ordre général sur la fonctionnalité Multi-site Manager d’AEM. Cette information est fournie pour aider à caractériser le système."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables - AEM as a Cloud Service"
 
-`MSM`  Identifie les informations générales sur la fonction AEM Multi-site Manager. Cette information est fournie pour aider à caractériser le système.
+`MSM` identifie des informations générales concernant la fonctionnalité Multi Site Manager d’AEM. Cette information est fournie pour aider à caractériser le système.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations :
 

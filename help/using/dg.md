@@ -1,11 +1,11 @@
 ---
 title: DG
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Developer Guideline (conseil pour les développeurs)
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Conseils de développement sur AEM as a Cloud Service"
 
 
-`DG`  Identifie les écarts entre les directives de développement sélectionnées pour [AEM 6.5](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) et [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Le respect des bonnes pratiques peut améliorer la maintenabilité et les performances de votre système. Bien que certains de ces écarts ne constituent pas un problème dans d’autres contextes d’application, y compris avec les versions précédentes d’AEM, ils peuvent causer des problèmes lorsqu’ils sont utilisés avec AEM as a Cloud Service.
+`DG` identifie les écarts par rapport à certaines directives de développement pour [AEM 6.5](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) et [AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). Le respect des bonnes pratiques peut améliorer la maintenabilité et les performances de votre système. Bien que certains de ces écarts ne constituent pas un problème dans d’autres contextes d’application, y compris avec les versions précédentes d’AEM, ils peuvent causer des problèmes lorsqu’ils sont utilisés avec AEM as a Cloud Service.
 
 Des sous-types sont utilisés pour identifier les différents types de violations détectées :
 
@@ -45,7 +45,7 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 
 * `sling.commons.scheduler`
    * Les applications dépendantes des tâches d’arrière-plan utilisant le [planificateur Sling Commons](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) peuvent ne pas fonctionner comme prévu, car l’exécution ne peut pas être garantie dans AEM as a Cloud Service.
-   * Instructions relatives à [tâches en arrière-plan et tâches de longue durée](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) suggère que l’exécution du code en tant que tâche planifiée doit également supposer que l’instance sur laquelle elle est en cours d’exécution peut être supprimée à tout moment. Par conséquent, le code doit être résilient et doit pouvoir être repris.
+   * Les directives pour les [tâches d’arrière-plan et les traitements de longue durée](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) suggèrent que le code exécuté en tant que tâche planifiée doit supposer que l’instance sur laquelle il est exécuté peut être interrompue à tout moment. Par conséquent, le code doit être résilient et doit pouvoir être repris.
 
 * `unsupported.asset.api`
    * Les API Asset Manager suivantes sont marquées comme non prises en charge dans AEM as a Cloud Service.
@@ -76,11 +76,11 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 
 * `maintenance.task.configuration`
    * Examinez la documentation de la [Tâche de maintenance](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/maintenance) AEM as a Cloud Service.
-   * Assurez-vous que la [Configuration de la tâche de maintenance](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) est dans le contrôle source.
+   * Assurez-vous que la [Configuration de la tâche de maintenance](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) est dans le contrôle source.
 
 * `sling.commons.scheduler`
    * Remplacez l’utilisation du [planificateur Sling Commons](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) par les [Tâches Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), qui ont une garantie d’exécution d’au moins une fois.
-   * Les tâches de longue durée doivent être évitées.
+   * Les traitements de longue durée doivent être évités.
 
 * `unsupported.asset.api`
    * Au lieu d’utiliser les API Asset Manager non prises en charge, reportez-vous à [aem-upload](https://github.com/adobe/aem-upload).
@@ -89,5 +89,5 @@ Des sous-types sont utilisés pour identifier les différents types de violation
    * Au lieu d’utiliser l’écouteur d’événement, il est conseillé de refactoriser le mécanisme de gestion des événements en [Tâches Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) car il garantit le traitement.
 
 * `custom.guava.cache`
-   * Si nécessaire, les caches doivent être créés en dehors d’AEM. La solution de mise en cache externe peut être envisagée.
+   * Le cas échéant, les caches doivent être créés en dehors d’AEM. La solution de mise en cache externe peut être envisagée.
 * Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.

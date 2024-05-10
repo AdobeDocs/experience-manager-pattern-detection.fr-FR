@@ -1,11 +1,11 @@
 ---
 title: UMI
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Problème de mauvaise configuration de la mise à niveau
 >id="aemcloud_bpa_umi_overview"
 >title="Problème de mauvaise configuration de la mise à niveau"
 >abstract="UMI identifie les modifications apportées à certaines configurations OSGi qui provoquent des problèmes lors de la mise à niveau, y compris une mise à niveau ayant échoué ou une fonctionnalité réduite."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Notes de mise à jour"
 
-`UMI`  Identifie les modifications apportées à certaines configurations OSGi qui provoquent des problèmes lors de la mise à niveau, y compris une mise à niveau ayant échoué ou une fonctionnalité réduite.
+`UMI` identifie les modifications apportées à certaines configurations OSGi qui provoquent des problèmes lors de la mise à niveau, notamment l’échec d’une mise à niveau ou la limitation d’une fonctionnalité.
 
 Les configurations suivantes sont vérifiées pour modification :
 

@@ -1,11 +1,11 @@
 ---
 title: CCL
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Custom Client Library (bibliothèque cliente personnalisée)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_overview"
 >title="Custom Client Library (bibliothèque cliente personnalisée)"
->abstract="CCL identifie les bibliothèques clientes qui ont été installées sur AEM. Ces renseignements sont fournis afin d’évaluer les bonnes pratiques."
+>abstract="CCL identifie les bibliothèques clientes qui ont été installées sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques."
 
-`CCL` Identifie les bibliothèques clientes qui ont été installées sur AEM. Ces renseignements sont fournis afin d’évaluer les bonnes pratiques.
+`CCL` : identifie les bibliothèques clientes qui ont été installées dans AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques.
 
 Un sous-type est utilisé avec ce code :
 

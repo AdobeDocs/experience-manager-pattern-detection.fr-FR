@@ -1,11 +1,11 @@
 ---
 title: CCOM
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Custom Component (composant personnalisé)
 >title="Custom Component (composant personnalisé)"
 >abstract="CCOM identifie les composants personnalisés qui ont été installés sur AEM. Ces renseignements sont fournis afin d’évaluer les bonnes pratiques"
 
-`CCOM` Identifie les composants personnalisés qui ont été installés sur AEM. Ces renseignements sont fournis afin d’évaluer les bonnes pratiques.
+`CCOM` identifie les composants personnalisés qui ont été installés dans AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques.
 
 Un sous-type est utilisé avec ce code pour identifier la catégorie du composant :
 
@@ -31,7 +31,7 @@ Un sous-type est utilisé avec ce code pour identifier la catégorie du composan
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
-* La bonne pratique consiste à réduire le nombre de composants personnalisés, à utiliser les composants principaux et à utiliser les composants principaux avec le système de style afin de réduire la dette technique.
+* La bonne pratique consiste à réduire au minimum le nombre de composants personnalisés, à utiliser des composants principaux, et à utiliser des composants principaux avec le système de style afin de réduire la dette technique.
 
 ## Solutions possibles {#solutions}
 

@@ -1,11 +1,11 @@
 ---
 title: IOI
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Internal Oak Import (import Oak interne)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="Internal Oak Import (importation Oak interne)"
->abstract="Le code IOI identifie l’utilisation par le client de packages Oak internes, en les important par OSGi. Elles sont exportées sans version particulière et sont destinées à être utilisées uniquement par d’autres lots Oak ou services d’AEM de bas niveau."
+>abstract="Le code IOI identifie l’utilisation par le client de packages Oak internes, en les important par OSGi. Ils sont généralement exportés sans version particulière et sont uniquement destinés à une consommation par d’autres lots Oak ou par des services AEM de bas niveau."
 
-`IOI`  Identifie l’utilisation par le client des packages Oak internes, en les important via OSGi. Elles sont exportées sans version particulière et sont destinées à être utilisées uniquement par d’autres lots Oak ou services d’AEM de bas niveau.
+`IOI` identifie l’utilisation par le client ou la cliente de packages Oak internes, en les important via OSGi. Ils sont généralement exportés sans version particulière et sont uniquement destinés à une consommation par d’autres lots Oak ou par des services AEM de bas niveau.
 
 Certains d’entre eux sont utilisés par `com.adobe.granite.repository`, qui installe un référentiel pour AEM au démarrage. Un autre exemple est le lot Adobe `com.adobe.granite.maintenance.oak`, qui englobe et fournit des tâches de maintenance Oak.
 

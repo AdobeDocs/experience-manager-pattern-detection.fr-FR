@@ -1,11 +1,11 @@
 ---
 title: CTEM
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Modèle personnalisé
 >title="Modèle personnalisé"
 >abstract="CTEM identifie les composants personnalisés qui ont été installés sur AEM. Ces renseignements sont fournis afin d’évaluer les bonnes pratiques"
 
-`CTEM`  Identifie les modèles personnalisés qui ont été installés sur AEM. Ces renseignements sont fournis afin d’évaluer les bonnes pratiques.
+`CTEM` identifie les modèles personnalisés qui ont été installés dans AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques.
 
-Les modèles sont identifiés par une valeur de type principal de `cq:Template`. Un sous-type est utilisé avec ce code pour identifier la catégorie du modèle :
+Les modèles sont identifiés par un type valeur principal : `cq:Template`. Un sous-type est utilisé avec ce code pour identifier la catégorie du modèle :
 
 * `custom.editable.template` : le chemin d’accès du modèle ne commence pas par « /apps ».
 * `custom.static.template` : le chemin d’accès du modèle commence par « /apps ».
@@ -47,6 +47,6 @@ Les modèles sont identifiés par une valeur de type principal de `cq:Template`.
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Convertisseur de structure de page"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
-* Utilisez la variable [Outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/) pour migrer des modèles statiques vers des modèles modifiables.
+* Utilisez les [Outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/) pour migrer des modèles statiques vers des modèles modifiables.
 * Pour plus d’informations sur les modèles modifiables, consultez [Modèles](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
 * Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.

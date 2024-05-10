@@ -1,11 +1,11 @@
 ---
 title: MI
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Problème de configuration
 >title="Problème de configuration"
 >abstract="Le MI identifie les problèmes de configuration sur l’instance AEM"
 
-`MI` (Problème de configuration incorrect) Identifie les problèmes de configuration sur l’instance AEM.
+`MI` : (Problème de configuration) identifie les problèmes de configuration dans l’instance AEM.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations, notamment :
 

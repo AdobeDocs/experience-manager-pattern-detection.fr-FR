@@ -1,11 +1,11 @@
 ---
 title: DOPI
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Deprecated Ordered Property Index (index des propriétés organisées obsolètes
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="Index organisé – Obsolète"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/indexing" text="Indexation – AEM as a Cloud Service"
 
-`DOPI`  Identifie l’utilisation de définitions d’index de propriété classées (`primaryType=oak:QueryIndexDefinition` ET `type="ordered"`), qui ont été abandonnés depuis AEM 6.1 et ont été supprimés dans AEM 6.2.
+`DOPI` identifie l’utilisation de définitions d’index de propriété organisées (`primaryType=oak:QueryIndexDefinition` ET `type="ordered"`), obsolètes depuis la version AEM 6.1 et supprimées depuis la version AEM 6.2.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -45,6 +45,6 @@ Deprecated Ordered Property Index (index des propriétés organisées obsolètes
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="Projet hérité WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="Exemple de violation du protocole DOPI - GitHub"
 
-* Modifiez la définition d’index afin qu’elle devienne (ou remplace l’index par) une définition d’index prise en charge. (Voir [Requêtes et indexation Oak](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)).
+* Modifiez la définition d’index afin qu’elle devienne (ou qu’elle remplace l’index par) une définition d’index prise en charge. (Voir [Requêtes et indexation Oak](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)).
 * Examinez le projet [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) et découvrez comment [les violations DOPI](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi) peuvent être corrigées et rendues compatibles avec AEM as a Cloud Service.
 * Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.

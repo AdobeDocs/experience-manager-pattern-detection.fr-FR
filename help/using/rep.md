@@ -1,11 +1,11 @@
 ---
 title: REP
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Agent de réplication
 >id="aemcloud_bpa_rep_overview"
 >title="Agent de réplication"
 >abstract="REP identifie les agents de réplication activés. Ces rapports sont générés en raison des problèmes potentiels qui devraient être résolus lors de la mise à niveau vers AEM as a Cloud Service. AEM as a Cloud Service utilise Sling Content Distribution pour distribuer le contenu de l’environnement de création vers celui de publication. Cette opération est effectuée en dehors de l’exécution d’AEM à l’aide du service de pipeline d’Adobe I/O Runtime sur Adobe Developer. Ceci est automatiquement configuré dans l’environnement provisionné d’AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="Changements notables - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="Conseils de développement"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="Changements notables - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="Instructions de développement"
 
-`REP`  Identifie les agents de réplication activés. Ces rapports sont générés en raison des problèmes potentiels qui devraient être résolus lors de la mise à niveau vers AEM as a Cloud Service.
+`REP` identifie les agents de réplication activés. Ces rapports sont générés en raison des problèmes potentiels qui devraient être résolus lors de la mise à niveau vers AEM as a Cloud Service.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations :
 
@@ -31,14 +31,14 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `standard.replication.agent.modification` : identifier les agents de réplication standard activés qui sont modifiés.
 * `custom.replication.agent.detection` : identifier les agents de réplication personnalisés activés.
 
-AEM as a Cloud Service utilise [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) pour distribuer le contenu de l’environnement de création vers celui de publication. Cette opération est effectuée en dehors de l’exécution d’AEM à l’aide du service de pipeline d’Adobe I/O Runtime sur Adobe Developer. Ceci est automatiquement configuré dans l’environnement provisionné d’AEM as a Cloud Service.
+AEM as a Cloud Service utilise [Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) pour distribuer le contenu de l’environnement de création vers celui de publication. Cette opération est effectuée en dehors de l’exécution d’AEM à l’aide du service de pipeline d’Adobe I/O Runtime sur Adobe Developer. Ceci est automatiquement configuré dans l’environnement provisionné d’AEM as a Cloud Service.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
 * La configuration de la réplication a changé avec AEM as a Cloud Service. Tous les agents de réplication actuels doivent être revus afin de déterminer lesquels sont remplacés par des fonctionnalités standard, quelles configurations doivent être déplacées vers le code et lesquelles ne sont pas prises en charge.
 * Toute utilisation d’agents de réplication dans du code ou des workflows personnalisés doit être examinée lors de la mise à niveau vers AEM as a Cloud Service.
 * La réplication inverse n’est initialement pas prise en charge dans AEM as a Cloud Service.
-* Il n’est pas nécessaire de configurer un agent de vidage Dispatcher distinct. Ce paramètre est automatiquement configuré dans l’environnement AEM as a Cloud Service.
+* Il n’est pas nécessaire de configurer un agent de purge de Dispatcher séparé. Ce paramètre est automatiquement configuré dans l’environnement AEM as a Cloud Service.
 
 ## Solutions possibles {#solutions}
 

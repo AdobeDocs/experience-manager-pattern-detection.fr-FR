@@ -1,11 +1,11 @@
 ---
 title: URC
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Unsupported Runmode Configuration (configuration du mode d’exécution non pris
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Modes d’exécution pris en charge"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Modes d’exécution"
 
-`URC`  Identifie l’utilisation de configurations basées sur un nom de mode d’exécution qui n’est pas pris en charge dans AEM as a Cloud Service.
+`URC` identifie l’utilisation de configurations basées sur un nom de mode d’exécution non pris en charge dans AEM as a Cloud Service.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
