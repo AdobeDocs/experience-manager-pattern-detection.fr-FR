@@ -2,10 +2,10 @@
 title: WRK
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '321'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ Un sous-type est utilisé pour identifier le type de problème de workflow actue
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="Outils et ressources"
->abstract="Consultez l’outil de migration de workflows de ressources et planifiez son exécution une fois qu’un modèle ou un lanceur de workflow de ressources personnalisé est identifié. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
+>abstract="Consultez et prévoyez d’exécuter l’outil de migration des workflows de ressources une fois qu’un modèle de workflow de ressources personnalisé ou un lanceur est identifié. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="Outil de migration des workflows de ressources"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 

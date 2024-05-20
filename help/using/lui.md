@@ -2,10 +2,10 @@
 title: LUI
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '703'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 49%
 
 ---
 
@@ -18,46 +18,47 @@ Legacy User Interface (interface utilisateur classique)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_overview"
 >title="Legacy User Interface (interface utilisateur classique)"
->abstract="LUI identifie l’utilisation d’éléments d’interface d’utilisation obsolètes qui ne sont pas recommandés ou ne sont pas pris en charge dans les versions ultérieures d’AEM et dans AEM as a Cloud Service."
+>abstract="LUI identifie l’utilisation d’éléments d’interface utilisateur obsolètes. Ces éléments qui ne sont pas recommandés ou qui ne sont pas pris en charge dans les versions ultérieures d’AEM et dans AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables - AEM as a Cloud Service"
 
-`LUI` identifie l’utilisation d’éléments obsolètes de l’interface d’utilisation qui ne sont pas recommandés ou ne sont pas pris en charge dans les versions ultérieures d’AEM et dans AEM as a Cloud Service.
+`LUI`  Identifie l’utilisation d’éléments d’interface utilisateur obsolètes. Ces éléments ne sont pas recommandés ou ne sont pas pris en charge dans les versions ultérieures d’AEM et dans AEM as a Cloud Service.
 
 Des sous-types permettent d’identifier les différents types d’éléments d’interface utilisateur qui peuvent ou doivent être mis à niveau :
 
-* `legacy.dialog.classic` : les boîtes de dialogue classiques de l’interface utilisateur basées sur ExtJS doivent être remplacées par Coral.
-   * Cela est détecté lorsque le nom de la boîte de dialogue est « dialog » ou « design_dialog » et lorsque
-la valeur de propriété `jcr:primaryType` ou la valeur de propriété `xtype` est `cq:Dialog`.
+* `legacy.dialog.classic`: les boîtes de dialogue de l’interface utilisateur classique basées sur ExtJS doivent être remplacées par Coral.
+   * Ce sous-type est détecté lorsque le nom de la boîte de dialogue est `dialog` ou `design_dialog` et lorsque la variable `jcr:primaryType` ou la valeur de la propriété `xtype` La valeur de la propriété est `cq:Dialog`.
 * `legacy.dialog.coral2` : les boîtes de dialogue `Coral 2` doivent être mises à jour pour utiliser `Coral 3`.
-   * Cela est détecté lorsque la boîte de dialogue et ses noms de nœud de contenu enfant sont `cq:dialog/content`,
-     `cq:design_dialog/content`, `cq:dialog.coral2/content`, ou `cq:design_dialog.coral2/content`
-et la valeur de la propriété `sling:resourceType` ne contient pas
-« granite/ui/components/coral/foundation ».
+   * Ce sous-type est détecté lorsque la boîte de dialogue et ses noms de noeud de contenu enfant sont
+      * `cq:dialog/content`,
+      * `cq:design_dialog/content`,
+      * `cq:dialog.coral2/content`,
+      * ou `cq:design_dialog.coral2/content`
+et la variable `sling:resourceType` La valeur de propriété ne contient pas `granite/ui/components/coral/foundation`.
 * `legacy.custom.component` : les composants qui héritent de `foundation/components` doivent être mis à jour pour utiliser les composants principaux.
-   * Cela est détecté lorsque la valeur de la propriété `jcr:primaryType` est « `cq:Component` » et que la
-     valeur de la propriété `sling:resourceSuperType` contient « foundation/components ». Ou, l’une des valeurs de propriété
-     `sling:resourceSuperType` de la chaîne de composants supertypes contiennent « foundation/components ».
+   * Ce sous-type est détecté lorsque la variable `jcr:primaryType` La valeur de la propriété est `cq:Component` et la variable
+     `sling:resourceSuperType` La valeur de propriété contient &quot;foundation/components&quot;. Ou, l’une des valeurs de propriété
+     `sling:resourceSuperType` Les valeurs de propriété de la chaîne des composants supertype contiennent &quot;foundation / components&quot;.
 * `legacy.static.template` : les modèles statiques doivent être mis à niveau vers les modèles modifiables.
-   * Cela est détecté lorsque la valeur de la propriété `jcr:primaryType` est « `cq:Template` ».
-* `content.fragment.template` : les schémas de fragment de contenu doivent créer des modèles de fragment pour remplacer les schémas de fragment.
+   * Ce sous-type est détecté lorsque la variable `jcr:primaryType` La valeur de la propriété est `cq:Template`.
+* `content.fragment.template`: les modèles de fragment de contenu doivent créer des modèles de fragment pour remplacer les modèles de fragment.
    * Les schémas de fragment de contenu se trouvent aux emplacements suivants :
       * Les schémas de fragment de contenu prêts à l’emploi sont stockés dans `/libs/settings/dam/cfm/templates`.
       * Ils peuvent être superposés dans `/apps/settings/dam/cfm/templates` ou `/conf/.../settings/dam/cfm/templates`(... = global ou « tenant »).
-* `translation.dictionary` : dictionnaire `I18n` présent sous /apps.
-   * /apps est non modifiable au moment de l’exécution et translator.html ne serait plus disponible dans AEM as a Cloud Service.
+* `translation.dictionary`: `I18n` dictionnaire présent sous `/apps`.
+   * `/apps` est inaltérable au moment de l’exécution et translation.html ne sera plus disponible dans AEM as a cloud service.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_guidance"
 >title="Guide de mise en œuvre"
->abstract="L’interface utilisateur classique n’est plus disponible dans AEM as a Cloud Service. L’interface standard de création est l’interface utilisateur tactile. Nous vous recommandons de déplacer toutes les interfaces non prises en charge et les personnalisations liées doivent être reconfigurées vers de nouvelles fonctionnalités compatibles avec AEM as a Cloud Service. Les clientes et clients peuvent utiliser les outils de modernisation AEM existants afin de faciliter la modernisation des implémentations AEM Sites."
+>abstract="L’interface utilisateur classique n’est plus disponible dans AEM as a Cloud Service. L’interface standard de création est l’interface utilisateur tactile. La bonne pratique consiste à déplacer toutes les interfaces non prises en charge et les personnalisations liées vers de nouvelles fonctionnalités compatibles avec AEM as a Cloud Service. Les clientes et clients peuvent utiliser les outils de modernisation AEM existants afin de faciliter la modernisation des implémentations AEM Sites."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Outils de modernisation d’AEM"
 
 * L’interface utilisateur classique n’est plus disponible dans AEM as a Cloud Service. L’interface standard pour la création est l’interface utilisateur tactile.
 * S’appuyer sur des composants personnalisés classiques peut augmenter les coûts de maintenance au fil du temps.
-* Les schémas de fragment de contenu ont été remplacés par les modèles de fragment de contenu dans AEM 6.3. La migration des fragments de contenu basés sur des modèles hérités vers AEM as a Cloud Service conser la fonctionnalité de ces fragments, mais il n’est pas possible de créer des fragments basés sur le modèle hérité. Il n’est pas non plus possible de diffuser ces fragments à l’aide d’AEM GraphQL, qui nécessite des modèles de fragments de contenu en tant que schémas.
-* /apps est non modifiable au moment de l’exécution et translator.html ne serait plus disponible dans AEM as a Cloud Service. Ces dictionnaires `I18n` doivent donc provenir de Git par l’intermédiaire du pipeline CI/CD.
+* Les modèles de fragment de contenu ont remplacé les modèles de fragment de contenu dans AEM 6.3. La migration de fragments de contenu basés sur des modèles hérités vers AEM as a Cloud Service conserve ces fragments comme fonctionnels, mais il n’est pas possible de créer des fragments basés sur le modèle hérité. Il n’est pas non plus possible de diffuser ces fragments à l’aide d’AEM GraphQL, qui nécessite des modèles de fragment de contenu comme schémas.
+* /apps est non modifiable au moment de l’exécution et translator.html ne serait plus disponible dans AEM as a Cloud Service. Ainsi, `I18n` Les dictionnaires doivent provenir de Git par le biais du pipeline CI/CD.
 
 ## Solutions possibles {#solutions}
 
@@ -68,12 +69,12 @@ et la valeur de la propriété `sling:resourceType` ne contient pas
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Convertisseur de composants"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/introduction" text="Composants principaux"
 
-* Pour faciliter la modernisation de vos implémentations AEM Sites, utilisez les [outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/). Ces outils incluent la conversion :
+* Pour réduire les efforts nécessaires à la modernisation de vos mises en oeuvre AEM Sites, utilisez le [Suite d’outils de modernisation d’AEM](https://opensource.adobe.com/aem-modernize-tools/). Ces outils incluent la conversion :
    * des boîtes de dialogue classiques (ExtJS) vers les boîtes de dialogue Coral ;
    * des composants de base en composants principaux ;
-   * des modèles statiques et de contrôle des colonnes en modèles modifiables et en grille réactive ;
-   * des conceptions et boîtes de dialogue de conception en politiques de modèles modifiables.
+   * Modèles statiques et contrôle des colonnes vers des modèles modifiables et une grille réactive
+   * Conceptions et boîtes de dialogue de conception pour modifier les stratégies de modèle
 * Si possible, examinez la bibliothèque de composants personnalisés et la transition de votre projet, en fonction de l’ensemble de [composants principaux](https://experienceleague.adobe.com/fr/docs/experience-manager-core-components/using/introduction) normalisés afin d’accélérer le temps de développement et de réduire les coûts de maintenance de vos applications.
-* Créez des modèles de fragment de contenu avec des fonctionnalités équivalentes aux modèles hérités et utilisez ces modèles pour la création future de fragments de contenu. Pour plus d’informations, voir [Modèles de fragment de contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/content-fragments/content-fragments-models).
-* Les dictionnaires `I18n` doivent provenir de Git par l’intermédiaire du pipeline CI/CD. [Documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#apps-libs-immutable)
+* Créez des modèles de fragment de contenu dotés de fonctionnalités équivalentes aux modèles hérités et utilisez ces modèles pour la création future de fragments de contenu. Pour plus d’informations, voir [Modèles de fragment de contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/content-fragments/content-fragments-models).
+* `I18n` Les dictionnaires doivent provenir de Git via le pipeline CI/CD. [Documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#apps-libs-immutable)
 * Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.
