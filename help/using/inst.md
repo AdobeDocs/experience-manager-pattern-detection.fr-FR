@@ -2,10 +2,10 @@
 title: INST
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 99%
+source-wordcount: '451'
+ht-degree: 78%
 
 ---
 
@@ -18,11 +18,11 @@ Installed Artifact (artefact installé)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="Installed Artifact (artefact installé)"
->abstract="INST identifie les packages ainsi que les lots personnalisés et tiers qui ont été installés dans AEM par le client. Ces rapports aident à caractériser l’état du système dans la portée générale d’une mise à niveau. Les packages tiers doivent respecter les instructions de développement et relatives aux packages d’AEM as a Cloud Service."
+>abstract="INST identifie les packages et lots personnalisés et tiers installés dans AEM par le client. Ces packages et lots sont signalés afin de contribuer à caractériser l’état du système et la portée générale d’un effort de mise à niveau. Les packages tiers doivent respecter les instructions de développement et relatives aux packages d’AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Conseils de développement - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Instructions relatives aux packages - AEM as a Cloud Service"
 
-`INST` identifie les packages et les lots personnalisés et tiers qui ont été installés dans AEM par le client ou la cliente. Ces rapports aident à caractériser l’état du système dans la portée générale d’une mise à niveau.
+`INST`  Identifie les packages et lots personnalisés et tiers installés dans AEM par le client. Ces packages et lots sont signalés afin de contribuer à caractériser l’état du système et la portée générale d’un effort de mise à niveau.
 
 Lorsque plusieurs versions d’un package ont été installées, seule la dernière version est indiquée.
 
@@ -51,7 +51,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Outils et ressources"
->abstract="Examinez le projet WKND hérité et découvrez comment les violations du protocole INST peuvent être corrigées et rendues compatibles avec AEM Cloud Service. Consultez également l’exemple de violation du protocole INST sur GitHub pour comprendre comment il peut être corrigé et déployé sur AEM as a Cloud Service."
+>abstract="Examinez le projet WKND hérité et découvrez comment les violations du protocole INST peuvent être corrigées et rendues compatibles avec AEM Cloud Service. Consultez également l’ exemple de violation INST sur GitHub pour comprendre comment ce problème peut être corrigé et déployé dans AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="Projet hérité WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Exemple de violation du protocole INST - GitHub"
 

@@ -2,10 +2,10 @@
 title: URC
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ Unsupported Runmode Configuration (configuration du mode d’exécution non pris
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="Guide de mise en œuvre"
->abstract="Nous vous recommandons de vérifier si tous les modes d’exécution utilisés dans votre application sont pris en charge et de vous assurer qu’ils respectent les instructions de résolution du mode d’exécution."
+>abstract="La bonne pratique consiste à vérifier si tous les modes d’exécution utilisés dans votre application sont pris en charge. Et assurez-vous qu’ils suivent les instructions de résolution du mode d’exécution."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Instructions relatives à la résolution du mode d’exécution"
 
 * L’ensemble de noms pouvant être utilisé pour l’exécution de différents modes dans AEM as a Cloud Service est limité.
@@ -40,7 +40,7 @@ Unsupported Runmode Configuration (configuration du mode d’exécution non pris
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Outils et ressources"
->abstract="Examinez le projet hérité WKND et découvrez comment les violations du protocole URC peuvent être corrigées et rendues compatibles avec AEM Cloud Service. Consultez également l’exemple de violation du protocole URC sur GitHub pour comprendre comment les configurations OSGi personnalisées basées sur le mode d’exécution peuvent être mises à jour afin de se conformer à AEM as a Cloud Service."
+>abstract="Examinez le projet hérité WKND et découvrez comment les violations du protocole URC peuvent être corrigées et rendues compatibles avec AEM Cloud Service. Passez également en revue l’exemple de violation URC sur GitHub pour comprendre comment mettre à jour les configurations OSGi basées sur le mode d’exécution personnalisé pour se conformer à AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="Projet hérité WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Exemple de violation du protocole URC - GitHub"
 
