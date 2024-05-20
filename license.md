@@ -1,19 +1,17 @@
 ---
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 34%
+source-wordcount: '177'
+ht-degree: 52%
 
 ---
 # Licence MIT
 
 © Copyright 2021 Adobe. All rights reserved.
 
-L&#39;autorisation est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le &quot;Logiciel&quot;), pour traiter dans le Logiciel sans restriction. Cela inclut sans s’y limiter les droits d’utilisation, de copie, d’édition, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du Logiciel. Et, pour permettre aux personnes à qui le Logiciel est fourni de le faire, sous réserve des conditions suivantes :
+Cette licence autorise, gratuitement, toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le &quot;Logiciel&quot;), à traiter le Logiciel sans restriction. Cette licence inclut sans restriction les droits d’utilisation, de copie, d’édition, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du Logiciel. Cette autorisation est également accordée aux personnes à qui le Logiciel est fourni, sous réserve des conditions suivantes :
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’AUCUNE DEMANDE, DE DOMMAGES OU D’AUTRE RESPONSABILITÉ. QUE CE SOIT DANS LE CADRE D&#39;UN CONTRAT, D&#39;UN TRI OU D&#39;UNE AUTRE FAÇON, EN PROVENANCE, EN DEHORS OU EN CONNEXION AVEC LE LOGICIEL. OU L’UTILISATION OU D’AUTRES OPÉRATIONS DU LOGICIEL.
+LE LOGICIEL EST FOURNI &quot;EN L’ÉTAT&quot;, SANS GARANTIE D’AUCUNE SORTE, EXPRESSE OU IMPLICITE. ELLE COMPREND MAIS NE SE LIMITE PAS AUX GARANTIES DE QUALITÉ MARCHANDE, DE CONFIANCE À UN USAGE PARTICULIER ET DE NON-CONTREFAÇON. EN AUCUN CAS, LES AUTEURS, LES AUTRICES OU LES PERSONNES TITULAIRES DE DROITS D’AUTEUR OU D’AUTRICE NE SONT RESPONSABLES D’UNE QUELCONQUE RÉCLAMATION, D’UN QUELCONQUE DOMMAGE OU D’UNE QUELCONQUE RESPONSABILITÉ. ET CE DANS LE CADRE D’UNE ACTION CONTRACTUELLE, DÉLICTUELLE OU AUTRE, DÉCOULANT DU LOGICIEL OU EN RAPPORT AVEC CELUI-CI. OU DE L’UTILISATION OU D’AUTRES OPÉRATIONS DU LOGICIEL.
