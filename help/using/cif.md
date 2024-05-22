@@ -3,9 +3,9 @@ title: CIF
 description: Page d’aide sur le code de détection des motifs.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `commerce.integration.framework.detected` : occurrence d’incompatibilité de la version classique de Commerce Integration Framework avec AEM as a Cloud Service.
 
 
-## Enjeux et risques possibles {#implications-and-risks}
+## Implications et risques éventuels {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_guidance"

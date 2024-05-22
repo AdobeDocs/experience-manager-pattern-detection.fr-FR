@@ -3,9 +3,9 @@ title: CTEM
 description: Page d’aide sur le code de détection des motifs.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -18,25 +18,25 @@ Modèle personnalisé
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="Modèle personnalisé"
->abstract="CTEM identifie les composants personnalisés installés sur AEM. Ces renseignements sont fournis afin d’évaluer les bonnes pratiques"
+>abstract="CTEM identifie les composants personnalisés qui ont été installés sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques."
 
-`CTEM`  Identifie les modèles personnalisés installés sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques.
+`CTEM` identifie les modèles personnalisés qui ont été installés sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques.
 
 Les modèles ont une valeur de type principal de `cq:Template`, ce qui aide à leur identification. Un sous-type est utilisé avec ce code pour identifier la catégorie du modèle :
 
-* `custom.editable.template`: le chemin du modèle ne commence pas par `/apps`.
-* `custom.static.template`: le chemin du modèle commence par `/apps`.
+* `custom.editable.template` : le chemin d’accès du modèle ne commence pas par `/apps`.
+* `custom.static.template` : le chemin d’accès du modèle commence par `/apps`.
 
-## Enjeux et risques possibles {#implications-and-risks}
+## Implications et risques éventuels {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="Guide de mise en œuvre"
->abstract="La bonne pratique consiste à déplacer tous les modèles statiques vers des modèles modifiables. Les clientes et clients peuvent utiliser les outils de modernisation AEM existants pour migrer les modèles statiques vers des modèles modifiables."
+>abstract="Une bonne pratique consiste à transformer tous les modèles statiques en modèles modifiables. Les clientes et clients peuvent utiliser les outils de modernisation AEM existants pour migrer les modèles statiques vers des modèles modifiables."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="Modèles modifiables"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="Outils de modernisation d’AEM"
 
-* La bonne pratique consiste à déplacer tous les modèles statiques vers des modèles modifiables.
+* Une bonne pratique consiste à transformer tous les modèles statiques en modèles modifiables.
 
 ## Solutions possibles {#solutions}
 
