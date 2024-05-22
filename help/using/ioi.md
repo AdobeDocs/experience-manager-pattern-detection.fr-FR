@@ -2,10 +2,10 @@
 title: IOI
 description: Page d’aide sur le code de détection des motifs.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '219'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 60%
 
 ---
 
@@ -17,16 +17,15 @@ Internal Oak Import (import Oak interne)
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
->title="Internal Oak Import (importation Oak interne)"
->abstract="Le code IOI identifie l’utilisation par le client de packages Oak internes, en les important par OSGi. Ils sont généralement exportés sans version particulière et sont uniquement destinés à une consommation par d’autres lots Oak ou par des services AEM de bas niveau."
+>title="Internal Oak Import (import Oak interne)"
+>abstract="Le code IOI identifie l’utilisation par le client des packages Oak internes, en les important au moyen d’OSGi. Ils sont exportés sans version particulière. Les lots Oak ou les services AEM de bas niveau les utilisent uniquement."
 
-`IOI` identifie l’utilisation par le client ou la cliente de packages Oak internes, en les important via OSGi. Ils sont généralement exportés sans version particulière et sont uniquement destinés à une consommation par d’autres lots Oak ou par des services AEM de bas niveau.
-
-Certains d’entre eux sont utilisés par `com.adobe.granite.repository`, qui installe un référentiel pour AEM au démarrage. Un autre exemple est le lot Adobe `com.adobe.granite.maintenance.oak`, qui englobe et fournit des tâches de maintenance Oak.
+`IOI` identifie l’utilisation par le client ou la cliente de packages Oak internes, en les important via OSGi. Ils sont exportés sans version particulière. Les lots Oak ou les services AEM de bas niveau les utilisent uniquement.
+Certaines de ces zones sont utilisées par `com.adobe.granite.repository`, qui configure un référentiel pour AEM au démarrage. Un autre exemple est le lot Adobe `com.adobe.granite.maintenance.oak`, qui englobe et fournit des tâches de maintenance Oak.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
-* Dans une future version d’AEM, les exportations internes pourraient être supprimées, ce qui provoquerait des problèmes de dépendances brisées et des lots inactifs dépendant directement d’Oak.
+* Dans une version d’AEM ultérieure, les exportations internes peuvent être supprimées, ce qui entraîne des dépendances rompues et des lots inactifs en fonction directement d’Oak.
 * L’API dans les exportations internes peut changer.
 
 ## Solutions possibles {#solutions}

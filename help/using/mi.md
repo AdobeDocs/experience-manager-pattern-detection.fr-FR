@@ -2,10 +2,10 @@
 title: MI
 description: Page d’aide sur le code de détection des motifs.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '196'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 85%
 
 ---
 
@@ -25,14 +25,14 @@ Problème de configuration
 Des sous-types sont utilisés pour identifier les différents types d’informations, notamment :
 
 * `sling.job.max.parallel` : identifiez les tâches sling pour lesquelles la configuration parallèle maximale est définie sur -1.
-* `missing.maintenance.configuration` : identifiez les configurations de tâche de maintenance manquantes.
+* `missing.maintenance.configuration`: identifiez les configurations de tâches de maintenance manquantes.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * Une valeur de -1 est remplacée par le nombre de processeurs disponibles. Cela peut entraîner des problèmes de performances sur l’instance AEM.
+   * Une valeur de -1 est remplacée par le nombre de processeurs disponibles. Par conséquent, cela peut entraîner des problèmes de performances sur une instance AEM.
 * `missing.maintenance.configuration`
-   * Les configurations de tâche de maintenance manquantes peuvent entraîner une perte de performances ou une corruption de l’instance.
+   * Les configurations de tâches de maintenance manquantes peuvent entraîner une perte de performances ou une corruption d’instance.
 
 ## Solutions possibles {#solutions}
 
