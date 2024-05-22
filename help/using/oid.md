@@ -28,7 +28,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `index.rule.violation` : incompatibilité d’index Oak personnalisé avec AEM as a Cloud Service.
 * `standard.index.modification` : modification d’un index Oak standard.
 
-## Enjeux et risques possibles {#implications-and-risks}
+## Implications et risques éventuels {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_guidance"

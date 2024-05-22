@@ -5,7 +5,7 @@ exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 56%
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ Un sous-type est utilisé pour identifier le type de problème de workflow actue
 
 * `custom.asset.workflow` : détection d’un modèle ou d’un lanceur de workflow de ressources personnalisé.
 
-## Enjeux et risques possibles {#implications-and-risks}
+## Implications et risques éventuels {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
@@ -44,7 +44,7 @@ Un sous-type est utilisé pour identifier le type de problème de workflow actue
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="Outils et ressources"
->abstract="Consultez et prévoyez d’exécuter l’outil de migration des workflows de ressources une fois qu’un modèle de workflow de ressources personnalisé ou un lanceur est identifié. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
+>abstract="Consultez et planifiez l’exécution de l’outil de migration du workflow des ressources une fois qu’un modèle de workflow des ressources personnalisé ou un lanceur a été identifié. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="Outil de migration des workflows de ressources"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 

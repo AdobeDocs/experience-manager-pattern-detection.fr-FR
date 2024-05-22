@@ -19,7 +19,7 @@ Developer Guideline (conseil pour les développeurs)
 >id="aemcloud_bpa_dg_overview"
 >title="Conseils pour les développeurs"
 >abstract="Le code DG identifie les écarts par rapport à certaines lignes directrices de développement pour AEM 6.5 et AEM as a Cloud Service. Le respect des bonnes pratiques peut améliorer la maintenabilité et les performances de votre système. Bien que certains de ces écarts ne constituent pas un problème dans d’autres contextes d’application, y compris avec les versions précédentes d’AEM, ils peuvent causer des problèmes lorsqu’ils sont utilisés avec AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Développement sur AEM – Conseils et bonnes pratiques"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Développement sur AEM - Conseils et bonnes pratiques"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Conseils de développement sur AEM as a Cloud Service"
 
 
@@ -34,7 +34,7 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 * `javax.jcr.observation.EventListener` : utilisation de l’écouteur d’événement dans le code d’application.
 * `custom.guava.cache` : utilisation du cache Guava dans le code d’application.
 
-## Enjeux et risques possibles {#implications-and-risks}
+## Implications et risques éventuels {#implications-and-risks}
 
 * `java.io.inputstream`
    * La diffusion en flux continu de données binaires avec `java.io.InputStream` peut consommer des ressources de mémoire au point d’avoir une incidence sur les performances. Ce problème est dû à la mémoire limitée disponible dans les conteneurs utilisés dans AEM as a Cloud Service.

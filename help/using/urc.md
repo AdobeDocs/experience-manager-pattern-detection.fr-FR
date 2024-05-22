@@ -5,7 +5,7 @@ exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -24,7 +24,7 @@ Unsupported Runmode Configuration (configuration du mode d’exécution non pris
 
 `URC` identifie l’utilisation de configurations basées sur un nom de mode d’exécution non pris en charge dans AEM as a Cloud Service.
 
-## Enjeux et risques possibles {#implications-and-risks}
+## Implications et risques éventuels {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
@@ -40,7 +40,7 @@ Unsupported Runmode Configuration (configuration du mode d’exécution non pris
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Outils et ressources"
->abstract="Examinez le projet hérité WKND et découvrez comment les violations du protocole URC peuvent être corrigées et rendues compatibles avec AEM Cloud Service. Passez également en revue l’exemple de violation URC sur GitHub pour comprendre comment mettre à jour les configurations OSGi basées sur le mode d’exécution personnalisé pour se conformer à AEM as a Cloud Service."
+>abstract="Examinez le projet hérité WKND et découvrez comment les violations du protocole URC peuvent être corrigées et rendues compatibles avec AEM Cloud Service. Passez également en revue l’exemple de violation URC sur GitHub pour comprendre comment mettre à jour les configurations OSGi basées sur le mode d’exécution personnalisé pour se conformer à AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="Projet hérité WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Exemple de violation du protocole URC - GitHub"
 

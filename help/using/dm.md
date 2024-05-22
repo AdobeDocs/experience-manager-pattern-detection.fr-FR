@@ -19,7 +19,7 @@ Dynamic Media
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
 >abstract="Le code DM identifie l’utilisation d’AEM Assets Dynamic Media dans votre implémentation actuelle. Le mode d’exécution détecte le mode Dynamic Media."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Développement sur AEM – Conseils et bonnes pratiques"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Développement sur AEM - Conseils et bonnes pratiques"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Conseils de développement sur AEM as a Cloud Service"
 
 `DM` (Dynamic Media) : identifie l’utilisation d’AEM Assets Dynamic Media. Le mode d’exécution détecte le mode Dynamic Media.
@@ -30,7 +30,7 @@ Un sous-type est utilisé avec ce code :
    * `dynamicmedia` : Dynamic Media - Mode hybride
    * `dynamicmedia_scene7` : Dynamic Media - Mode Scene7
 
-## Enjeux et risques possibles {#implications-and-risks}
+## Implications et risques éventuels {#implications-and-risks}
 
 * `dynamic.media.runmode`
    * Il peut y avoir des problèmes de mise à niveau liés à Dynamic Media.

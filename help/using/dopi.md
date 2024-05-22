@@ -5,7 +5,7 @@ exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -24,7 +24,7 @@ Deprecated Ordered Property Index (index des propriétés organisées obsolètes
 
 `DOPI`  Identifie l’utilisation de définitions d’index de propriété triées (`primaryType=oak:QueryIndexDefinition` ET `type="ordered"`). Les définitions ont été abandonnées dans AEM 6.1 et supprimées dans AEM 6.2.
 
-## Enjeux et risques possibles {#implications-and-risks}
+## Implications et risques éventuels {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_guidance"
@@ -41,7 +41,7 @@ Deprecated Ordered Property Index (index des propriétés organisées obsolètes
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
 >title="Outils et ressources"
->abstract="Examinez le projet WKND hérité et découvrez comment les violations du protocole DOPI peuvent être corrigées et rendues compatibles avec AEM Cloud Service. Consultez également l’ exemple de violation DOPI sur GitHub. Cela peut vous aider à comprendre comment les index triés hérités peuvent être convertis en index Lucene pris en charge dans AEM as a Cloud Service."
+>abstract="Examinez le projet WKND hérité et découvrez comment les violations du protocole DOPI peuvent être corrigées et rendues compatibles avec AEM Cloud Service. Consultez également l’ exemple de violation DOPI sur GitHub. Cela peut vous aider à comprendre comment les index triés hérités peuvent être convertis en index Lucene pris en charge dans AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="Projet hérité WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="Exemple de violation du protocole DOPI - GitHub"
 

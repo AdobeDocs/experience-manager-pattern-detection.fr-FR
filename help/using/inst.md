@@ -33,7 +33,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `custom.bundle` : lot installé dans AEM.
 * `custom.package` : package installé dans AEM.
 
-## Enjeux et risques possibles {#implications-and-risks}
+## Implications et risques éventuels {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
@@ -51,7 +51,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Outils et ressources"
->abstract="Examinez le projet WKND hérité et découvrez comment les violations du protocole INST peuvent être corrigées et rendues compatibles avec AEM Cloud Service. Consultez également l’ exemple de violation INST sur GitHub pour comprendre comment ce problème peut être corrigé et déployé dans AEM as a Cloud Service."
+>abstract="Examinez le projet WKND hérité et découvrez comment les violations du protocole INST peuvent être corrigées et rendues compatibles avec AEM Cloud Service. Consultez également l’ exemple de violation INST sur GitHub pour comprendre comment ce problème peut être corrigé et déployé dans AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="Projet hérité WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Exemple de violation du protocole INST - GitHub"
 
