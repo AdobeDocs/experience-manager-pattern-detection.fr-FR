@@ -2,10 +2,10 @@
 title: OAUI
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ OAuth Users Instance (instance d’utilisateurs OAuth)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_overview"
 >title="OAuth Users Instance (instance d’utilisateurs OAuth)"
->abstract="Le code OAUI identifie le motif pour lequel au moins un utilisateur configuré et lié à OAuth a besoin d’être migré de façon adaptée. OAuth est configuré pour des utilisateurs lorsqu’il existe un sous-nœud appelé « oauth » directement dans un nœud rep:AuthorizableId, sous la forme /home/user-path/user-node/oauth."
+>abstract="Le code OAUI identifie le motif pour lequel au moins un utilisateur configuré et lié à OAuth a besoin d’être migré de façon adaptée. OAuth est configuré pour les utilisateurs lorsqu’il existe un sous-noeud nommé OAuth directement sous un noeud rep:AuthorizableId sous la forme /home/user-path/user-node/oauth."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Notes de mise à jour"
 
 `OAUI` identifie le motif dans lequel au moins un profil utilisateur configuré lié à OAuth a besoin d’une migration correcte.

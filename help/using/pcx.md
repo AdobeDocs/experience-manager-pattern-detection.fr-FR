@@ -2,10 +2,10 @@
 title: PCX
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '198'
-ht-degree: 100%
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 89%
 
 ---
 
@@ -38,7 +38,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="Guide de mise en œuvre"
->abstract="Nous vous recommandons de revoir la structure du contenu pour réduire la complexité des pages afin d’améliorer les performances de rendu des pages. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
+>abstract="La bonne pratique consiste à passer en revue la structure de contenu afin de réduire la complexité de la page. Cela peut contribuer à améliorer les performances de rendu de page. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Réduisez le nombre total de nœuds dans une page en procédant comme suit :
