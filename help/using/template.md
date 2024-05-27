@@ -2,9 +2,9 @@
 title: MODÈLE
 description: Modèle pour la page d’aide sur le code de la détection des motifs.
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Répondez à la question : « Qu’est-ce que c’est ? »
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
-Fournissez une description des implications et des risques potentiels qui peuvent survenir si rien n’est fait à leur sujet.
+Fournissez une description des enjeux et des risques potentiels qui peuvent survenir si aucune action n’est entreprise.
 Répondez à la question : « Pourquoi devrais-je m’en soucier ? »
 
 * implication ou risque n° 1

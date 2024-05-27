@@ -3,9 +3,9 @@ title: LOCP
 description: Page d’aide sur le code de détection des motifs.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_overview"
 >title="/libs Overwriting Custom Packages (remplacement de packages personnalisés dans /libs)"
->abstract="LOCP identifie la détection d’un module personnalisé qui diffuse du contenu à `/libs`, qui est un anti-motif (sauf s’il existe des listes de contrôle d’accès)."
+>abstract="LOCP identifie la détection d’un package personnalisé qui diffuse du contenu dans `/libs`, qui est un antimodèle (sauf dans le cas des ACL)."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Mises à niveau possibles"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Fusion des ressources Sling"
 
@@ -34,7 +34,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="Guide de mise en œuvre"
->abstract="Les clients doivent consulter leur code personnalisé et leurs modules pour déterminer si du contenu est diffusé à `/libs`. Si nécessaire, refactorisez-le pour qu’il repose sur le recouvrement du contenu sous /apps et le rende compatible avec AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
+>abstract="Les clientes et clients doivent consulter leur code personnalisé et leurs modules pour déterminer si du contenu est diffusé sur `/libs`. Si nécessaire, refactorisez-le pour qu’il repose sur le recouvrement du contenu sous /apps et qu’il soit compatible avec AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Recouvrements"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 

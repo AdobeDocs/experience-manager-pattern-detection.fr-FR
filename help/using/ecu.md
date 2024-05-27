@@ -3,9 +3,9 @@ title: ECU
 description: Page d’aide sur le code de détection des motifs.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ OBSOLÈTE : utilisation de contenu externe (remplacé par CAV, violation de zon
 
 `ECU` identifie le modèle dans lequel différentes zones de contenu sont utilisées d’une façon qui enfreint les règles de classification du contenu.
 
-Le traitement des requêtes Sling définit la façon dont le contenu d’une ressource, en particulier sa propriété `sling:resourceType`, est utilisé pour déterminer le script à utiliser pour le rendu du contenu. (Voir [Localisation du script](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) pour plus d’informations.) Sling fournit également des techniques pour accéder aux ressources et les fusionner par le biais de Recouvrements et de remplacements. Ces techniques sont décrites dans la section [Sling Resource Merger](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) et dans [Recouvrements](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/overlays).
+Le traitement des requêtes Sling définit la façon dont le contenu d’une ressource, en particulier sa propriété `sling:resourceType`, est utilisé pour déterminer le script à utiliser pour le rendu du contenu. (Voir [Localisation du script](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) pour plus d’informations). Sling fournit également des techniques permettant d’accéder aux ressources et de les fusionner par le biais des recouvrements et des remplacements. Ces techniques sont décrites comme faisant partie de [Sling Resource Merger](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) et des [recouvrements](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 
-Pour que les clients puissent comprendre plus facilement et plus en toute sécurité les zones d’ `/libs` sont utilisables et superposées en toute sécurité, et le contenu dans `/libs` a été classé avec les propriétés &quot;mixin&quot; :
+Pour permettre à la clientèle de mieux comprendre les zones de `/libs` qui peuvent être utilisées et recouvertes en toute sécurité, le contenu de `/libs` a été classé avec les propriétés « Mixin » :
 
-* Publique
+* Public
 * Résumé
 * Final
 * Interne
