@@ -5,7 +5,7 @@ exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
 source-wordcount: '986'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
->abstract="Le code Forms identifie les problèmes potentiels liés à la migration d’AEM (Adobe Experience Manager) Forms vers AEM Forms as a Cloud Service. Examinez les enjeux et les risques potentiels associés et traitez ces questions avant de migrer vers Cloud Service."
+>abstract="FORMS identifie les problèmes potentiels liés à la migration d’AEM (Adobe Experience Manager) Forms vers AEM Forms as a Cloud Service. Examinez les enjeux et les risques potentiels associés et traitez ces questions avant de migrer vers Cloud Service."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Enjeux et risques possibles"
 
 `FORMS` : identifie les problèmes potentiels liés à la migration d’[!DNL Adobe Experience Manager Forms] vers [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. Résolvez ces problèmes avant de migrer vers [!DNL Cloud Service].
