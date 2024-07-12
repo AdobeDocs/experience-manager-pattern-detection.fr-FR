@@ -21,9 +21,9 @@ Structure de référentiel non prise en charge
 
 ## Contexte {#background}
 
-`URS`  Identifie les cas de structure de référentiel (OU) et les caractéristiques de noeud non prises en charge. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour le code produit AEM et le code client, et en évitant les conflits entre tous, le contenu est restructuré à partir de `/etc` à d’autres dossiers du référentiel. Vous devez pour cela respecter les règles de haut niveau suivantes :
+`URS` Identifie les cas d’URS (structure de référentiel non prise en charge) et les caractéristiques de noeud. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour AEM code de produit et de client, et en évitant les conflits entre eux tous, le contenu est restructuré de `/etc` vers d’autres dossiers du référentiel. Vous devez pour cela respecter les règles de haut niveau suivantes :
 
-* AEM code de produit est toujours placé dans `/libs` ce code personnalisé ne doit pas être remplacé.
+* AEM code de produit est toujours placé dans `/libs` que le code personnalisé ne doit pas remplacer.
 * Le code personnalisé doit être placé dans `/apps`, `/content` et `/conf`.
 * Il est fortement recommandé que ces lignes directrices soient suivies pour AEM as a Cloud Service.
 

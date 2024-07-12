@@ -31,7 +31,7 @@ Les configurations suivantes sont vérifiées pour modification :
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
 * `com.day.cq.commons.impl.ExternalizerImpl`
-* `org.apache.sling.commons.log.LogManager.factory.config` : déterminez si la variable `org.apache.sling.commons.log.file` de l’enregistreur personnalisé pointe vers autre chose que `logs/error.log` fichier .
+* `org.apache.sling.commons.log.LogManager.factory.config` : déterminez si la propriété `org.apache.sling.commons.log.file` des enregistreurs personnalisés pointe vers un fichier autre que `logs/error.log`.
 
 ## Implications et risques éventuels {#implications-and-risks}
 
@@ -39,7 +39,7 @@ Les configurations suivantes sont vérifiées pour modification :
    * La mise à niveau peut être bloquée (par exemple, `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` était absent, mais présent dans `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`).
    * Des problèmes d’autorisation peuvent survenir après la mise à niveau (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * Certaines fonctionnalités peuvent ne pas fonctionner comme prévu. Par exemple, la modification de `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` peut entraîner la non-compilation de certains fichiers JSP, ce qui entraîne une perte de fonctionnalités.
-   * Les valeurs de la configuration de l’externaliseur `com.day.cq.commons.impl.ExternalizerImpl` sont définies avec les variables d’environnement de cloud manager dans AEM as a Cloud Service.
+   * Les valeurs de la configuration de l’externaliseur `com.day.cq.commons.impl.ExternalizerImpl` sont définies avec des variables d’environnement de gestionnaire de cloud dans AEM as a Cloud Service.
    * AEM as a Cloud Service ne prend pas en charge les fichiers journaux personnalisés. Les journaux écrits dans des journaux dont le nom est personnalisé ne sont pas accessibles à partir d’AEM as a Cloud Service.
 
 ## Solutions possibles {#solutions}

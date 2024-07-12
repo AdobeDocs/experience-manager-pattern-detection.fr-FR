@@ -2,7 +2,7 @@
 title: MODÈLE
 description: Modèle pour la page d’aide sur le code de la détection des motifs.
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
 

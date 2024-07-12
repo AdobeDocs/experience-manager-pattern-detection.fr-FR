@@ -25,7 +25,7 @@ Problème de configuration
 Des sous-types sont utilisés pour identifier les différents types d’informations, notamment :
 
 * `sling.job.max.parallel` : identifiez les tâches sling pour lesquelles la configuration parallèle maximale est définie sur -1.
-* `missing.maintenance.configuration`: identifiez les configurations de tâches de maintenance manquantes.
+* `missing.maintenance.configuration` : identifiez les configurations de tâches de maintenance manquantes.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 

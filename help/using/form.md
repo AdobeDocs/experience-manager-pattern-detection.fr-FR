@@ -78,7 +78,7 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * Les données envoyées contiennent l’ID d’accord Adobe Sign. Si nécessaire, vous pouvez utiliser l’identifiant de contrat Sign pour récupérer un PDF de contrat Sign. (FORM_SIGN_INTEGRATION)
 
-* Supprimez l’étape Signature d’un formulaire adaptatif existant. Configurer votre formulaire adaptatif pour utiliser une [expérience de signature dans le navigateur](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Il affiche le contrat Adobe Sign pour signature dans le navigateur lors de l’envoi d’un formulaire adaptatif. L’expérience de signature dans le navigateur permet d’accélérer le processus et de faire gagner du temps au signataire. (SIGNATURE_STEP)
+* Supprimez l’étape Signature d’un formulaire adaptatif existant. Configurez votre formulaire adaptatif pour utiliser une [expérience de signature dans le navigateur](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Il affiche le contrat Adobe Sign pour signature dans le navigateur lors de l’envoi d’un formulaire adaptatif. L’expérience de signature dans le navigateur permet d’accélérer le processus et de faire gagner du temps au signataire. (SIGNATURE_STEP)
 
 * Supprimez l’étape de vérification de vos formulaires adaptatifs existants avant de les déplacer vers un environnement [!DNL Cloud Service]. (VERIFY_STEP)
 
@@ -94,7 +94,7 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * Ne migrez pas vers un modèle de processus AEM qui utilise une étape de processus Document Services. De plus, ne migrez pas et ne mettez pas à jour des formulaires adaptatifs qui envoient des données d’utilisateurs et d’utilisatrices à un modèle de workflow qui utilise des étapes de workflow Services de document, et ne modifiez pas l’`Submit Action` en action [prise en charge](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) avant de migrer le formulaire. (WORKFLOW_DOCSERVICES)
 
-* Les formulaires adaptatifs offrent un design réactif. Ces formulaires modifient l’aspect, la conception et l’interactivité en fonction de l’appareil sous-jacent. Vous pouvez continuer à utiliser le Forms adaptatif sur un périphérique mobile. Recherchez des notes de mise à jour mensuelles pour plus d’informations sur la disponibilité du [!DNL AEM Forms] application. (AEM_FORMS_APP)
+* Les formulaires adaptatifs offrent un design réactif. Ces formulaires modifient l’aspect, la conception et l’interactivité en fonction de l’appareil sous-jacent. Vous pouvez continuer à utiliser le Forms adaptatif sur un périphérique mobile. Recherchez des notes de mise à jour mensuelles pour plus d’informations sur la disponibilité de l’application [!DNL AEM Forms]. (AEM_FORMS_APP)
 
 * La prise en charge des formulaires adaptatifs basés sur XFA n’est pas disponible sans configuration supplémentaire. Si vous envisagez d’utiliser des formulaires adaptatifs basés sur XFA, contactez l’assistance Adobe pour connaître votre cas d’utilisation et ses exigences spécifiques.(XFA_BASED_FORM, XDP_BASED_FORM)
 

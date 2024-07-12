@@ -22,7 +22,7 @@ Modifications non compatibles
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notes de mise à jour - AEM as a Cloud Service"
 
-`NCC`  Identifie la situation dans laquelle certains noeuds ou lots JCR sont modifiés d’une manière non compatible. Il est possible que les clientes et clients ne se rendent pas compte de cette modification avant une mise à niveau.
+`NCC` Identifie la situation dans laquelle certains noeuds ou lots JCR sont modifiés d’une manière non compatible. Il est possible que les clientes et clients ne se rendent pas compte de cette modification avant une mise à niveau.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -39,5 +39,5 @@ Modifications non compatibles
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Superposez ou référencez uniquement les composants Sling compatibles.
-* Tenir compte de l&#39;adaptation des ressources issues de `/libs` ou des lots après une mise à niveau d’AEM.
+* Envisagez d’adapter les ressources provenant de `/libs` ou de lots après une mise à niveau d’AEM.
 * Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.
