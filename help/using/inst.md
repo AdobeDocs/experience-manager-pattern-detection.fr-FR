@@ -2,10 +2,10 @@
 title: INST
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '498'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Les applications qui dépendent de packages tiers peuvent ne pas fonctionner comme prévu jusqu’à ce qu’elles soient correctement déployées pour fonctionner avec AEM as a Cloud Service.
 * Les packages de fournisseurs tiers, s’ils ne sont pas optimisés pour AEM as a Cloud Service, peuvent entraîner un comportement indésirable.
 
+Envisagez également de prêter attention à ces sous-types particuliers :
+
+* `guava.bundle` - Guava n’est pas pris en charge prêt à l’emploi sur AEM 6.5 LTS et le bundle ne sera pas disponible après la mise à niveau.
+
 ## Solutions possibles {#solutions}
 
 >[!CONTEXTUALHELP]
@@ -60,3 +64,4 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Les packages tiers doivent respecter les lignes directrices de [développement](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) et de [packaging](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) d’AEM as a Cloud Service.
 * Examinez le projet [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) et découvrez comment [les violations INST](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) peuvent être corrigées et rendues compatibles avec AEM as a Cloud Service.
 * Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.
+* Pour le sous-type `guava.bundle`, installez Guava ou supprimez l’utilisation si Guava est utilisé dans votre code personnalisé.
