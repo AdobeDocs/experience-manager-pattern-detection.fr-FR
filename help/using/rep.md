@@ -4,7 +4,7 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '531'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Agent de réplication
 
 Des sous-types sont utilisés pour identifier les différents types d’informations :
 
-* `forward.replication` : identifier les agents de réplication de transfert activés.
+* `forward.replication` : identifier les agents de réplication en avant activés.
 * `reverse.replication` : identifier les agents de réplication inverse activés.
 * `standard.replication.agent.modification` : identifier les agents de réplication standard activés qui sont modifiés.
 * `custom.replication.agent.detection` : identifier les agents de réplication personnalisés activés.

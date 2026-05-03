@@ -4,7 +4,7 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ OAuth Users Instance (instance d’utilisateurs OAuth)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_overview"
 >title="OAuth Users Instance (instance d’utilisateurs OAuth)"
->abstract="Le code OAUI identifie le motif pour lequel au moins un utilisateur configuré et lié à OAuth a besoin d’être migré de façon adaptée. OAuth est configuré pour des utilisateurs et utilisatrices lorsqu’il existe un sous-nœud appelé OAuth directement dans un nœud rep:AuthorizableId dans le formulaire /home/user-path/user-node/oauth."
+>abstract="Le code OAUI identifie le motif pour lequel au moins un utilisateur configuré et lié à OAuth a besoin d’être migré de façon adaptée. OAuth est configuré pour des utilisateurs et utilisatrices lorsqu’il existe un sous-nœud appelé OAuth directement dans un nœud rep:AuthorizableId sous la forme /home/user-path/user-node/oauth."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Notes de mise à jour"
 
 `OAUI` identifie le motif dans lequel au moins un profil utilisateur configuré lié à OAuth a besoin d’une migration correcte.
@@ -41,4 +41,4 @@ Exemple : `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="Intégration SAML – Publication"
 
 * Contactez votre représentant ou représentante Adobe pour discuter des options pour la migration des utilisateurs et utilisatrices.
-* Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous aves besoin de clarifications ou de réponses à vos préoccupations.
+* Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.
