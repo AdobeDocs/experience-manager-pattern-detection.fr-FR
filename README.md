@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVÉ
 
-Ce référentiel a été migré vers <https://github.com/Adobe-Enterprise-Docs/experience-manager-pattern-detection.en>.
+Ce référentiel a été migré vers <https://github.com/Adobe-Enterprise-Docs/experience-manager-pattern-detection.fr-FR>.
