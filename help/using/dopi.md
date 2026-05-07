@@ -4,7 +4,7 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '360'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Deprecated Ordered Property Index (index des propriétés organisées obsolètes
 
 * Certaines requêtes peuvent ne pas répondre.
 * La fonctionnalité du client peut ne pas fonctionner correctement.
-* Les avertissements transversaux ou même les erreurs et les sanctions de performances importantes comme les index obsolètes n’ont aucun effet.
+* Les avertissements de traversée ou même les erreurs et les sanctions de performances importantes comme les index obsolètes n’ont aucun effet.
 
 ## Solutions possibles {#solutions}
 

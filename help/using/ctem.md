@@ -4,7 +4,7 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Modèle personnalisé
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="Modèle personnalisé"
->abstract="CTEM identifie les composants personnalisés qui ont été installés sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques."
+>abstract="CTEM identifie les composants personnalisés qui ont été installés sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques"
 
 `CTEM` identifie les modèles personnalisés qui ont été installés sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques.
 

@@ -1,7 +1,8 @@
 ---
 title: AC
 description: Page d’aide sur le code de détection des motifs.
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+exl-id: 4c6ac075-5ba6-4511-97c6-a9b496d4677a
+source-git-commit: 29d702c9662fd185ef806123fc4f4a03a70d64aa
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 7%

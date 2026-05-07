@@ -1,17 +1,16 @@
 ---
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 52%
+source-wordcount: '176'
+ht-degree: 0%
 
 ---
 # Licence MIT
 
-© Copyright 2021 Adobe. All rights reserved.
+© Copyright 2021 Adobe. Tous droits réservés.
 
-Cette licence autorise, gratuitement, toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le &quot;Logiciel&quot;), à traiter le Logiciel sans restriction. Cette licence inclut sans restriction les droits d’utilisation, de copie, d’édition, de fusion, de publication, de distribution, de sous-licence et/ou de vente de copies du Logiciel. Cette autorisation est également accordée aux personnes à qui le Logiciel est fourni, sous réserve des conditions suivantes :
+Cette licence autorise, gratuitement, toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le « Logiciel ») à traiter le Logiciel sans restriction. Cette licence inclut, sans s’y limiter, les droits d’utilisation, de copie, de modification, de fusion, de publication, de distribution, de cession sous-licence et/ou de vente de copies du Logiciel. Et, pour permettre aux personnes auxquelles le Logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+La notification de copyright ci-dessus et cette notification d’autorisation doivent être incluses dans toutes les copies ou parties substantielles du Logiciel.
 
-LE LOGICIEL EST FOURNI &quot;EN L’ÉTAT&quot;, SANS GARANTIE D’AUCUNE SORTE, EXPRESSE OU IMPLICITE. ELLE COMPREND MAIS NE SE LIMITE PAS AUX GARANTIES DE QUALITÉ MARCHANDE, DE CONFIANCE À UN USAGE PARTICULIER ET DE NON-CONTREFAÇON. EN AUCUN CAS, LES AUTEURS, LES AUTRICES OU LES PERSONNES TITULAIRES DE DROITS D’AUTEUR OU D’AUTRICE NE SONT RESPONSABLES D’UNE QUELCONQUE RÉCLAMATION, D’UN QUELCONQUE DOMMAGE OU D’UNE QUELCONQUE RESPONSABILITÉ. ET CE DANS LE CADRE D’UNE ACTION CONTRACTUELLE, DÉLICTUELLE OU AUTRE, DÉCOULANT DU LOGICIEL OU EN RAPPORT AVEC CELUI-CI. OU DE L’UTILISATION OU D’AUTRES OPÉRATIONS DU LOGICIEL.
+LE LOGICIEL EST FOURNI « EN L’ÉTAT », SANS GARANTIE D’AUCUNE SORTE, EXPRESSE OU IMPLICITE. ELLE INCLUT, SANS S&#39;Y LIMITER, LES GARANTIES DE QUALITÉ MARCHANDE, D&#39;ADÉQUATION À UN USAGE PARTICULIER ET DE NON-VIOLATION. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DU DROIT D&#39;AUTEUR NE PEUVENT ÊTRE TENUS RESPONSABLES DES RÉCLAMATIONS, DOMMAGES OU AUTRES RESPONSABILITÉS. QU&#39;IL S&#39;AGISSE D&#39;UNE ACTION FONDÉE SUR LA RESPONSABILITÉ CONTRACTUELLE, LA RESPONSABILITÉ DÉLICTUELLE OU AUTREMENT, QUI DÉCOULE DU LOGICIEL, EST LIÉE À CE LOGICIEL OU EN RÉSULTE. OU L’UTILISATION OU D’AUTRES INTERVENTIONS DANS LE LOGICIEL.

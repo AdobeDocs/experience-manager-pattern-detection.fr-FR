@@ -4,7 +4,7 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Composant personnalisé
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_overview"
 >title="Composant personnalisé"
->abstract="CCOM identifie les composants personnalisés qui ont été installés sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques."
+>abstract="CCOM identifie les composants personnalisés qui ont été installés sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques"
 
 `CCOM` identifie les composants personnalisés qui ont été installés sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques.
 

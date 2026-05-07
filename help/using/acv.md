@@ -4,7 +4,7 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '530'
 ht-degree: 100%
 
 ---
@@ -55,4 +55,4 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * Aucune action n’est requise pour le rendu original des sous-ressources manquantes.
 * En cas de conflit, les nœuds doivent être résolus ou supprimés avant la migration vers AEM as a Cloud Service.
 * Contactez le service clientèle Adobe si vous prévoyez de traiter un grand nombre de fichiers PSD ou PSB volumineux. Experience Manager ne peut pas traiter de fichiers PSB haute résolution de plus de 30 000x23 000 pixels. Consultez la [documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
-* Contactez l’[équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.
+* Contactez l’[équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.

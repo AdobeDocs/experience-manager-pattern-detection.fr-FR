@@ -4,8 +4,8 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 87%
+source-wordcount: '1232'
+ht-degree: 86%
 
 ---
 
@@ -40,7 +40,7 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * Par défaut, la prise en charge des e-mails (port SMTP) est désactivée. (EMAIL_SERVICE_CONFIGURATION)
 
-* L’action d’envoi **[!UICONTROL Envoyer le PDF par courrier électronique]** n’est pas disponible.  (EMAIL_PDF_SUBMIT_ACTION)
+* L’action d’envoi de **[!UICONTROL PDF par e-mail]** n’est pas disponible. (EMAIL_PDF_SUBMIT_ACTION)
 
 * Les formulaires adaptatifs basés sur XFA ne sont pas encore pris en charge. (XFA_BASED_FORM, XDP_BASED_FORM)
 
@@ -50,7 +50,7 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * L’étape de vérification n’est pas disponible. (VERIFY_STEP)
 
-* L’action d’envoi **[!UICONTROL Envoyer vers Forms Workflow]** n’est pas disponible. Dans AEM version 6.5 de Forms et les versions précédentes, l’action Envoyer a été utilisée pour envoyer des données de formulaire adaptatif aux processus et LiveCycles Workflow AEM Forms on JEE hérités. (LC_WORKFLOW_SUBMISSION)
+* L’action d’envoi **[!UICONTROL Envoyer vers Forms Workflow]** n’est pas disponible. Sur AEM 6.5 Forms et les versions précédentes, l’action d’envoi était utilisée pour envoyer des données de formulaire adaptatif aux workflows AEM Forms on JEE et LiveCycle hérités. (LC_WORKFLOW_SUBMISSION)
 
 * La fonctionnalité Communications interactives n’est pas disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
@@ -70,7 +70,7 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 >abstract="Les informations exposées dans le code de FORMS peuvent fournir des conseils sur les remplacements et les autres actions nécessaires pour rendre certaines fonctionnalités et API compatibles avec le Cloud Service. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
-* Utilisez un utilitaire de migration pour convertir tous les scripts de règle de votre environnement en fonctions réutilisables. Vous pouvez utiliser les fonctions réutilisables avec l’éditeur de règles visuel pour continuer à obtenir les résultats obtenus avec les scripts de règle. (CODE_EDITOR)
+* Utilisez un utilitaire de migration pour convertir tous les scripts de règle de votre environnement en fonctions réutilisables. Vous pouvez utiliser les fonctions réutilisables avec l’éditeur visuel de règles pour continuer à obtenir les résultats obtenus avec les scripts de règle. (CODE_EDITOR)
 
 * Contactez l’équipe d’assistance afin que la fonctionnalité E-mail soit activée (ouverture du port SMTP) pour votre environnement. Par défaut, seules les connexions HTTP et HTTPS sortantes sont activées. (EMAIL_SERVICE_CONFIGURATION, étape de l’e-mail)
 
@@ -78,7 +78,7 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * Les données envoyées contiennent l’ID d’accord Adobe Sign. Si nécessaire, vous pouvez utiliser l’identifiant de contrat Sign pour récupérer un PDF de contrat Sign. (FORM_SIGN_INTEGRATION)
 
-* Supprimez l’étape Signature d’un formulaire adaptatif existant. Configurez votre formulaire adaptatif pour utiliser une [expérience de signature dans le navigateur](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Il affiche le contrat Adobe Sign pour signature dans le navigateur lors de l’envoi d’un formulaire adaptatif. L’expérience de signature dans le navigateur permet d’accélérer le processus et de faire gagner du temps au signataire. (SIGNATURE_STEP)
+* Supprimez l’étape Signature d’un formulaire adaptatif existant. Configurez votre formulaire adaptatif pour utiliser une [expérience de signature dans le navigateur](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Elle affiche l’accord Adobe Sign permettant de signer l’accord dans le navigateur lors de l’envoi d’un formulaire adaptatif. L’expérience de signature dans le navigateur permet d’accélérer le processus et de faire gagner du temps au signataire. (SIGNATURE_STEP)
 
 * Supprimez l’étape de vérification de vos formulaires adaptatifs existants avant de les déplacer vers un environnement [!DNL Cloud Service]. (VERIFY_STEP)
 
@@ -88,14 +88,14 @@ Traitez les problèmes suivants avant de migrer vers [!DNL Adobe Experience Mana
 
 * Consultez les notes de mise à jour mensuelles pour en savoir plus sur la disponibilité de la fonction Communications interactives. N’effectuez pas la migration de vos communications interactives, lettres et dictionnaires associés vers un environnement Cloud Service tant que la fonction n’est pas disponible. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Il n’existe aucun remplacement pour l’accordéon de métadonnées. Supprimez-le de vos formulaires avant de les migrer vers Cloud Service. (METADATA_ACCORDION_FORM_CONTAINER)
+* Il n’existe aucun remplacement pour l’accordéon de métadonnées. Supprimez-le de vos formulaires avant de les migrer vers Cloud Service.(METADATA_ACCORDION_FORM_CONTAINER)
 
 * Utilisez Google reCaptcha au lieu du service CAPTCHA fourni par Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Ne migrez pas vers un modèle de processus AEM qui utilise une étape de processus Document Services. De plus, ne migrez pas et ne mettez pas à jour des formulaires adaptatifs qui envoient des données d’utilisateurs et d’utilisatrices à un modèle de workflow qui utilise des étapes de workflow Services de document, et ne modifiez pas l’**`Submit Action`** en action [prise en charge](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) avant de migrer le formulaire. (WORKFLOW_DOCSERVICES)
+* Ne migrez pas vers un modèle de workflow AEM qui utilise une étape de workflow de services de document. De plus, ne migrez pas et ne mettez pas à jour des formulaires adaptatifs qui envoient des données d’utilisateurs et d’utilisatrices à un modèle de workflow qui utilise des étapes de workflow Services de document, et ne modifiez pas l’**`Submit Action`** en action [prise en charge](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) avant de migrer le formulaire. (WORKFLOW_DOCSERVICES)
 
-* Les formulaires adaptatifs offrent un design réactif. Ces formulaires modifient l’aspect, la conception et l’interactivité en fonction de l’appareil sous-jacent. Vous pouvez continuer à utiliser le Forms adaptatif sur un périphérique mobile. Recherchez des notes de mise à jour mensuelles pour plus d’informations sur la disponibilité de l’application [!DNL AEM Forms]. (AEM_FORMS_APP)
+* Les formulaires adaptatifs offrent un design réactif. Ces formulaires modifient l’aspect, la conception et l’interactivité en fonction de l’appareil sous-jacent. Vous pouvez continuer à utiliser le Forms adaptatif sur un appareil mobile. Consultez les notes de mise à jour mensuelles pour en savoir plus sur la disponibilité de l’application [!DNL AEM Forms]. (AEM_FORMS_APP)
 
-* La prise en charge des formulaires adaptatifs basés sur XFA n’est pas disponible sans configuration supplémentaire. Si vous envisagez d’utiliser des formulaires adaptatifs basés sur XFA, contactez l’assistance Adobe pour connaître votre cas d’utilisation et ses exigences spécifiques.(XFA_BASED_FORM, XDP_BASED_FORM)
+* La prise en charge des formulaires adaptatifs basés sur XFA n’est pas disponible sans configuration supplémentaire. Si vous envisagez d’utiliser un Forms adaptatif basé sur XFA, contactez l’assistance Adobe pour obtenir des détails sur votre cas d’utilisation et vos exigences spécifiques.(XFA_BASED_FORM, XDP_BASED_FORM)
 
 Contactez l’[assistance Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos questions.
