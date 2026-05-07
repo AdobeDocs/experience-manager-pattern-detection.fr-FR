@@ -4,8 +4,8 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 85%
+source-wordcount: '534'
+ht-degree: 87%
 
 ---
 
@@ -34,7 +34,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `slow.query` : requête lente.
 * `group.membership` : nombre d’utilisateurs et de sous-groupes (membres directs/déclarés uniquement) dans un groupe.
 * `cqtag.count` : nombre de ressources avec balisage CQ.
-* `smarttag.count` : nombre de ressources avec balisage intelligent.
+* `smarttag.count` : nombre de ressources avec balises intelligentes.
 * `ccom.version` : version du package de composants principaux.
 * `instance.type` : type d’instance AEM (auteur, publication).
 * `unprocessed.asset.count` : nombre de ressources non traitées.
@@ -46,10 +46,10 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 ## Enjeux et risques possibles {#implications-and-risks}
 
 * La version d’AEM, le nombre de nœuds, l’appartenance à un groupe, le magasin de nœuds, les types d’implémentation du magasin de données, le nombre de balises CQ et de balises intelligentes, la version des composants principaux, le type d’instance AEM et le nombre de ressources non traitées sont fournis à titre d’information.
-* Le nombre plus élevé d’URL de redirection vers un microsite (>1 000) peut charger les serveurs Dispatcher et Publish avec des requêtes coûteuses.
+* Un nombre plus élevé d’URL de redirection vers un microsite (> 1 000) peut surcharger le Dispatcher et les serveurs de publication de requêtes coûteuses.
 * L’application personnalisée peut s’appuyer sur des produits ou des fonctionnalités qui ne sont pas disponibles dans AEM as a Cloud Service.
 * La mise à niveau avec des fonctionnalités non prises en charge peut entraîner l’échec de la mise à niveau et une application non fonctionnelle.
-* Un nombre élevé de workflows de création dans un état en cours d’exécution ou obsolète peut dégrader les performances.
+* Un grand nombre de workflows de création en cours d’exécution ou périmés peut dégrader les performances.
 * Des requêtes lentes peuvent réduire les performances du système.
 
 ## Solutions possibles {#solutions}
@@ -61,7 +61,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
 * Les mises à niveau d’AEM avec des produits ou des fonctionnalités non pris en charge ne sont pas recommandées et pourraient ne pas être prises en charge.
-* Les ressources non traitées doivent être traitées et la propriété `dam:assetState` sur le noeud `jcr:content` de la ressource doit être définie sur &quot;traitée&quot;. Sinon, vous devez supprimer ces ressources du jeu de migration avant de migrer vers AEMaaCS.
+* Les ressources non traitées doivent être traitées et la propriété `dam:assetState` sur le nœud `jcr:content` de la ressource doit être définie sur « processed ». Sinon, vous devez supprimer ces ressources de l’ensemble de migration avant de migrer vers AEMaaCS.
 * Les URL de redirection peuvent être remplacées à l’aide de réécritures Apache.
 * Consultez la [documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) pour résoudre les problèmes liés aux requêtes lentes.
 * Consultez les [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) pour en savoir plus sur les dernières modifications apportées à AEM as a Cloud Service.

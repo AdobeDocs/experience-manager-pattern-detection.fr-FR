@@ -4,8 +4,8 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 78%
+source-wordcount: '229'
+ht-degree: 84%
 
 ---
 
@@ -20,12 +20,12 @@ Internal Oak Import (import Oak interne)
 >title="Internal Oak Import (import Oak interne)"
 >abstract="Le code IOI identifie l’utilisation par le client ou la cliente de packages Oak internes, en les important par OSGi. Ils sont exportés sans version particulière. Les lots Oak ou les services AEM de bas niveau utilisent uniquement ces packages."
 
-`IOI` identifie l’utilisation par le client ou la cliente de packages Oak internes, en les important via OSGi. Ils sont exportés sans version particulière. Les lots Oak ou les services AEM de bas niveau les utilisent uniquement.
+`IOI` identifie l’utilisation par le client ou la cliente de packages Oak internes, en les important via OSGi. Ils sont exportés sans version particulière. Les lots Oak ou les services AEM de bas niveau utilisent uniquement ces packages.
 Certaines de ces zones sont utilisées par `com.adobe.granite.repository`, qui configure un référentiel pour AEM au démarrage. Un autre exemple est le lot Adobe `com.adobe.granite.maintenance.oak`, qui englobe et fournit des tâches de maintenance Oak.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
-* Dans une version d’AEM ultérieure, les exportations internes peuvent être supprimées, ce qui entraîne des dépendances rompues et des lots inactifs en fonction directement d’Oak.
+* Dans une future version d’AEM, les exportations internes pourraient être supprimées, provoquant ainsi des dépendances rompues et des lots inactifs dépendant directement d’Oak.
 * L’API dans les exportations internes peut changer.
 
 ## Solutions possibles {#solutions}

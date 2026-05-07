@@ -4,8 +4,8 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 89%
 
 ---
 
@@ -26,18 +26,20 @@ La `LUI` identifie l’utilisation d’éléments d’interface d’utilisation 
 Des sous-types permettent d’identifier les différents types d’éléments d’interface d’utilisation qui peuvent ou doivent être mis à niveau :
 
 * `legacy.dialog.classic` : les boîtes de dialogue classiques de l’interface d’utilisation basées sur ExtJS doivent être remplacées par Coral.
-   * Ce sous-type est détecté lorsque le nom de la boîte de dialogue est `dialog` ou `design_dialog` et lorsque la valeur de la propriété `jcr:primaryType` ou celle de `xtype` est `cq:Dialog`.
+   * Ce sous-type est détecté lorsque le nom de la boîte de dialogue est `dialog` ou `design_dialog` et lorsque
+la valeur de la propriété `jcr:primaryType` ou la valeur de la propriété `xtype` est `cq:Dialog`.
 * `legacy.dialog.coral2` : les boîtes de dialogue `Coral 2` doivent être mises à jour pour utiliser `Coral 3`.
    * Ce sous-type est détecté lorsque la boîte de dialogue et ses noms de nœud de contenu enfant sont
       * `cq:dialog/content`,
       * `cq:design_dialog/content`,
       * `cq:dialog.coral2/content`,
-      * ou `cq:design_dialog.coral2/content`,
-et que la valeur de la propriété `sling:resourceType` ne contient pas `granite/ui/components/coral/foundation`.
+      * ou `cq:design_dialog.coral2/content`
+et la valeur de la propriété `sling:resourceType` ne contient pas de `granite/ui/components/coral/foundation`.
 * `legacy.custom.component` : les composants qui héritent de `foundation/components` doivent être mis à jour pour utiliser les composants principaux.
    * Ce sous-type est détecté lorsque la valeur de la propriété `jcr:primaryType` est `cq:Component` et que la
      valeur de la propriété `sling:resourceSuperType` contient « foundation/components ». Ou, l’une des valeurs de propriété
-     `sling:resourceSuperType` de la chaîne de composants supertypes contient « foundation/components ».
+     `sling:resourceSuperType` valeurs de propriété de la chaîne de composants de supertype contiennent
+« foundation / components. »
 * `legacy.static.template` : les modèles statiques doivent être mis à niveau vers les modèles modifiables.
    * Ce sous-type est détecté lorsque la valeur de la propriété `jcr:primaryType` est `cq:Template`.
 * `content.fragment.template` : les templates de fragment de contenu doivent créer des modèles de fragment pour remplacer les templates de fragment.
@@ -57,7 +59,7 @@ et que la valeur de la propriété `sling:resourceType` ne contient pas `granite
 
 * L’interface utilisateur classique n’est plus disponible dans AEM as a Cloud Service. L’interface standard pour la création est l’interface utilisateur tactile.
 * S’appuyer sur des composants personnalisés classiques peut augmenter les coûts de maintenance au fil du temps.
-* Les templates de fragment de contenu ont remplacé les modèles de fragment de contenu dans AEM 6.3. La migration des fragments de contenu basés sur des modèles hérités vers AEM as a Cloud Service conserve la fonctionnalité de ces fragments, mais il n’est pas possible de créer des fragments basés sur le template hérité. Il est impossible aussi de diffuser ces fragments à l’aide d’AEM GraphQL, qui nécessite des modèles de fragments de contenu en tant que schémas.
+* Les modèles de fragment de contenu ont remplacé les modèles de fragment de contenu dans AEM 6.3. La migration des fragments de contenu basés sur des modèles hérités vers AEM as a Cloud Service conserve la fonctionnalité de ces fragments, mais il n’est pas possible de créer des fragments basés sur le modèle hérité. Il est impossible aussi de diffuser ces fragments à l’aide d’AEM GraphQL, qui nécessite des modèles de fragments de contenu en tant que schémas.
 * /apps est non modifiable au moment de l’exécution et translator.html ne serait plus disponible dans AEM as a Cloud Service. Ces dictionnaires `I18n` doivent provenir de Git par l’intermédiaire du pipeline CI/CD.
 
 ## Solutions possibles {#solutions}

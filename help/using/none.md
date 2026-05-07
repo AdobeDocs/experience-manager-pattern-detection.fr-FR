@@ -1,9 +1,9 @@
 ---
 title: AUCUN
-description: Page d’aide sur le code de la détection des motifs.
+description: Page d’aide sur le code de détection des motifs.
 source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '34'
 ht-degree: 100%
 
 ---

@@ -4,8 +4,8 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 84%
+source-wordcount: '465'
+ht-degree: 86%
 
 ---
 
@@ -21,9 +21,9 @@ Structure de référentiel non prise en charge
 
 ## Contexte {#background}
 
-`URS` Identifie les cas d’URS (structure de référentiel non prise en charge) et les caractéristiques de noeud. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour AEM code de produit et de client, et en évitant les conflits entre eux tous, le contenu est restructuré de `/etc` vers d’autres dossiers du référentiel. Vous devez pour cela respecter les règles de haut niveau suivantes :
+`URS` Identifie les cas d’URS (Unsupported Repository Structure) et les caractéristiques des nœuds. Depuis AEM 6.4, des lignes directrices ont été fournies pour la restructuration du contenu du référentiel. En délimitant clairement les hiérarchies pour le code de produit AEM et le code client, et en évitant tout conflit entre eux, le contenu est restructuré à partir du `/etc` vers d’autres dossiers du référentiel. Pour ce faire, respectez les règles de haut niveau suivantes :
 
-* AEM code de produit est toujours placé dans `/libs` que le code personnalisé ne doit pas remplacer.
+* Le code de produit AEM est toujours placé dans `/libs` que le code personnalisé ne doit pas remplacer.
 * Le code personnalisé doit être placé dans `/apps`, `/content` et `/conf`.
 * Il est fortement recommandé que ces lignes directrices soient suivies pour AEM as a Cloud Service.
 

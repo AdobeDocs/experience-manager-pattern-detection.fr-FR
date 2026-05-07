@@ -4,8 +4,8 @@ description: Page d’aide sur le code de détection des motifs.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 85%
+source-wordcount: '296'
+ht-degree: 90%
 
 ---
 
@@ -25,14 +25,14 @@ Problème de configuration
 Des sous-types sont utilisés pour identifier les différents types d’informations, notamment :
 
 * `sling.job.max.parallel` : identifiez les tâches sling pour lesquelles la configuration parallèle maximale est définie sur -1.
-* `missing.maintenance.configuration` : identifiez les configurations de tâches de maintenance manquantes.
+* `missing.maintenance.configuration` : identifier les configurations de tâche de maintenance manquantes.
 
-## Enjeux et risques possibles {#implications-and-risks}
+## Implications et risques éventuels {#implications-and-risks}
 
 * `sling.job.max.parallel`
    * Une valeur de -1 est remplacée par le nombre de processeurs disponibles. Par conséquent, cela peut entraîner des problèmes de performances sur une instance AEM.
 * `missing.maintenance.configuration`
-   * Les configurations de tâches de maintenance manquantes peuvent entraîner une perte de performances ou une corruption d’instance.
+   * Les configurations de tâche de maintenance manquantes peuvent entraîner une perte de performances ou une corruption de l’instance.
 
 ## Solutions possibles {#solutions}
 
@@ -50,4 +50,4 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
    * Récupération de l’espace mémoire du magasin de données : reportez-vous à la section [Récupération de l’espace mémoire du magasin de données](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
    * Purge de workflow : reportez-vous à la rubrique [Purge régulière des instances de workflow](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
    * Tâche de maintenance du journal d’audit : reportez-vous à la section [Maintenance du journal d’audit](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
-* Contactez l’[équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.
+* Contactez l’[équipe d’assistance clientèle Experience Manager](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.
