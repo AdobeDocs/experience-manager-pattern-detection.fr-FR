@@ -2,7 +2,7 @@
 title: AC
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 4c6ac075-5ba6-4511-97c6-a9b496d4677a
-source-git-commit: 29d702c9662fd185ef806123fc4f4a03a70d64aa
+source-git-commit: 9c2f5452ff694e11a49c7b38efa61acc65924dd6
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 7%
@@ -26,3 +26,4 @@ Recherchez les solutions possibles pour les différents sous-types ci-dessous :
 * `asset.overlays.detected` - Les recouvrements créés sur les composants Évaluation Assets et Catalogue doivent être supprimés.
 * `asset.resource.type.detected` - Supprimez toute utilisation du type de ressource du composant d’évaluation Assets dans votre code personnalisé.
 * `asset.paths.detected` - Déplacez le contenu client présent sous ces chemins et supprimez ces chemins après vous être assuré qu’ils ne sont pas utilisés dans AEM.
+
