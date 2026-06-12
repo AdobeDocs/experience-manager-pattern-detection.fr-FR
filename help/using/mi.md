@@ -27,7 +27,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 * `sling.job.max.parallel` : identifiez les tâches sling pour lesquelles la configuration parallèle maximale est définie sur -1.
 * `missing.maintenance.configuration` : identifier les configurations de tâche de maintenance manquantes.
 
-## Implications et risques éventuels {#implications-and-risks}
+## Enjeux et risques possibles {#implications-and-risks}
 
 * `sling.job.max.parallel`
    * Une valeur de -1 est remplacée par le nombre de processeurs disponibles. Par conséquent, cela peut entraîner des problèmes de performances sur une instance AEM.
