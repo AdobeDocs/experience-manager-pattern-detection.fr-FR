@@ -2,13 +2,17 @@
 title: OAUI
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
-
 ---
-
 # OAUI {#oaui}
 
 OAuth Users Instance (instance d’utilisateurs OAuth)
@@ -29,7 +33,7 @@ Exemple : `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
-* Les personnes externes configurées avec OAuth ne pourront pas se connecter aux instances de création ou de publication tant qu’elless n’auront pas été reconfigurées avec la procédure ci-dessous.
+* Les personnes externes configurées avec OAuth ne pourront pas se connecter aux instances de création ou de publication tant qu’elles n’auront pas été reconfigurées avec la procédure ci-dessous.
 
 ## Solutions possibles {#solutions}
 

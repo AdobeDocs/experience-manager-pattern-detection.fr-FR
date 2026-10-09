@@ -2,13 +2,17 @@
 title: DG
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 84%
-
 ---
-
 # DG {#dg}
 
 Developer Guideline (conseil pour les développeurs)
@@ -41,40 +45,40 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 ## Implications et risques éventuels {#implications-and-risks}
 
 * `java.io.inputstream`
-   * La diffusion en flux continu de données binaires avec `java.io.InputStream` peut consommer des ressources de mémoire au point d’avoir une incidence sur les performances. Ce problème est dû à la mémoire limitée disponible dans les conteneurs utilisés dans AEM as a Cloud Service.
+  * La diffusion en flux continu de données binaires avec `java.io.InputStream` peut consommer des ressources de mémoire au point d’avoir une incidence sur les performances. Ce problème est dû à la mémoire limitée disponible dans les conteneurs utilisés dans AEM as a Cloud Service.
 
 * `maintenance.task.configuration`
-   * Certaines tâches de maintenance qui exigeaient précédemment une configuration explicite sont désormais automatiquement configurées et gérées dans AEM as a Cloud Service.
-   * La configuration de la tâche de maintenance dans AEM as a Cloud Service doit être migrée vers le contrôle de code source.
+  * Certaines tâches de maintenance qui exigeaient précédemment une configuration explicite sont désormais automatiquement configurées et gérées dans AEM as a Cloud Service.
+  * La configuration de la tâche de maintenance dans AEM as a Cloud Service doit être migrée vers le contrôle de code source.
 
 * `sling.commons.scheduler`
-   * Les applications dépendantes des tâches d’arrière-plan utilisant le [planificateur Sling Commons](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) peuvent ne pas fonctionner comme prévu, car l’exécution ne peut pas être garantie dans AEM as a Cloud Service.
-   * Les directives pour les [tâches d’arrière-plan et les traitements de longue durée](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) suggèrent que le code exécuté en tant que tâche planifiée doit supposer que l’instance sur laquelle il est exécuté peut être interrompue à tout moment. Par conséquent, le code doit être résilient et doit pouvoir être repris.
+  * Les applications dépendantes des tâches d’arrière-plan utilisant le [planificateur Sling Commons](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) peuvent ne pas fonctionner comme prévu, car l’exécution ne peut pas être garantie dans AEM as a Cloud Service.
+  * Les directives pour les [tâches d’arrière-plan et les traitements de longue durée](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) suggèrent que le code exécuté en tant que tâche planifiée doit supposer que l’instance sur laquelle il est exécuté peut être interrompue à tout moment. Par conséquent, le code doit être résilient et doit pouvoir être repris.
 
 * `unsupported.asset.api`
-   * Les API Asset Manager suivantes sont marquées comme non prises en charge dans AEM as a Cloud Service.
-      * createAssetForBinary
-      * getAssetForBinary
-      * removeAssetForBinary
-      * createAsset
+  * Les API AssetManager suivantes sont marquées comme non prises en charge dans AEM as a Cloud Service.
+    * createAssetForBinary
+    * getAssetForBinary
+    * removeAssetForBinary
+    * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * Les applications qui dépendent d’un écouteur d’événement peuvent ne pas fonctionner comme prévu, car l’exécution ne peut pas être garantie.
+  * Les applications qui dépendent d’un écouteur d’événement peuvent ne pas fonctionner comme prévu, car l’exécution ne peut pas être garantie.
 
 * `custom.guava.cache`
-   * L’utilisation du cache Guava peut entraîner des problèmes de performances sur AEM.
+  * L’utilisation du cache Guava peut entraîner des problèmes de performances sur AEM.
 
 * `java.api`
-   * Avec le LTS AEM 6.5 sur JRE17, ces API Java supprimées ne seront pas disponibles et leur utilisation échouera.
+  * Avec le LTS AEM 6.5 sur JRE17, ces API Java supprimées ne seront pas disponibles et leur utilisation échouera.
 
 * `configuration.admin`
-   * Vous devez examiner votre utilisation pour vous assurer que vous n’utilisez aucune configuration non prise en charge, telle que les paramètres sociaux.
+  * Vous devez examiner votre utilisation pour vous assurer que vous n’utilisez aucune configuration non prise en charge, telle que les paramètres sociaux.
 
 * `guava.api`
-   * Comme Guava n’est pas pris en charge dans AEM 6.5 LTS, le code personnalisé qui utilise guava ne sera pas actif.
+  * Comme Guava n’est pas pris en charge dans AEM 6.5 LTS, le code personnalisé qui utilise guava ne sera pas actif.
 
 * `com.day.cq.dam.scene7.api.model`
-   * Le package importé `com.day.cq.dam.scene7.api.model` dans les lots personnalisés ne sera pas résolu en raison d’un changement de version majeur.
+  * Le package importé `com.day.cq.dam.scene7.api.model` dans les lots personnalisés ne sera pas résolu en raison d’un changement de version majeur.
 
 
 ## Solutions possibles {#solutions}
@@ -87,32 +91,32 @@ Des sous-types sont utilisés pour identifier les différents types de violation
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/maintenance" text="Tâches de maintenance dans AEM as a Cloud Service"
 
 * `java.io.inputstream`
-   * Utilisez une approche de chargement avec accès direct au binaire dans laquelle le binaire est ajouté directement au magasin de données.
-   * Pour les cas d’utilisation des ressources, reportez-vous à [aem-upload](https://github.com/adobe/aem-upload). Pour les autres types de binaires, la logique de chargement personnalisée peut être modélisée selon ce même motif.
+  * Utilisez une approche de chargement avec accès direct au binaire dans laquelle le binaire est ajouté directement au magasin de données.
+  * Pour les cas d’utilisation des ressources, reportez-vous à [aem-upload](https://github.com/adobe/aem-upload). Pour les autres types de binaires, la logique de chargement personnalisée peut être modélisée selon ce même motif.
 
 * `maintenance.task.configuration`
-   * Examinez la documentation de la [Tâche de maintenance](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/maintenance) AEM as a Cloud Service.
-   * Assurez-vous que la [Configuration de la tâche de maintenance](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) est dans le contrôle source.
+  * Examinez la documentation de la [Tâche de maintenance](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/maintenance) AEM as a Cloud Service.
+  * Assurez-vous que la [Configuration de la tâche de maintenance](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) est dans le contrôle source.
 
 * `sling.commons.scheduler`
-   * Remplacez l’utilisation du [planificateur Sling Commons](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) par les [Tâches Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), qui ont une garantie d’exécution d’au moins une fois.
-   * Les traitements de longue durée doivent être évités.
+  * Remplacez l’utilisation du [planificateur Sling Commons](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) par les [Tâches Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), qui ont une garantie d’exécution d’au moins une fois.
+  * Les traitements de longue durée doivent être évités.
 
 * `unsupported.asset.api`
-   * Au lieu d’utiliser les API Asset Manager non prises en charge, reportez-vous à [aem-upload](https://github.com/adobe/aem-upload).
+  * Au lieu d’utiliser les API Asset Manager non prises en charge, reportez-vous à [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
-   * Au lieu d’utiliser l’écouteur d’événement, il est conseillé de refactoriser le mécanisme de gestion des événements en [Tâches Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) car il garantit le traitement.
+  * Au lieu d’utiliser l’écouteur d’événement, il est conseillé de refactoriser le mécanisme de gestion des événements en [Tâches Sling](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) car il garantit le traitement.
 
 * `custom.guava.cache`
-   * Le cas échéant, les caches doivent être créés en dehors d’AEM. La solution de mise en cache externe peut être envisagée.
+  * Le cas échéant, les caches doivent être créés en dehors d’AEM. La solution de mise en cache externe peut être envisagée.
 * Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.
 
 * `configuration.admin`
-   * Supprimez toute utilisation de configuration des fonctionnalités non prises en charge, telles que les réseaux sociaux.
+  * Supprimez toute utilisation de configuration des fonctionnalités non prises en charge, telles que les réseaux sociaux.
 
 * `guava.api`
-   * Installez Guava ou supprimez l’utilisation si Guava est utilisé dans votre code personnalisé.
+  * Installez Guava ou supprimez l’utilisation si Guava est utilisé dans votre code personnalisé.
 
 * `com.day.cq.dam.scene7.api.model`
-   * Mettez à jour la plage de versions du package importé `com.day.cq.dam.scene7.api.model` vers **3.0.4**.
+  * Mettez à jour la plage de versions du package importé `com.day.cq.dam.scene7.api.model` vers **3.0.4**.

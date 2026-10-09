@@ -1,13 +1,14 @@
 ---
 title: AUCUN
-description: Page d’aide sur le code de détection des motifs.
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+description: Page d’aide sur le code de la détection des motifs.
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 100%
-
 ---
-
 
 # [!DNL NONE] {#none}
 

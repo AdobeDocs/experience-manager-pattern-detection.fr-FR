@@ -2,13 +2,17 @@
 title: DM
 description: Découvrez comment le code du détecteur de motifs identifie l’utilisation d’AEM Assets - Dynamic Media.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
-
 ---
-
 # DM {#dm}
 
 Dynamic Media
@@ -18,7 +22,7 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
->abstract="Le code DM identifie l’utilisation d’AEM Assets Dynamic Media dans votre implémentation actuelle. Le mode d’exécution détecte le mode Dynamic Media."
+>abstract="Le code DM identifie l’utilisation d’AEM Assets Dynamic Media dans votre mise en œuvre actuelle. Le mode d’exécution détecte le mode Dynamic Media."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="Développement sur AEM - Conseils et bonnes pratiques"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Conseils de développement sur AEM as a Cloud Service"
 
@@ -27,13 +31,13 @@ Dynamic Media
 Un sous-type est utilisé avec ce code :
 
 * `dynamic.media.runmode` : la valeur associée à ce sous-type, si elle est fournie, est :
-   * `dynamicmedia` : Dynamic Media - Mode hybride
-   * `dynamicmedia_scene7` : Dynamic Media - Mode Scene7
+  * `dynamicmedia` : Dynamic Media - Mode hybride
+  * `dynamicmedia_scene7` : Dynamic Media - Mode Scene7
 
 ## Implications et risques éventuels {#implications-and-risks}
 
 * `dynamic.media.runmode`
-   * Il peut y avoir des problèmes de mise à niveau liés à Dynamic Media.
+  * Il peut y avoir des problèmes de mise à niveau liés à Dynamic Media.
 
 ## Solutions possibles {#solutions}
 
@@ -46,6 +50,6 @@ Un sous-type est utilisé avec ce code :
 
 
 * `dynamic.media.runmode`
-   * Pour plus d’informations, consultez [Configurer Dynamic Media](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
+  * Pour plus d’informations, consultez [Configurer Dynamic Media](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
 
 * Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.

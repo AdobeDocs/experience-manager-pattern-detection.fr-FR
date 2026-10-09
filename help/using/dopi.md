@@ -2,13 +2,17 @@
 title: DOPI
 description: Page d’aide sur le code de détection des motifs.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
-
 ---
-
 # DOPI {#dopi}
 
 Deprecated Ordered Property Index (index des propriétés organisées obsolètes)
@@ -18,7 +22,7 @@ Deprecated Ordered Property Index (index des propriétés organisées obsolètes
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"
 >title="Deprecated Ordered Property Index (index des propriétés organisées obsolètes)"
->abstract="Le code DOPI identifie l’utilisation de définitions d’index de propriété triées (`primaryType=oak:QueryIndexDefinition` ET `type="ordered"`). La définition a été abandonnée dans AEM 6.1 et supprimée dans AEM 6.2."
+>abstract="Le code DOPI identifie l’utilisation de définitions d’index de propriété triées (`primaryType=oak:QueryIndexDefinition` ET `type="ordered"`). Les définitions ont été abandonnées dans AEM 6.1 et supprimées dans AEM 6.2."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="Index organisé – Obsolète"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/indexing" text="Indexation – AEM as a Cloud Service"
 
@@ -29,11 +33,11 @@ Deprecated Ordered Property Index (index des propriétés organisées obsolètes
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_guidance"
 >title="Guide de mise en œuvre"
->abstract="Nous vous recommandons d’examiner tous les index organisés obsolètes et de les déplacer vers des index Lucene pris en charge afin d’éviter des problèmes de performances importants ou des exigences clientes non fonctionnelles."
+>abstract="La bonne pratique consiste à examiner tous les index organisés obsolètes et à les déplacer vers une forme prise en charge d’index Lucene afin d’éviter des problèmes de performances importants ou des exigences clientes non fonctionnelles."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing" text="Bonnes pratiques relatives aux requêtes et à l’indexation"
 
 * Certaines requêtes peuvent ne pas répondre.
-* La fonctionnalité du client peut ne pas fonctionner correctement.
+* La fonctionnalité client peut ne pas fonctionner correctement.
 * Les avertissements de traversée ou même les erreurs et les sanctions de performances importantes comme les index obsolètes n’ont aucun effet.
 
 ## Solutions possibles {#solutions}

@@ -2,13 +2,17 @@
 title: ECU
 description: Page d’aide sur le code de détection des motifs.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 97%
-
 ---
-
 # ECU {#ecu}
 
 OBSOLÈTE : utilisation de contenu externe (remplacé par CAV, violation de zone de contenu)
@@ -26,7 +30,7 @@ Pour permettre à la clientèle de mieux comprendre les zones de `/libs` qui peu
 * Final
 * Interne
 
-Chaque classification implique des règles sur la manière dont le contenu peut être utilisé, hérité ou superposé. Voir [Mise à niveau durable](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades) pour une description détaillée.
+Chaque classification implique des règles sur la manière dont le contenu peut être utilisateur, hérité ou superposé. Voir [Mise à niveau durable](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades) pour une description détaillée.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 

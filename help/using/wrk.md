@@ -2,13 +2,17 @@
 title: WRK
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
-
 ---
-
 # WRK {#wrk}
 
 Workflow
@@ -18,10 +22,10 @@ Workflow
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_overview"
 >title="Workflow"
->abstract="Le code WRK identifie une recherche liée à un modèle ou à un lanceur de workflow. Ces identifications sont rapportées, car les modèles de workflows de ressource personnalisés doivent être migrés lors de la mise à niveau vers AEM as a Cloud Service. Avec AEM as a Cloud Service, les microservices de ressources effectuent le traitement des ressources."
+>abstract="Le code WRK identifie une recherche liée à un modèle de workflow ou à un lanceur. Ces identifications sont rapportées, car les modèles de workflow de ressource personnalisés doivent être migrés lors de la mise à niveau vers AEM as a Cloud Service. Avec AEM as a Cloud Service, les microservices de ressources effectuent le traitement des ressources."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Microservices de ressources"
 
-`WRK` identifie un résultat lié à un modèle ou à un lanceur de workflow. Ces identifications sont rapportées, car les modèles de workflows de ressource personnalisés doivent être migrés lors de la mise à niveau vers AEM as a Cloud Service.
+`WRK` identifie un résultat lié à un modèle ou à un lanceur de workflow. Ces identifications sont rapportées, car les modèles de workflow de ressource personnalisés doivent être migrés lors de la mise à niveau vers AEM as a Cloud Service.
 
 Un sous-type est utilisé pour identifier le type de problème de workflow actuellement détecté.
 

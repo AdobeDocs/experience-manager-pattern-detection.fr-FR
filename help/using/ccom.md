@@ -2,13 +2,17 @@
 title: CCOM
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
-
 ---
-
 # CCOM {#ccom}
 
 Composant personnalisé
@@ -18,9 +22,9 @@ Composant personnalisé
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_overview"
 >title="Composant personnalisé"
->abstract="CCOM identifie les composants personnalisés qui ont été installés sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques"
+>abstract="CCOM identifie les composants personnalisés qui ont été installés sur AEM. Ces informations sont fournies aux fins de l’évaluation des bonnes pratiques"
 
-`CCOM` identifie les composants personnalisés qui ont été installés sur AEM. Ces informations sont fournies afin d’évaluer les bonnes pratiques.
+`CCOM` identifie les composants personnalisés qui ont été installés sur AEM. Ces informations sont fournies aux fins de l’évaluation des bonnes pratiques.
 
 Un sous-type est utilisé avec ce code pour identifier la catégorie du composant :
 
@@ -31,7 +35,7 @@ Un sous-type est utilisé avec ce code pour identifier la catégorie du composan
 
 ## Implications et risques éventuels {#implications-and-risks}
 
-* La bonne pratique consiste à réduire au minimum le nombre de composants personnalisés, à utiliser des composants principaux, et à utiliser des composants principaux avec le système de style afin de réduire la dette technique.
+* La bonne pratique consiste à réduire au minimum le nombre de composants personnalisés, à utiliser les composants principaux et à utiliser les composants principaux avec le système de style afin de réduire la dette technique.
 
 ## Solutions possibles {#solutions}
 

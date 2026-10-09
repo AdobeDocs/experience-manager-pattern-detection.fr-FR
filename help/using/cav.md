@@ -2,13 +2,17 @@
 title: CAV
 description: Page d’aide sur le code de détection des motifs.
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
-
 ---
-
 # CAV {#cav}
 
 Content Area Violation (violation de zone de contenu)
@@ -32,7 +36,7 @@ Pour permettre aux personnes de mieux comprendre les zones de `/libs` qui peuven
 * Final
 * Interne
 
-Chaque classification implique des règles sur la manière dont le contenu peut être utilisé, hérité ou superposé. Voir [Mise à niveau durable](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades) pour une description détaillée.
+Chaque classification implique des règles sur la manière dont le contenu peut être utilisateur, hérité ou superposé. Voir [Mise à niveau durable](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades) pour une description détaillée.
 
 ## Enjeux et risques possibles {#implications-and-risks}
 
@@ -44,7 +48,7 @@ Chaque classification implique des règles sur la manière dont le contenu peut 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="Guide de mise en œuvre"
->abstract="Nous recommandons d’examiner les motifs identifiés avec le CAS contenant différentes violations de la zone de contenu. Les zones de classification de contenu final et interne doivent être évitées. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
+>abstract="Les motifs identifiés avec le CAS pour lesquels il existe différentes violations de zone de contenu doivent être examinés. Les zones de classification de contenu final et interne doivent être évitées. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Mises à niveau possibles"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 

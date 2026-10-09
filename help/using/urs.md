@@ -2,13 +2,17 @@
 title: URS
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 86%
-
 ---
-
 # URS {#urs}
 
 Structure de référentiel non prise en charge
@@ -46,7 +50,7 @@ Des sous-types servent à identifier les types spécifiques de problèmes de ré
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="Guide de mise en œuvre"
->abstract="Nous vous recommandons de passer en revue votre projet de code. Assurez-vous qu’il respecte les directives relatives à la structure de projet AEM et évitez tout code reposant sur des chemins d’accès de référentiel anciens ou non pris en charge, ce qui pourrait provoquer un comportement indésirable dans AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
+>abstract="La bonne pratique consiste à passer en revue votre projet de code. Assurez-vous qu’il respecte les directives relatives à la structure de projet AEM et évitez tout code reposant sur des chemins d’accès de référentiel anciens ou non pris en charge, ce qui pourrait provoquer un comportement indésirable dans AEM as a Cloud Service. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="Instructions relatives à la structure de projet AEM"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
