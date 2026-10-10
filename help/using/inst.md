@@ -2,13 +2,17 @@
 title: INST
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 92%
-
 ---
-
 # INST {#inst}
 
 Artefact installé
@@ -18,19 +22,19 @@ Artefact installé
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="Artefact installé"
->abstract="INST identifie les packages et les lots personnalisés et tiers qui ont été installés dans AEM par le client ou la cliente. Ces packages et lots aident à caractériser l’état du système et la portée générale d’une mise à niveau. Les packages tiers doivent respecter les instructions de développement et relatives aux packages d’AEM as a Cloud Service."
+>abstract="INST identifie les packages et les bundles personnalisés et tiers qui ont été installés dans AEM par le client ou la cliente. Ces packages et lots sont signalés pour aider à caractériser l’état du système et la portée générale d’une mise à niveau. Les packages tiers doivent respecter les instructions de développement et relatives aux packages d’AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Conseils de développement - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Instructions relatives aux packages - AEM as a Cloud Service"
 
-`INST` identifie les packages et les lots personnalisés et tiers qui ont été installés dans AEM par le client ou la cliente. Ces packages et lots aident à caractériser l’état du système et la portée générale d’une mise à niveau.
+`INST` identifie les packages et les bundles personnalisés et tiers qui ont été installés dans AEM par le client ou la cliente. Ces packages et lots sont signalés pour aider à caractériser l’état du système et la portée générale d’une mise à niveau.
 
 Lorsque plusieurs versions d’un package ont été installées, seule la dernière version est indiquée.
 
-Les packages et lots détectés n’ont pas nécessairement été optimisés pour AEM as a Cloud Service. Tout package tiers doit être vérifié auprès de son créateur ou Adobe pour des raisons de compatibilité avec AEM as a Cloud Service.
+Les packages et bundles détectés n’ont pas nécessairement été optimisés pour AEM as a Cloud Service. Tout package tiers doit être vérifié auprès de son créateur ou Adobe pour des raisons de compatibilité avec AEM as a Cloud Service.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations :
 
-* `custom.bundle` : lot installé dans AEM.
+* `custom.bundle` : bundle installé dans AEM.
 * `custom.package` : package installé dans AEM.
 
 ## Implications et risques éventuels {#implications-and-risks}
@@ -38,7 +42,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="Guide de mise en œuvre"
->abstract="Les clientes et clients ne peuvent plus installer de packages tiers à l’aide du gestionnaire de modules CRX. Les clientes et clients doivent examiner ces artefacts installés et doivent les structurer et les optimiser pour qu’ils fonctionnent avec AEM as a Cloud Service. Vérifiez la compatibilité avec AEM as a Cloud Service d’un package tiers avec son créateur ou sa créatrice ou avec Adobe."
+>abstract="Les clientes et clients ne peuvent plus installer de packages tiers à l’aide du gestionnaire de modules CRX. Les clientes et clients doivent vérifier ces artefacts installés, qui doivent être structurés, et les optimiser pour qu’ils fonctionnent avec AEM as a Cloud Service. Vérifiez la compatibilité avec AEM as a Cloud Service d’un package tiers avec son créateur ou sa créatrice ou avec Adobe."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="Intégrer des sous-packages dans le package conteneur"
 
 

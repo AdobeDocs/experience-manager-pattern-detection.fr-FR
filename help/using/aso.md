@@ -2,13 +2,17 @@
 title: ASO
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 87%
-
 ---
-
 # ASO {#aso}
 
 AEM System Overview (vue d’ensemble du système AEM)
@@ -18,7 +22,7 @@ AEM System Overview (vue d’ensemble du système AEM)
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_overview"
 >title="AEM System Overview (vue d’ensemble du système AEM)"
->abstract="Le code ASO identifie des informations d’ordre générale concernant l’instance AEM. Chaque recherche fournit une valeur d’un type particulier d’information système qui peut vous aider dans la restructuration et planification de votre migration."
+>abstract="Le code ASO identifie des informations d’ordre général concernant l’instance AEM. Chaque recherche fournit une valeur d’un type particulier d’information système qui peut vous aider dans la planification de votre migration et vos efforts de refactorisation."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Notes de mise à jour"
 
 `ASO` identifie les informations générales de l’instance AEM. Chaque recherche fournit une valeur d’un type particulier d’informations système.
@@ -62,7 +66,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 
 * Les mises à niveau d’AEM avec des produits ou des fonctionnalités non pris en charge ne sont pas recommandées et pourraient ne pas être prises en charge.
 * Les ressources non traitées doivent être traitées et la propriété `dam:assetState` sur le nœud `jcr:content` de la ressource doit être définie sur « processed ». Sinon, vous devez supprimer ces ressources de l’ensemble de migration avant de migrer vers AEMaaCS.
-* Les URL de redirection peuvent être remplacées à l’aide de réécritures Apache.
+* Les URL vanity peuvent être remplacées à l’aide de réécritures Apache.
 * Consultez la [documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) pour résoudre les problèmes liés aux requêtes lentes.
 * Consultez les [notes de mise à jour](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) pour en savoir plus sur les dernières modifications apportées à AEM as a Cloud Service.
 * Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.

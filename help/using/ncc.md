@@ -2,13 +2,17 @@
 title: NCC
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 88%
-
 ---
-
 # NCC {#ncc}
 
 Modifications non compatibles
@@ -18,7 +22,7 @@ Modifications non compatibles
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="Modifications non compatibles"
->abstract="NCC identifie la situation dans laquelle certains nœuds ou lots JCR sont modifiés de manière non compatible. Il est possible que les clientes et clients ne se rendent pas compte de cette modification avant une mise à niveau."
+>abstract="NCC identifie la situation dans laquelle certains nœuds ou bundles JCR sont modifiés de manière non compatible. Il est possible que les clientes et clients ne se rendent pas compte de cette modification avant une mise à niveau."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Changements notables - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Notes de mise à jour - AEM as a Cloud Service"
 
@@ -27,7 +31,7 @@ Modifications non compatibles
 ## Enjeux et risques possibles {#implications-and-risks}
 
 * Les fonctionnalités qui dépendent de tout composant utilisant des modifications non compatibles peuvent être rompues et ne pas être résolues correctement.
-* Certaines fonctionnalités de l’application cliente ou certaines fonctionnalités AEM peuvent ne pas fonctionner correctement après une mise à niveau.
+* Certaines fonctionnalités de l’application cliente ou certaines fonctionnalités d’AEM peuvent ne pas fonctionner correctement après une mise à niveau.
 
 ## Solutions possibles {#solutions}
 
@@ -38,6 +42,6 @@ Modifications non compatibles
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Recouvrements"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 
-* Superposez ou référencez uniquement les composants Sling compatibles.
+* Recouvrez ou référencez uniquement les composants Sling compatibles.
 * Envisagez d’adapter les ressources provenant de `/libs` ou de lots après une mise à niveau d’AEM.
 * Contactez l’[équipe d’assistance AEM](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) si vous avez besoin de clarifications ou de réponses à vos préoccupations.

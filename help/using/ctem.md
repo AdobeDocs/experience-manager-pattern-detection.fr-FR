@@ -2,13 +2,17 @@
 title: CTEM
 description: Page d’aide sur le code de détection des motifs.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
-
 ---
-
 # CTEM {#ctem}
 
 Modèle personnalisé
@@ -43,7 +47,7 @@ Les modèles ont une valeur de type principal de `cq:Template`, ce qui aide à l
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="Outils et ressources"
->abstract="Grâce aux outils de modernisation AEM, les clients peuvent modifier la structure d’une page dotée d’une définition statique pour la transformer en modèle modifiable. L’objectif est d’aider les clients à abandonner les capacités limitées des fonctionnalités héritées pour adopter les fonctionnalités AEM, plus efficaces et modernes. Ces outils sont configurables, s’adaptent à leur configuration et offrent de nombreuses possibilités d’extension. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
+>abstract="Grâce aux outils de modernisation AEM, les clients peuvent modifier la structure d’une page dotée d’une définition statique pour la transformer en modèle modifiable. L’objectif est d’aider les clientes et clients à abandonner les capacités limitées des fonctionnalités héritées pour adopter les offres AEM robustes et modernes. Ces outils sont configurables, s’adaptent à leur configuration et offrent de nombreuses possibilités d’extension. Contactez l’assistance Adobe pour obtenir de l’aide ou des clarifications."
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Convertisseur de structure de page"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Assistance Experience Cloud"
 

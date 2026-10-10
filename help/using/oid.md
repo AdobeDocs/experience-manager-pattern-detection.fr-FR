@@ -2,13 +2,17 @@
 title: OID
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
-
 ---
-
 # OID {#oid}
 
 Oak Index Definition
@@ -18,10 +22,10 @@ Oak Index Definition
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_overview"
 >title="Oak Index Definition (définition d’index Oak)"
->abstract="OID identifie les problèmes liés aux définitions d’index Oak. Il identifie les modifications apportées aux définitions standard de l’index Oak. Il identifie également les définitions d’index Oak personnalisés qui sont incompatibles avec AEM as a Cloud Service. Le message de chaque recherche OID identifie l’index et fournit des informations supplémentaires."
+>abstract="OID identifie les problèmes liés aux définitions d’index Oak. Il identifie les modifications apportées aux définitions standard des index Oak. Il identifie également les définitions d’index Oak personnalisés qui sont incompatibles avec AEM as a Cloud Service. Le message de chaque résultat OID identifie l’index et fournit des informations supplémentaires."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="Instructions d’indexation de contenu"
 
-`OID` identifie les problèmes liés aux définitions d’index Oak. Il identifie les modifications apportées aux définitions standard de l’index Oak. Il identifie également les définitions d’index Oak personnalisés qui sont incompatibles avec AEM as a Cloud Service. Le message pour chaque résultat d’`OID` identifie l’index et fournit des informations supplémentaires.
+`OID` identifie les problèmes liés aux définitions d’index Oak. Il identifie les modifications apportées aux définitions standard des index Oak. Il identifie également les définitions d’index Oak personnalisées qui sont incompatibles avec AEM as a Cloud Service. Le message pour chaque résultat d’`OID` identifie l’index et fournit des informations supplémentaires.
 
 Des sous-types sont utilisés pour identifier les différents types d’informations :
 
@@ -46,7 +50,7 @@ Des sous-types sont utilisés pour identifier les différents types d’informat
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="Outils et ressources"
->abstract="Examinez le projet WKND hérité pour comprendre comment les violations du protocole OID peuvent être résolues dans votre projet. Consultez également l’exemple de violation OID sur GitHub. Il vous aidera à comprendre comment les index hérités peuvent être convertis à l’aide de l’outil Index Converter et rendus compatibles avec AEM as a Cloud Service."
+>abstract="Examinez le projet WKND-legacy pour comprendre comment les violations du protocole OID peuvent être résolues dans votre projet. Consultez également l’exemple de violation OID sur GitHub. Il vous aidera à comprendre comment les index hérités peuvent être convertis à l’aide de l’outil Index Converter et rendus compatibles avec AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="Projet hérité WKND"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="Exemple de violation du protocole OID - GitHub"
 

@@ -2,13 +2,17 @@
 title: URC
 description: Page d’aide sur le code de détection des motifs.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
-
 ---
-
 # URC {#urc}
 
 Unsupported Runmode Configuration (configuration du mode d’exécution non prise en charge, URC)
@@ -17,7 +21,7 @@ Unsupported Runmode Configuration (configuration du mode d’exécution non pris
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_overview"
->title="Unsupported Runmode Configuration (configuration du mode d’exécution non prise en charge, URC)"
+>title="Configuration du mode d’exécution non prise en charge (URC)"
 >abstract="URC identifie l’utilisation de configurations basées sur un nom de mode d’exécution non pris en charge dans AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Modes d’exécution pris en charge"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Modes d’exécution"
@@ -29,10 +33,10 @@ Unsupported Runmode Configuration (configuration du mode d’exécution non pris
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="Guide de mise en œuvre"
->abstract="Il est recommandé de vérifier si tous les modes d’exécution utilisés dans votre application sont pris en charge. Il s’agit également de s’assurer qu’ils suivent les instructions de résolution du mode d’exécution."
+>abstract="Il est recommandé de vérifier si tous les modes d’exécution utilisés dans votre application sont pris en charge. S’assurer également qu’ils suivent les instructions de résolution du mode d’exécution"
 >additional-url="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Instructions relatives à la résolution du mode d’exécution"
 
-* L’ensemble de noms pouvant être utilisé pour l’exécution de différents modes dans AEM as a Cloud Service est limité.
+* L’ensemble des noms pouvant être utilisé pour l’exécution de différents modes dans AEM as a Cloud Service est limité.
 * Les configurations basées sur des noms de mode d’exécution non pris en charge n’ont aucun effet lorsqu’elles sont déployées sur AEM as a Cloud Service.
 
 ## Solutions possibles {#solutions}
